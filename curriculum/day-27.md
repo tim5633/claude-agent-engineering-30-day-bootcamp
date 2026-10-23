@@ -2,6 +2,17 @@
 
 **2026-11-21 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Architect – Foundations Prep & Exam Guide](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses) (company login required for course modules).
+
+1. [Architect Foundations certificate and exam domains](https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification)
+2. [Certification prep course catalog](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)
+
+**Study topics:** Map context/reliability, agent tooling and system design skills to official exam guide.
+
+**Required deliverable:** Run a timed architecture case review; document decision rationale and weak topics.
+
 ## Objective and official resources
 
 Study Day 27 — Architect exam prep using authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) course content, current exam guides and [Claude documentation](https://docs.anthropic.com/). Focus on enterprise security, design, communication and independent execution.
@@ -29,6 +40,17 @@ Study Day 27 — Architect exam prep using authorized [Anthropic Partner Academy
 # Day 27 — Architect exam prep
 
 **2026-11-21 · 5 小時** · [Home](../README.md)
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy:** [Architect – Foundations Prep & Exam Guide](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses) (company login required for course modules).
+
+1. [Architect Foundations certificate and exam domains](https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification)
+2. [Certification prep course catalog](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)
+
+**學習重點:** Map context/reliability, agent tooling and system design skills to official exam guide.
+
+**當天交付:** Run a timed architecture case review; document decision rationale and weak topics.
 
 ## 今日學習目標
 
