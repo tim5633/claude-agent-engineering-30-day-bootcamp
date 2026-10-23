@@ -2,6 +2,14 @@
 
 **2026-11-05 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Company course / exact topic assignment / lab / exam
+
+1. **Open:** [Developer: Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses) through corporate Partner Academy login.
+2. **Study:** Agent SDK, sessions and tool permissions (target subsection; verify gated lesson title in account).
+3. **Build:** Rebuild Day 10 harness using Agent SDK, compare failure handling.; prove one failure or authorization boundary.
+4. **Certification:** **CCDV-F, CCAR-F**, using [official exam guides](https://anthropic-partners.skilljar.com/page/partner-certifications).
+5. **Submit:** Code, evaluation/trace, Git commit, 5-minute recall quiz.
+
 ## Accenture Partner Academy mapping
 
 **Official module or exam domain:** [Developer – Production-Grade Prompting, Agents & Tool Use: agent lifecycle and orchestration](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
@@ -30,6 +38,14 @@
 # Day 11 — Agent SDK 與 Harness 選型
 
 **2026-11-05 · 5 小時** · [首頁](../README.md)
+
+## 公司課程／指定主題／Lab／認證
+
+1. **打開：** [Developer: Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)（公司 Partner Academy 登入）。
+2. **指定 Section：** Agent SDK, sessions and tool permissions（登入後核對課內標題）。
+3. **Lab：** Rebuild Day 10 harness using Agent SDK, compare failure handling.，至少驗證一個失敗或越權案例。
+4. **證書：** **CCDV-F, CCAR-F**，依[正式考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)。
+5. **成果：** Code、Evaluation／Trace、Commit、5 分鐘自測。
 
 ## Accenture Partner Academy 指定內容
 
