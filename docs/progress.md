@@ -1,5 +1,17 @@
 # 30-day progress checklist
 
+## Accenture certification and learning-path checkpoints
+
+- [ ] **Day 01:** Register selected credentials in **Workday FIRST**, sign in to Partner Academy with company email, and download the four official Exam Guides. See [Accenture process](accenture-certification-process.md).
+- [ ] **Day 07–17:** Complete the assigned Associate sections (output evaluation, workflow, governance and troubleshooting).
+- [ ] **Day 18–21:** Complete Developer Production Engineering/Evals/Security and Accelerators/IP sections.
+- [ ] **Day 22:** Associate + Developer readiness review against official exam guide, then book through Pearson if ready.
+- [ ] **Day 27:** Architect Foundations exam-domain readiness review.
+- [ ] **Day 28–30:** Finish Architect Professional five-module learning and enterprise architecture defense.
+- [ ] **Before 2026-12-31:** Check the company-advertised free exam/retake offer at actual registration checkout and book eligible exam dates.
+
+Detailed official course map: [Partner Academy module → daily plan](partner-academy-curriculum-map.md). Exam dates are targets, not reserved appointments.
+
 - [ ] [Day 01 — Claude setup](../curriculum/day-01.md)
 - [ ] [Day 02 — Context & CLAUDE.md](../curriculum/day-02.md)
 - [ ] [Day 03 — Plan mode & Git](../curriculum/day-03.md)
@@ -36,6 +48,18 @@
 <a id="traditional-chinese"></a>
 
 # 30 天學習進度
+
+## Accenture 官方認證與公司課程進度
+
+- [ ] **Day 01：** 先在 **Workday** 登記，再用公司信箱登入 Partner Academy，下載四張 Exam Guides。[公司流程](accenture-certification-process.md)
+- [ ] **Day 07–17：** 完成 Associate 對應的輸出驗證、Workflow、Governance、Troubleshooting 等模組。
+- [ ] **Day 18–21：** 完成 Developer Production Engineering／Evals／Security 和 Accelerators／IP。
+- [ ] **Day 22：** Associate＋Developer 認證準備度評估，達標再從 Pearson 安排考試。
+- [ ] **Day 27：** Architect Foundations 五大考綱驗收。
+- [ ] **Day 28–30：** 完成 Architect Professional 五大模組與客戶架構答辯。
+- [ ] **2026/12/31 前：** 確認公司公告的免費考試與 Retake 在結帳頁實際適用，並預約符合資格考試。
+
+完整模組對照：[Partner Academy 課程 → 每日課表](partner-academy-curriculum-map.md)。日期只是準備目標，不是已預約。
 
 - [ ] [Day 01：環境設定](../curriculum/day-01.md)
 - [ ] [Day 02：CLAUDE.md 與上下文](../curriculum/day-02.md)
