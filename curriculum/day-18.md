@@ -1,69 +1,53 @@
-# Day 18 — Evaluation Harness & Outcome Graders
+# Day 18 — Evaluation Harness & Quality Gates
 
 **2026-11-12 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Assigned Partner Academy lesson and direct reading links
+## Accenture Partner Academy mapping
 
-**Partner Academy:** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (verified public landing page; sign in for lessons).
+**Official module or exam domain:** [Developer – Production Engineering, Evals & Security: evals and tests; Associate – Output Evaluation review](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
 
-1. [Eval harness study guide](../docs/evaluation-harness.md)
-2. [Anthropic agent evals research](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
-3. [Claude evaluation overview](https://platform.claude.com/docs/en/home)
+**Certification mapping:** CCDV-F: Evals & Security; CCAO-F: Output Evaluation (21%).
 
-**Read and understand:** Compare deterministic outcome graders, LLM judges, clean fixtures and regression suites.
+**Direct study references:**
+1. [research/demystifying-evals-for-ai-agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
+2. [docs/evaluation-harness.md](../docs/evaluation-harness.md)
 
-**Hands-on assignment:** Build and execute 50 golden tasks with source and tool-effect checks.
+## Daily five-hour schedule
 
-## Integrated learning and practice
-
-**Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/evaluation-harness.md).
-
-| Time | Assignment | Evidence |
+| Time | What to study or build | Evidence |
 |---|---|---|
-| 00:00–01:30 | Define task success, citation validity, policy adherence and cost metrics | Notes and design sketch |
-| 01:30–03:00 | Create 50 synthetic golden cases and resettable test fixtures | Working implementation |
-| 03:00–04:30 | Build deterministic graders for SQL outcomes, citations and denied operations | Tested failure scenarios |
-| 04:30–05:00 | Execute baseline and regression runs and analyze false positives | ADR, commit and English summary |
+| 0:00–1:30 | Differentiate deterministic graders, LLM-as-judge, task outcomes and regression; study the mapped official module and links. | Notes, 5 recall questions |
+| 1:30–3:00 | Implement: Create a 50-case clean-fixture eval harness and baseline report. | Lab/code/architecture artifact |
+| 3:00–4:30 | Reproduce closed-book, test negative outcomes and explain controls. | Tests and traces |
+| 4:30–5:00 | Map to CCDV-F: Evals & Security; CCAO-F: Output Evaluation (21%) and record an English architecture explanation. | ADR and Git commit |
 
-**Acceptance:** 50 reproducible evaluations score real tool outcomes, not just answer text.
-
-- [ ] Course and concepts
-- [ ] Functioning implementation and negative tests
-- [ ] Committed evidence and documented trade-offs
+**Completion:** Read mapped official content; finish lab; pass positive/negative tests; state failure, cost and security trade-offs.
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 18 — Evaluation Harness 與結果評分
+# Day 18 — Evaluation Harness 與品質閘門
 
 **2026-11-12 · 5 小時** · [首頁](../README.md)
 
-## 今日 Partner Academy 課程與直達教材
+## Accenture Partner Academy 指定內容
 
-**Partner Academy：** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（已確認公開課程入口；登入後查看內部單元）。
+**官方課程模組或考綱：** [Developer – Production Engineering, Evals & Security: evals and tests; Associate – Output Evaluation review](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)。如果標註的是考綱領域而非課程，請以該官方認證頁面的 Exam Guide 為準。
 
-1. [Eval harness study guide](../docs/evaluation-harness.md)
-2. [Anthropic agent evals research](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
-3. [Claude evaluation overview](https://platform.claude.com/docs/en/home)
+**對應認證：** CCDV-F: Evals & Security; CCAO-F: Output Evaluation (21%)。
 
-**閱讀目標：** Compare deterministic outcome graders, LLM judges, clean fixtures and regression suites。
+**當日直達文件：**
+1. [research/demystifying-evals-for-ai-agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
+2. [docs/evaluation-harness.md](../docs/evaluation-harness.md)
 
-**對應實作：** Build and execute 50 golden tasks with source and tool-effect checks。
+## 五小時每日實作安排
 
-## 融合式學習與實作
-
-**教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) 帳號內授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/evaluation-harness.md)。
-
-| 時段 | 當天學習與實作 | 產出 |
+| 時段 | 今天具體學習與實作 | 證據 |
 |---|---|---|
-| 00:00–01:30 | 定義任務成功、引用、授權與成本指標 | 觀念與架構筆記 |
-| 01:30–03:00 | 建立 50 個合成 Golden Cases 和可重置 Fixture | 可執行成果 |
-| 03:00–04:30 | 實作 SQL 結果、引用與越權操作的確定性評分器 | 錯誤情境與測試 |
-| 04:30–05:00 | 執行 Baseline 與 Regression 並分析誤判 | ADR、Commit 和英文說明 |
+| 00:00–01:30 | 理解確定性 Grader、LLM-as-Judge、實際結果與回歸，完成對應官方模組和文件。 | 概念筆記、5 題自測 |
+| 01:30–03:00 | 實作：建立 50 筆乾淨測試環境評估與 Baseline 報告。 | 程式／架構成果 |
+| 03:00–04:30 | 閉卷重做與反向測試，解釋安全控制。 | 測試與 Trace |
+| 04:30–05:00 | 對照 CCDV-F: Evals & Security; CCAO-F: Output Evaluation (21%) 並完成英文架構解說。 | ADR、Git Commit |
 
-**驗收：** 50 個可重現測試驗證實際工具結果，而非僅文字。
-
-- [ ] 完成概念與課程
-- [ ] 實作功能及反向測試
-- [ ] 提交成果與設計取捨
+**驗收：** 完成指定官方模組、實作並通過正反測試，能說明故障、成本與安全取捨。
