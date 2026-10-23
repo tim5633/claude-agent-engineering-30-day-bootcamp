@@ -2,6 +2,18 @@
 
 **2026-11-06 · 5 hours** · [Home](../README.md) · [繁體中文 ↓](#traditional-chinese)
 
+## Assigned lessons & direct learning links
+
+**Partner Academy course:** [Claude Code, MCP & Integration](https://anthropic-partners.skilljar.com/claude-code-mcp-integration) (company login; locate the named lesson inside the prep path).
+
+1. [MCP official specification and guides](https://modelcontextprotocol.io/introduction)
+2. [Claude Code MCP docs](https://code.claude.com/docs/en/mcp)
+3. [Sandbox security reference](../docs/ai-sandbox-security.md)
+
+**Study objectives:** Study credential scopes, untrusted tool results and tool-side authorization.
+
+**Required lab:** Implement validated read-only finance SQL and documents MCP tools.
+
 ## Learning outcomes
 
 Review MCP tool authorization, credentials, untrusted results and input boundaries.
@@ -33,6 +45,18 @@ Review MCP tool authorization, credentials, untrusted results and input boundari
 # Day 12 — 安全 MCP 與工具執行
 
 **2026-11-06 · 5 小時** · [首頁](../README.md)
+
+## 今日指定課程與直達資源
+
+**Partner Academy：** [Claude Code, MCP & Integration](https://anthropic-partners.skilljar.com/claude-code-mcp-integration)（使用公司帳號登入並選擇課程內的指定主題）。
+
+1. [MCP official specification and guides](https://modelcontextprotocol.io/introduction)
+2. [Claude Code MCP docs](https://code.claude.com/docs/en/mcp)
+3. [Sandbox security reference](../docs/ai-sandbox-security.md)
+
+**學習重點：** Study credential scopes, untrusted tool results and tool-side authorization。
+
+**實作成果：** Implement validated read-only finance SQL and documents MCP tools。
 
 ## 今日能力目標
 
