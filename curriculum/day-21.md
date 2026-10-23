@@ -4,6 +4,17 @@
 
 **Reference:** [Partner Academy](https://anthropic-partners.skilljar.com/) authorized modules, [Claude documentation](https://docs.anthropic.com/), [deep-dive](../docs/evaluation-harness.md).
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Accelerators & IP Contribution / Claude Code Partner Badge (if visible)](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (verified public landing page; sign in for lessons).
+
+1. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
+2. [Evaluation and regression](../docs/evaluation-harness.md)
+
+**Read and understand:** Review reusable accelerators, Claude Code policy, MCP authorization and test evidence.
+
+**Hands-on assignment:** Complete Partner Badge capstone where enabled and run integrated security evals.
+
 ## Five-hour integrated daily plan
 
 | Time | Action | Evidence |
@@ -28,6 +39,17 @@
 **2026-11-15 · 5 小時** · [首頁](../README.md)
 
 **教材：** [Partner Academy](https://anthropic-partners.skilljar.com/) 授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/evaluation-harness.md)。
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy：** [Accelerators & IP Contribution / Claude Code Partner Badge (if visible)](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（已確認公開課程入口；登入後查看內部單元）。
+
+1. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
+2. [Evaluation and regression](../docs/evaluation-harness.md)
+
+**閱讀目標：** Review reusable accelerators, Claude Code policy, MCP authorization and test evidence。
+
+**對應實作：** Complete Partner Badge capstone where enabled and run integrated security evals。
 
 ## 每日融合式五小時課表
 
