@@ -1,41 +1,32 @@
-# Day 10 — Tool Calling & Bounded Agent Harness
+# Day 10 — Bounded Tool Loop & Agent Harness
 
-**2026-11-04 · 5 hours** · [Home](../README.md) · [繁體中文 ↓](#traditional-chinese)
+**2026-11-04 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Assigned lessons & direct learning links
+## Assigned Accenture / Anthropic Partner Academy courses
 
-**Partner Academy course:** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (company login; locate the named lesson inside the prep path).
+**Official Partner training:** [Developer: Production-Grade Prompting, Agents & Tool Use (tool loop, agent)](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). The course title is official; subsections in parentheses indicate which portion to focus on today, not separate certified course titles.
 
-1. [How tool use works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works)
-2. [Tool definitions](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use)
+**Certification blueprint mapping:** CCDV-F: tools and agents; CCAR-F: Agentic Architecture (27%), Tools (18%).
 
-**Study objectives:** Study tool schema contracts, request–execute–result cycle, budgets and termination.
+**Read these exact references:**
+1. [tool-use/how-tool-use-works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works)
+2. [docs/agent-harness-engineering.md](../docs/agent-harness-engineering.md)
 
-**Required lab:** Implement a bounded Messages API Agent Harness with maximum steps and validated tools.
+## Daily schedule (5 hours)
 
-## Learning outcomes
-
-Map the model→tool request→validation→execution→tool result→model loop.
-
-**Course material:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) (authorized curriculum only), [Claude docs](https://docs.anthropic.com/). **Deep-dive reference:** [Tool Calling & Bounded Agent Harness](../docs/agent-harness-engineering.md).
-
-## Daily 5-hour learning and implementation plan
-
-| Time | Required action | Deliverable |
+| Time | Specific learning task | Evidence |
 |---|---|---|
-| 00:00–01:30 | Map the model→tool request→validation→execution→tool result→model loop. | Concept notes + trust-boundary sketch |
-| 01:30–03:00 | Implement a hand-written Messages API agent harness with tool allowlists and input validation. | Working implementation / design artifact |
-| 03:00–04:30 | Add max_steps, deadline, cancellation, bounded retries, token/cost tracking and trace IDs. | Unit / integration / security tests |
-| 04:30–05:00 | Create tests for infinite-loop attempts, malformed tool calls and hard stops. | ADR + trace/eval evidence + English explanation |
+| 0:00–1:30 | Implement model request→tool execution→result→model loop with bounded control. Complete the corresponding named Partner course lesson and read linked docs. | Concept notes and 5 recall questions |
+| 1:30–3:00 | Guided lab: Create allowlisted tools, JSON schema validation, max_steps and cost limits. | Working feature / config |
+| 3:00–4:30 | Closed-book: reproduce and extend the lab; add negative tests and failure handling. | Tests, traces, Git commit |
+| 4:30–5:00 | Map takeaways to CCDV-F: tools and agents; CCAR-F: Agentic Architecture (27%), Tools (18%); explain trade-offs in English. | Exam domain notes + ADR |
 
-## Definition of done
+## Passing criteria
 
-**Harness stops deterministically at configured limits, with trace and no unauthorized tool execution.**
-
-- [ ] Relevant concepts and official reading completed
-- [ ] Capstone implementation and positive/negative tests completed
-- [ ] Evidence and architecture decision committed
-- [ ] Explain trade-offs without step-by-step assistance
+- [ ] Completed today's named academy lesson(s) and official readings
+- [ ] Built and tested the exact daily lab with at least one negative test
+- [ ] Can explain the exam domain without notes or copied exam questions
+- [ ] Committed results and recorded weaknesses
 
 ---
 
@@ -45,37 +36,28 @@ Map the model→tool request→validation→execution→tool result→model loop
 
 **2026-11-04 · 5 小時** · [首頁](../README.md)
 
-## 今日指定課程與直達資源
+## 公司 Anthropic Partner Academy 指定課程
 
-**Partner Academy：** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（使用公司帳號登入並選擇課程內的指定主題）。
+**官方課程：** [Developer: Production-Grade Prompting, Agents & Tool Use (tool loop, agent)](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)。括號中的「part」是今天的建議閱讀範圍，不是額外捏造的官方課程名稱。
 
-1. [How tool use works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works)
-2. [Tool definitions](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use)
+**對應認證考綱：** CCDV-F: tools and agents; CCAR-F: Agentic Architecture (27%), Tools (18%)。
 
-**學習重點：** Study tool schema contracts, request–execute–result cycle, budgets and termination。
+**指定文件直達連結：**
+1. [tool-use/how-tool-use-works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works)
+2. [docs/agent-harness-engineering.md](../docs/agent-harness-engineering.md)
 
-**實作成果：** Implement a bounded Messages API Agent Harness with maximum steps and validated tools。
+## 每天五小時詳細安排
 
-## 今日能力目標
-
-理解模型請求工具、驗證、執行、回傳與下一輪推理的完整循環。
-
-**指定教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（依帳號內授權課程）、[Claude 官方文件](https://docs.anthropic.com/)；深入參考 [Tool Calling 與有界 Agent Harness](../docs/agent-harness-engineering.md)。
-
-## 每日五小時實作時間線
-
-| 時段 | 指定學習／實作任務 | 產出 |
+| 時段 | 必學／必做內容 | 當日交付 |
 |---|---|---|
-| 00:00–01:30 | 理解模型請求工具、驗證、執行、回傳與下一輪推理的完整循環。 | 概念筆記與信任邊界圖 |
-| 01:30–03:00 | 使用 Messages API 手寫帶有工具白名單與 Schema 驗證的 Agent Harness。 | 可執行實作／架構交付 |
-| 03:00–04:30 | 加入最大步數、期限、取消、有限重試、Token／成本記錄與 Trace ID。 | 單元、整合與安全測試 |
-| 04:30–05:00 | 建立無限循環、無效工具參數及強制停止測試。 | ADR、Trace／Eval 證據及英文解說 |
+| 00:00–01:30 | 實作模型→工具執行→結果→模型的有界執行迴圈。完成當日公司課程與官方文件。 | 概念筆記＋5 題自我測驗 |
+| 01:30–03:00 | 實作：建立工具白名單、Schema 驗證、最大步數與成本上限。 | 可執行功能／設定 |
+| 03:00–04:30 | 不看教程自行重做與擴充，並加入至少一個負面／故障測試。 | 測試、Trace、Commit |
+| 04:30–05:00 | 把知識對回 CCDV-F: tools and agents; CCAR-F: Agentic Architecture (27%), Tools (18%)，英文解釋技術取捨。 | 考綱筆記與 ADR |
 
-## 驗收標準
+## 驗收
 
-**Harness 在設定上限時確實停止，有 Trace，且未授權工具無法執行。**
-
-- [ ] 完成課程、概念整理與閱讀
-- [ ] 完成 Capstone 實作與正反測試
-- [ ] 上傳可驗證成果、測試與技術取捨
-- [ ] 不依賴逐步教學解釋整體設計
+- [ ] 完成公司指定課程與連結文件
+- [ ] 完成每日實作並測試失敗情境
+- [ ] 不看筆記也能解釋對應考試領域
+- [ ] 提交 Git Commit 與學習缺口記錄
