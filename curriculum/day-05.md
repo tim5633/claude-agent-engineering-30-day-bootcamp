@@ -9,9 +9,9 @@
 1. [Claude Code skills](https://code.claude.com/docs/en/skills)
 2. [Claude Code subagents](https://code.claude.com/docs/en/sub-agents)
 
-**Read for:** Separate skills, subagents, workflows and context ownership,Create reviewer, tester and API-build skills with a scoped delegated agent.
+**Study topics:** Compare Skills, subagents and context ownership.
 
-**Lab tied to these resources:** undefined.
+**Required hands-on lab:** Create reusable reviewer, tester and API-building skills.
 
 **Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
 
