@@ -2,6 +2,17 @@
 
 **2026-11-17 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Stakeholder Engagement, Lifecycle & GTM](https://anthropic-partners.skilljar.com/stakeholder-engagement-lifecycle-gtm) (verified public landing page; sign in for lessons).
+
+1. [Architect Professional prep path](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)
+2. [Stakeholder Engagement official module](https://anthropic-partners.skilljar.com/stakeholder-engagement-lifecycle-gtm)
+
+**Read and understand:** Study discovery, business outcomes, stakeholder mapping and non-functional requirements.
+
+**Hands-on assignment:** Conduct a 20-minute simulated English discovery workshop and write a requirement traceability matrix.
+
 ## Objective and official resources
 
 Study Day 23 — Discovery workshop using authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) course content, current exam guides and [Claude documentation](https://docs.anthropic.com/). Focus on enterprise security, design, communication and independent execution.
@@ -29,6 +40,17 @@ Study Day 23 — Discovery workshop using authorized [Anthropic Partner Academy]
 # Day 23 — Discovery workshop
 
 **2026-11-17 · 5 小時** · [Home](../README.md)
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy：** [Stakeholder Engagement, Lifecycle & GTM](https://anthropic-partners.skilljar.com/stakeholder-engagement-lifecycle-gtm)（已確認公開課程入口；登入後查看內部單元）。
+
+1. [Architect Professional prep path](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)
+2. [Stakeholder Engagement official module](https://anthropic-partners.skilljar.com/stakeholder-engagement-lifecycle-gtm)
+
+**閱讀目標：** Study discovery, business outcomes, stakeholder mapping and non-functional requirements。
+
+**對應實作：** Conduct a 20-minute simulated English discovery workshop and write a requirement traceability matrix。
 
 ## 今日學習目標
 
