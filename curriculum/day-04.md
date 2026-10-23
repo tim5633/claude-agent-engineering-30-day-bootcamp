@@ -56,9 +56,9 @@ Study Claude Code permission modes, PreToolUse/PostToolUse hooks, and how policy
 2. [Claude Code permissions](https://code.claude.com/docs/en/permissions)
 3. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
 
-**閱讀重點：** Identify permission checks, hooks and OS sandbox boundaries,Implement deny tests for sensitive files and disallowed commands。
+**閱讀重點：** 區分 Permission、Hook 與 OS Sandbox。
 
-**指定實作：** undefined。
+**指定實作：** 測試敏感檔案、危險命令被實際拒絕。
 
 ## 今日能力目標
 
