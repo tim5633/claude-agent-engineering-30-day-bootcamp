@@ -2,6 +2,17 @@
 
 **2026-11-07 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
 
+## Assigned lessons & direct learning links
+
+**Partner Academy course:** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (company login; locate the named lesson inside the prep path).
+
+1. [Claude context and retrieval](https://platform.claude.com/docs/en/build-with-claude/context-windows)
+2. [Manage tool context](https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context)
+
+**Study objectives:** Study retrieval, chunk boundaries, grounding and context limits.
+
+**Required lab:** Build a cited document-research Agent and grade 20 document questions.
+
 ## Objective and resources
 
 Learn Day 13 — RAG & citations through authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) lessons and [Claude documentation](https://docs.anthropic.com/). Include security boundaries, alternatives, failure modes and costs.
@@ -29,6 +40,17 @@ Learn Day 13 — RAG & citations through authorized [Anthropic Partner Academy](
 # Day 13 — RAG & citations
 
 **2026-11-07 · 5 小時** · [Home](../README.md)
+
+## 今日指定課程與直達資源
+
+**Partner Academy：** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（使用公司帳號登入並選擇課程內的指定主題）。
+
+1. [Claude context and retrieval](https://platform.claude.com/docs/en/build-with-claude/context-windows)
+2. [Manage tool context](https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context)
+
+**學習重點：** Study retrieval, chunk boundaries, grounding and context limits。
+
+**實作成果：** Build a cited document-research Agent and grade 20 document questions。
 
 ## 今日學習目標
 
