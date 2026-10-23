@@ -9,9 +9,9 @@
 1. [Claude Code MCP](https://code.claude.com/docs/en/mcp)
 2. [MCP official introduction](https://modelcontextprotocol.io/introduction)
 
-**Read for:** Understand MCP host/client/server, resources and tool contracts,Implement a read-only MCP server using synthetic documents and test unauthorized requests.
+**Study topics:** Understand MCP host/client/server, resources and tool contracts.
 
-**Lab tied to these resources:** undefined.
+**Required hands-on lab:** Build read-only document MCP server and reject unauthorized input.
 
 **Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
 
