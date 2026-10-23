@@ -1,85 +1,63 @@
-# Day 04 — Hooks, Permissions & Sandbox Foundations
+# Day 04 — Permissions, Hooks & Sandbox Foundations
 
-**2026-10-29 · 5 hours** · [Home](../README.md) · [繁體中文 ↓](#traditional-chinese)
+**2026-10-29 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Assigned lessons & direct learning links
+## Assigned Accenture / Anthropic Partner Academy courses
 
-**Partner Academy module:** [Claude Code, MCP & Integration — permissions and hooks](https://anthropic-partners.skilljar.com/claude-code-mcp-integration) (sign in using your company account; select the named topic).
+**Official Partner training:** [Developer: Claude Code, MCP & Integration (permissions, hooks); Partner Claude Code Badge](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). The course title is official; subsections in parentheses indicate which portion to focus on today, not separate certified course titles.
 
-1. [Claude Code hooks](https://code.claude.com/docs/en/hooks)
-2. [Claude Code permissions](https://code.claude.com/docs/en/permissions)
-3. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
+**Certification blueprint mapping:** CCDV-F: integration; CCAR-F: Claude Code Configuration & Workflows (20%).
 
-**Study topics:** Distinguish permission checks, hooks and OS sandbox boundaries.
+**Read these exact references:**
+1. [en/hooks](https://code.claude.com/docs/en/hooks)
+2. [en/sandboxing](https://code.claude.com/docs/en/sandboxing)
 
-**Required hands-on lab:** Create deny tests for sensitive files and prohibited commands.
+## Daily schedule (5 hours)
 
-**Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
-
-## Learning outcomes
-
-Study Claude Code permission modes, PreToolUse/PostToolUse hooks, and how policy checks differ from OS-level isolation.
-
-**Course material:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) (authorized curriculum only), [Claude docs](https://docs.anthropic.com/). **Deep-dive reference:** [Hooks, Permissions & Sandbox Foundations](../docs/ai-sandbox-security.md).
-
-## Daily 5-hour learning and implementation plan
-
-| Time | Required action | Deliverable |
+| Time | Specific learning task | Evidence |
 |---|---|---|
-| 00:00–01:30 | Study Claude Code permission modes, PreToolUse/PostToolUse hooks, and how policy checks differ from OS-level isolation. | Concept notes + trust-boundary sketch |
-| 01:30–03:00 | Configure project-specific tool allow/deny rules and a hook that blocks risky file operations. | Working implementation / design artifact |
-| 03:00–04:30 | In a disposable sample workspace, test allowed edits and denied out-of-scope file reads; record whether the hook or sandbox blocked execution. | Unit / integration / security tests |
-| 04:30–05:00 | Write a least-privilege policy and a boundary comparison table. | ADR + trace/eval evidence + English explanation |
+| 0:00–1:30 | Distinguish model refusal, hook-based checks and OS-level sandbox isolation. Complete the corresponding named Partner course lesson and read linked docs. | Concept notes and 5 recall questions |
+| 1:30–3:00 | Guided lab: Configure PreToolUse guard and deny unauthorized workspace/file operations. | Working feature / config |
+| 3:00–4:30 | Closed-book: reproduce and extend the lab; add negative tests and failure handling. | Tests, traces, Git commit |
+| 4:30–5:00 | Map takeaways to CCDV-F: integration; CCAR-F: Claude Code Configuration & Workflows (20%); explain trade-offs in English. | Exam domain notes + ADR |
 
-## Definition of done
+## Passing criteria
 
-**Denied operations are blocked and logged by an actual policy or isolation boundary; authorized writes continue normally.**
-
-- [ ] Relevant concepts and official reading completed
-- [ ] Capstone implementation and positive/negative tests completed
-- [ ] Evidence and architecture decision committed
-- [ ] Explain trade-offs without step-by-step assistance
+- [ ] Completed today's named academy lesson(s) and official readings
+- [ ] Built and tested the exact daily lab with at least one negative test
+- [ ] Can explain the exam domain without notes or copied exam questions
+- [ ] Committed results and recorded weaknesses
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 04 — Hooks、權限與 Sandbox 基礎
+# Day 04 — Permissions、Hooks 與 Sandbox 基礎
 
 **2026-10-29 · 5 小時** · [首頁](../README.md)
 
-## 今日指定教材與直達連結
+## 公司 Anthropic Partner Academy 指定課程
 
-**Partner Academy 課程：** [Claude Code, MCP & Integration — permissions and hooks](https://anthropic-partners.skilljar.com/claude-code-mcp-integration)（使用公司帳號登入，選擇上述主題）。
+**官方課程：** [Developer: Claude Code, MCP & Integration (permissions, hooks); Partner Claude Code Badge](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)。括號中的「part」是今天的建議閱讀範圍，不是額外捏造的官方課程名稱。
 
-1. [Claude Code hooks](https://code.claude.com/docs/en/hooks)
-2. [Claude Code permissions](https://code.claude.com/docs/en/permissions)
-3. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
+**對應認證考綱：** CCDV-F: integration; CCAR-F: Claude Code Configuration & Workflows (20%)。
 
-**閱讀重點：** 區分 Permission、Hook 與 OS Sandbox。
+**指定文件直達連結：**
+1. [en/hooks](https://code.claude.com/docs/en/hooks)
+2. [en/sandboxing](https://code.claude.com/docs/en/sandboxing)
 
-**指定實作：** 測試敏感檔案、危險命令被實際拒絕。
+## 每天五小時詳細安排
 
-## 今日能力目標
-
-理解 Claude Code Permissions、PreToolUse／PostToolUse Hooks，以及它們與 OS Sandbox 的不同。
-
-**指定教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（依帳號內授權課程）、[Claude 官方文件](https://docs.anthropic.com/)；深入參考 [Hooks、權限與 Sandbox 基礎](../docs/ai-sandbox-security.md)。
-
-## 每日五小時實作時間線
-
-| 時段 | 指定學習／實作任務 | 產出 |
+| 時段 | 必學／必做內容 | 當日交付 |
 |---|---|---|
-| 00:00–01:30 | 理解 Claude Code Permissions、PreToolUse／PostToolUse Hooks，以及它們與 OS Sandbox 的不同。 | 概念筆記與信任邊界圖 |
-| 01:30–03:00 | 配置專案工具 Allow/Deny 規則與阻擋敏感檔案操作的 Hook。 | 可執行實作／架構交付 |
-| 03:00–04:30 | 在一次性測試目錄驗證允許的編輯與跨範圍讀取遭拒；分辨由 Hook 還是 Sandbox 阻擋。 | 單元、整合與安全測試 |
-| 04:30–05:00 | 整理最小權限規範與信任邊界比較表。 | ADR、Trace／Eval 證據及英文解說 |
+| 00:00–01:30 | 區分模型拒絕、Hook Policy 與 OS 層隔離。完成當日公司課程與官方文件。 | 概念筆記＋5 題自我測驗 |
+| 01:30–03:00 | 實作：建立 PreToolUse 安全關卡並測試越權檔案操作。 | 可執行功能／設定 |
+| 03:00–04:30 | 不看教程自行重做與擴充，並加入至少一個負面／故障測試。 | 測試、Trace、Commit |
+| 04:30–05:00 | 把知識對回 CCDV-F: integration; CCAR-F: Claude Code Configuration & Workflows (20%)，英文解釋技術取捨。 | 考綱筆記與 ADR |
 
-## 驗收標準
+## 驗收
 
-**越權操作真正被策略或隔離層拒絕並留下記錄，正常授權寫入不受影響。**
-
-- [ ] 完成課程、概念整理與閱讀
-- [ ] 完成 Capstone 實作與正反測試
-- [ ] 上傳可驗證成果、測試與技術取捨
-- [ ] 不依賴逐步教學解釋整體設計
+- [ ] 完成公司指定課程與連結文件
+- [ ] 完成每日實作並測試失敗情境
+- [ ] 不看筆記也能解釋對應考試領域
+- [ ] 提交 Git Commit 與學習缺口記錄
