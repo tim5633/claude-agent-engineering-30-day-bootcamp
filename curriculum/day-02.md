@@ -9,9 +9,9 @@
 1. [Claude Code memory / CLAUDE.md](https://code.claude.com/docs/en/memory)
 2. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
 
-**Read for:** Compare user-, project- and directory-scoped instructions,Create CLAUDE.md and test how rules change code-review outcomes.
+**Study topics:** Compare user-, project- and directory-scoped instructions.
 
-**Lab tied to these resources:** undefined.
+**Required hands-on lab:** Create CLAUDE.md and test how rules affect code-review outcomes.
 
 **Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
 
