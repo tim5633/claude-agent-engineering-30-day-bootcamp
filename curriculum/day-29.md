@@ -4,6 +4,18 @@
 
 **Reference:** [Partner Academy](https://anthropic-partners.skilljar.com/) authorized modules, [Claude documentation](https://docs.anthropic.com/), [deep-dive](../docs/evaluation-harness.md).
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Enterprise Integration & Production](https://anthropic-partners.skilljar.com/enterprise-integration-production) (company login required for course modules).
+
+1. [Production integration module](https://anthropic-partners.skilljar.com/enterprise-integration-production)
+2. [Evaluation harness](../docs/evaluation-harness.md)
+3. [Sandbox boundaries](../docs/ai-sandbox-security.md)
+
+**Study topics:** Review fail-closed security, bounded harnesses, checkpoint restore and outcome evaluation.
+
+**Required deliverable:** Run failure drills and fresh-fixture evals; produce go/no-go report with metrics.
+
 ## Five-hour integrated daily plan
 
 | Time | Action | Evidence |
@@ -28,6 +40,18 @@
 **2026-11-23 · 5 小時** · [首頁](../README.md)
 
 **教材：** [Partner Academy](https://anthropic-partners.skilljar.com/) 授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/evaluation-harness.md)。
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy:** [Enterprise Integration & Production](https://anthropic-partners.skilljar.com/enterprise-integration-production) (company login required for course modules).
+
+1. [Production integration module](https://anthropic-partners.skilljar.com/enterprise-integration-production)
+2. [Evaluation harness](../docs/evaluation-harness.md)
+3. [Sandbox boundaries](../docs/ai-sandbox-security.md)
+
+**學習重點:** Review fail-closed security, bounded harnesses, checkpoint restore and outcome evaluation.
+
+**當天交付:** Run failure drills and fresh-fixture evals; produce go/no-go report with metrics.
 
 ## 每日融合式五小時課表
 
