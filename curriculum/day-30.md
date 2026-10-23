@@ -4,6 +4,18 @@
 
 **Reference:** [Partner Academy](https://anthropic-partners.skilljar.com/) authorized modules, [Claude documentation](https://docs.anthropic.com/), [deep-dive](../docs/agent-harness-engineering.md).
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Architect – Professional Prep and Certification Readiness](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) (company login required for course modules).
+
+1. [Architect Professional official learning path](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)
+2. [Official partner certification information](https://anthropic-partners.skilljar.com/page/partner-certifications)
+3. [Client delivery artifacts](../docs/client-delivery.md)
+
+**Study topics:** Synthesize solution design, governance, operating costs, adoption and technical defense.
+
+**Required deliverable:** Present 20-minute architecture, 15-minute demonstration and 20-minute stakeholder Q&A.
+
 ## Five-hour integrated daily plan
 
 | Time | Action | Evidence |
@@ -28,6 +40,18 @@
 **2026-11-24 · 5 小時** · [首頁](../README.md)
 
 **教材：** [Partner Academy](https://anthropic-partners.skilljar.com/) 授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/agent-harness-engineering.md)。
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy:** [Architect – Professional Prep and Certification Readiness](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) (company login required for course modules).
+
+1. [Architect Professional official learning path](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)
+2. [Official partner certification information](https://anthropic-partners.skilljar.com/page/partner-certifications)
+3. [Client delivery artifacts](../docs/client-delivery.md)
+
+**學習重點:** Synthesize solution design, governance, operating costs, adoption and technical defense.
+
+**當天交付:** Present 20-minute architecture, 15-minute demonstration and 20-minute stakeholder Q&A.
 
 ## 每日融合式五小時課表
 
