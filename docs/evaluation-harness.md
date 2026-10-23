@@ -40,3 +40,15 @@ flowchart TD
 ## Official reference
 
 - [Anthropic — Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
+
+---
+
+<a id="traditional-chinese"></a>
+
+# Evaluation Harness 與 Red Teaming
+
+Evaluation Harness 用乾淨的合成測試環境重新執行 Agent，驗證實際工具行為、來源正確性、權限、成本、延遲與失敗模式，而不只是檢查最後文字。
+
+實作：建立至少 50 筆 Golden Dataset、隔離 Fixture、確定性 Outcome Graders、版本回歸報告、LLM-as-Judge 校準，以及使用自己資料的 Prompt Injection 與越權情境。
+
+驗收：每次執行可重現，能追蹤 Task Success、工具副作用、安全違反及成本；CI 可重跑並比較版本。
