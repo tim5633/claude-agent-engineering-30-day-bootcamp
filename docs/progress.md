@@ -30,3 +30,40 @@
 - [ ] [Day 28 — Operational handover](../curriculum/day-28.md)
 - [ ] [Day 29 — Go-live simulation](../curriculum/day-29.md)
 - [ ] [Day 30 — Final client defense](../curriculum/day-30.md)
+
+---
+
+<a id="traditional-chinese"></a>
+
+# 30 天學習進度
+
+- [ ] [Day 01：環境設定](../curriculum/day-01.md)
+- [ ] [Day 02：CLAUDE.md 與上下文](../curriculum/day-02.md)
+- [ ] [Day 03：Git 與規劃](../curriculum/day-03.md)
+- [ ] [Day 04：Hooks 與權限](../curriculum/day-04.md)
+- [ ] [Day 05：Skills 與 Subagents](../curriculum/day-05.md)
+- [ ] [Day 06：MCP Server](../curriculum/day-06.md)
+- [ ] [Day 07：全端實作](../curriculum/day-07.md)
+- [ ] [Day 08：Messages API](../curriculum/day-08.md)
+- [ ] [Day 09：Prompt 與結構化輸出](../curriculum/day-09.md)
+- [ ] [Day 10：Tool Calling](../curriculum/day-10.md)
+- [ ] [Day 11：Agent SDK](../curriculum/day-11.md)
+- [ ] [Day 12：MCP 安全](../curriculum/day-12.md)
+- [ ] [Day 13：RAG 與引用](../curriculum/day-13.md)
+- [ ] [Day 14：整合 Agent](../curriculum/day-14.md)
+- [ ] [Day 15：架構模式](../curriculum/day-15.md)
+- [ ] [Day 16：State 與人工審查](../curriculum/day-16.md)
+- [ ] [Day 17：Prompt Injection](../curriculum/day-17.md)
+- [ ] [Day 18：Evaluation](../curriculum/day-18.md)
+- [ ] [Day 19：Tracing 與成本](../curriculum/day-19.md)
+- [ ] [Day 20：CI/CD 與部署](../curriculum/day-20.md)
+- [ ] [Day 21：Partner Badge](../curriculum/day-21.md)
+- [ ] [Day 22：Developer 認證](../curriculum/day-22.md)
+- [ ] [Day 23：客戶訪談](../curriculum/day-23.md)
+- [ ] [Day 24：Solution Architecture](../curriculum/day-24.md)
+- [ ] [Day 25：AI 風險治理](../curriculum/day-25.md)
+- [ ] [Day 26：ROI 與交付](../curriculum/day-26.md)
+- [ ] [Day 27：Architect 認證](../curriculum/day-27.md)
+- [ ] [Day 28：營運交接](../curriculum/day-28.md)
+- [ ] [Day 29：上線故障演練](../curriculum/day-29.md)
+- [ ] [Day 30：最終架構答辯](../curriculum/day-30.md)
