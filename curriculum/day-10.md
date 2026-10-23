@@ -2,6 +2,17 @@
 
 **2026-11-04 · 5 hours** · [Home](../README.md) · [繁體中文 ↓](#traditional-chinese)
 
+## Assigned lessons & direct learning links
+
+**Partner Academy course:** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (company login; locate the named lesson inside the prep path).
+
+1. [How tool use works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works)
+2. [Tool definitions](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use)
+
+**Study objectives:** Study tool schema contracts, request–execute–result cycle, budgets and termination.
+
+**Required lab:** Implement a bounded Messages API Agent Harness with maximum steps and validated tools.
+
 ## Learning outcomes
 
 Map the model→tool request→validation→execution→tool result→model loop.
@@ -33,6 +44,17 @@ Map the model→tool request→validation→execution→tool result→model loop
 # Day 10 — Tool Calling 與有界 Agent Harness
 
 **2026-11-04 · 5 小時** · [首頁](../README.md)
+
+## 今日指定課程與直達資源
+
+**Partner Academy：** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（使用公司帳號登入並選擇課程內的指定主題）。
+
+1. [How tool use works](https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works)
+2. [Tool definitions](https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use)
+
+**學習重點：** Study tool schema contracts, request–execute–result cycle, budgets and termination。
+
+**實作成果：** Implement a bounded Messages API Agent Harness with maximum steps and validated tools。
 
 ## 今日能力目標
 
