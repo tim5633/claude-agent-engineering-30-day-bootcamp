@@ -54,9 +54,9 @@ Understand MCP tool schemas, trust boundaries, credentials and server-side autho
 1. [Claude Code MCP](https://code.claude.com/docs/en/mcp)
 2. [MCP official introduction](https://modelcontextprotocol.io/introduction)
 
-**閱讀重點：** Understand MCP host/client/server, resources and tool contracts,Implement a read-only MCP server using synthetic documents and test unauthorized requests。
+**閱讀重點：** 理解 MCP Host／Client／Server 與 Tool Schema。
 
-**指定實作：** undefined。
+**指定實作：** 建立唯讀文件 MCP Server 並測試越權輸入。
 
 ## 今日能力目標
 
