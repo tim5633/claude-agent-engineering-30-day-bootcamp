@@ -1,5 +1,33 @@
 # Day 29 — Go-live simulation
 
+**2026-11-23 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+
+## Objective and official resources
+
+Study Day 29 — Go-live simulation using authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) course content, current exam guides and [Claude documentation](https://docs.anthropic.com/). Focus on enterprise security, design, communication and independent execution.
+
+## Daily schedule
+
+| Time | Task | Evidence |
+|---|---|---|
+| 0:00–1:30 | Course or exam guide analysis and notes | Five key concepts |
+| 1:30–3:00 | Guided challenge: Simulate API timeout, sandbox denial, crash recovery and injected prompts | Reviewable deliverable |
+| 3:00–4:30 | Independent client/engineering scenario, failure analysis and revision | Tests, decisions, artifacts |
+| 4:30–5:00 | English presentation, self-assessment and commit | Daily log / ADR |
+
+## Completion criteria
+
+- [ ] Independently demonstrate the daily deliverable
+- [ ] Identify security, cost and operational trade-offs
+- [ ] Retain evidence, technical notes and an implementation or documentation commit
+- [ ] Answer questions without reading the lesson
+
+---
+
+<a id="traditional-chinese"></a>
+
+# Day 29 — Go-live simulation
+
 **2026-11-23 · 5 小時** · [Home](../README.md)
 
 ## 今日學習目標
