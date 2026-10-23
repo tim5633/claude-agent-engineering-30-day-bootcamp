@@ -1,69 +1,53 @@
-# Day 30 — Client Defense: Production Claude Agent
+# Day 30 — Architect Professional Board & Exam Plan
 
 **2026-11-24 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-**Reference:** [Partner Academy](https://anthropic-partners.skilljar.com/) authorized modules, [Claude documentation](https://docs.anthropic.com/), [deep-dive](../docs/agent-harness-engineering.md).
+## Company Partner Academy module and official exam blueprint
 
-## Assigned Partner Academy lesson and direct reading links
+**Assigned:** [Architect Professional – Claude Platform & Solution Design (final part); full five-module review](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional). A 'part' is a suggested split of one official module, not a new module name.
 
-**Partner Academy:** [Architect – Professional Prep and Certification Readiness](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) (company login required for course modules).
+**Exam coverage:** CCAR-P: five-course integrated blueprint; CCAR-F and CCDV-F recap.
 
-1. [Architect Professional official learning path](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)
-2. [Official partner certification information](https://anthropic-partners.skilljar.com/page/partner-certifications)
-3. [Client delivery artifacts](../docs/client-delivery.md)
+**Direct reading and authoritative course links:**
+1. [page/partner-certifications](https://anthropic-partners.skilljar.com/page/partner-certifications)
+2. [docs/client-delivery.md](../docs/client-delivery.md)
 
-**Study topics:** Synthesize solution design, governance, operating costs, adoption and technical defense.
+## Detailed 5-hour schedule
 
-**Required deliverable:** Present 20-minute architecture, 15-minute demonstration and 20-minute stakeholder Q&A.
-
-## Five-hour integrated daily plan
-
-| Time | Action | Evidence |
+| Time | Assigned work | Evidence |
 |---|---|---|
-| 00:00–01:30 | Prepare end-to-end explanation of Claude Code, API, harness, MCP, sandbox and evals | Notes and sketches |
-| 01:30–03:00 | Demonstrate a financial workflow and a contained failure/recovery case | Build / design |
-| 03:00–04:30 | Answer CTO/CISO/Finance questions on architecture, controls, quality and TCO | Evaluation, security and failure evidence |
-| 04:30–05:00 | Deliver repo, HLD, ADRs, security/eval report, deployment and handover | ADR + commit + English explanation |
+| 0:00–1:30 | Synthesize stakeholder problem, solution, security, rollout, cost and handover. Study the named official course section and exam guide. | Concept notes + domain mapping |
+| 1:30–3:00 | Deliver 20-min HLD, 15-min live demo, 20-min board Q&A plus Pearson schedule checklist. | Lab/design artifact |
+| 3:00–4:30 | Independently simulate a client challenge; test risks and alternatives. | Test/report + trade-off rationale |
+| 4:30–5:00 | Explain in English and update exam readiness tracker. | Git commit, ADR, exam checklist |
 
-**Acceptance:** 20-minute walkthrough, 15-minute demo, 20-minute evidence-backed Q&A.
-
-- [ ] Concepts and coursework completed
-- [ ] Independently tested outcome
-- [ ] Architecture decision and evidence committed
+**Gate:** Deliver the practical artifact, defend it without notes, and identify unresolved weaknesses. Official exams should only be booked once registered and ready.
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 30 — 客戶答辯：Production Claude Agent
+# Day 30 — Architect Professional 架構答辯與應試規劃
 
 **2026-11-24 · 5 小時** · [首頁](../README.md)
 
-**教材：** [Partner Academy](https://anthropic-partners.skilljar.com/) 授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/agent-harness-engineering.md)。
+## 公司指定 Partner Academy 模組與認證考綱
 
-## 今日 Partner Academy 課程與直達教材
+**指定課程：** [Architect Professional – Claude Platform & Solution Design (final part); full five-module review](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)。其中 part 是建議分段，不是另創的官方模組名稱。
 
-**Partner Academy:** [Architect – Professional Prep and Certification Readiness](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) (company login required for course modules).
+**考綱對照：** CCAR-P: five-course integrated blueprint; CCAR-F and CCDV-F recap。
 
-1. [Architect Professional official learning path](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)
-2. [Official partner certification information](https://anthropic-partners.skilljar.com/page/partner-certifications)
-3. [Client delivery artifacts](../docs/client-delivery.md)
+**官方學習入口／直達文件：**
+1. [page/partner-certifications](https://anthropic-partners.skilljar.com/page/partner-certifications)
+2. [docs/client-delivery.md](../docs/client-delivery.md)
 
-**學習重點:** Synthesize solution design, governance, operating costs, adoption and technical defense.
+## 五小時詳細課表
 
-**當天交付:** Present 20-minute architecture, 15-minute demonstration and 20-minute stakeholder Q&A.
-
-## 每日融合式五小時課表
-
-| 時段 | 學習與實作 | 證據 |
+| 時段 | 必修內容 | 交付 |
 |---|---|---|
-| 00:00–01:30 | 準備完整介紹 Claude Code、API、Harness、MCP、Sandbox 與 Evaluation | 觀念筆記與架構圖 |
-| 01:30–03:00 | 展示金融研究工作流及受控故障／恢復案例 | 實作或設計 |
-| 03:00–04:30 | 回答架構、權限、品質、成本的 CTO／CISO／財務問題 | 評估、安全與故障測試 |
-| 04:30–05:00 | 交付 Repo、HLD、ADR、安全與評估報告、部署與交接 | ADR、Commit、英文說明 |
+| 00:00–01:30 | 整合需求、架構、安全、上線、成本與交接，閱讀指定官方課程與 Exam Guide。 | 知識筆記、考綱對照 |
+| 01:30–03:00 | 實作：完成 20 分鐘 HLD、15 分鐘 Demo、20 分鐘技術問答及 Pearson 應試清單。 | Lab／架構文件 |
+| 03:00–04:30 | 自己模擬客戶情境、測試風險並比較替代方案。 | 測試／報告與技術取捨 |
+| 04:30–05:00 | 用英文解說並更新認證進度。 | Commit、ADR、考試清單 |
 
-**驗收：** 完成 20 分鐘說明、15 分鐘展示、20 分鐘有證據的問答。
-
-- [ ] 完成課程與理解
-- [ ] 獨立測試成果
-- [ ] 提交設計取捨及證據
+**驗收：** 能不看筆記交付成果、解釋技術決策與剩餘弱點；正式考試僅在已登記且準備充分時安排。
