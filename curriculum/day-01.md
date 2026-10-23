@@ -2,6 +2,14 @@
 
 **2026-10-26 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Daily certification learning card
+
+- **Open company course:** [Anthropic Partner Academy — Associate: Claude Platform & Model Foundations; Developer: MSO Foundations](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses) (company sign-in).
+- **Study section:** **Model selection, interface choices, context and SDK setup** (daily topic focus, not a claim about exact private lesson title).
+- **Do this lab:** Build decision table for five client scenarios; set up CLI + Python SDK..
+- **Maps to:** **CCAO-F, CCDV-F**; cross-check the current [official exam guide](https://anthropic-partners.skilljar.com/page/partner-certifications).
+- **Proof:** lesson notes, working code, negative test, and exam-domain checklist.
+
 ## Assigned Accenture / Anthropic Partner Academy courses
 
 **Official Partner training:** [Associate: Claude Platform & Model Foundations (59 min); Developer: MSO Foundations (part 1)](https://anthropic-partners.skilljar.com/path/claude-certified-associate-foundations). The course title is official; subsections in parentheses indicate which portion to focus on today, not separate certified course titles.
@@ -35,6 +43,14 @@
 # Day 01 — 模型與平台基礎
 
 **2026-10-26 · 5 小時** · [首頁](../README.md)
+
+## 每日認證學習卡
+
+- **公司課程：** [Anthropic Partner Academy — Associate: Claude Platform & Model Foundations; Developer: MSO Foundations](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)（公司帳號登入）。
+- **指定 Section：** **Model selection, interface choices, context and SDK setup**（指定主題，不冒充已核實的內部 Lesson 名稱）。
+- **Lab：** Build decision table for five client scenarios; set up CLI + Python SDK.。
+- **對應認證：** **CCAO-F, CCDV-F**，請對照[官方考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)。
+- **驗收：** 課程筆記、程式、反向測試與考綱 Checklist。
 
 ## 公司 Anthropic Partner Academy 指定課程
 
