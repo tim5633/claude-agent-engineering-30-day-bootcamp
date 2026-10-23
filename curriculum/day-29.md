@@ -26,3 +26,10 @@
 - [ ] 相關測試通過
 - [ ] 記錄失敗案例與修復
 - [ ] Git commit、英文 3 分鐘講解
+
+
+## Advanced Track — Integrated Agent Harness + Sandbox + Eval security gate
+
+Review [Harness](../docs/agent-harness-engineering.md), [Sandbox](../docs/ai-sandbox-security.md) and [Evals](../docs/evaluation-harness.md). Inject simulated long-running task timeout, process crash, denied network egress, malicious retrieved instruction and unauthorized SQL write; verify isolation, checkpoint recovery, audit trail and outcome graders.
+
+**Additional exit check:** Demonstrate the boundary with a repeatable test and record one architecture trade-off in the daily engineering log.
