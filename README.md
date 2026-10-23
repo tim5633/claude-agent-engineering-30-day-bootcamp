@@ -117,6 +117,17 @@ flowchart TD
 
 ---
 
+
+## 🔒 Agent Harness 與 AI Sandbox 專項模組
+
+除了 Claude Code、Agent SDK 和 MCP，本計畫新增三項企業級實戰主題：
+
+- **[Agent Harness Engineering](docs/agent-harness-engineering.md)：** Agent Loop、工具路由、Session、Checkpoint、長任務恢復、預算與停止條件。
+- **[AI Sandbox & Secure Execution](docs/ai-sandbox-security.md)：** 隔離容器、檔案與網路權限、Secrets、資源限制、Browser/Computer Use 安全。
+- **[Evaluation Harness & Red Teaming](docs/evaluation-harness.md)：** 獨立測試環境、Golden Dataset、Outcome Graders、Prompt Injection 回歸測試。
+
+> Harness 決定 Agent **如何執行任務**；Sandbox 限制執行環境**可以存取什麼**；Evaluation Harness 驗證系統**實際做對了什麼**。
+
 <a id="english-version"></a>
 
 # Claude Agent Engineering — 30-Day Intensive Bootcamp
@@ -215,6 +226,17 @@ See the [Capstone specification](docs/capstone.md).
 | Model Context Protocol | [MCP documentation](https://modelcontextprotocol.io/) |
 
 Formal certifications differ from course completion badges. Eligibility, course availability, exam fees and specifications may change. See [Courses and certifications](docs/certifications.md).
+
+
+## 🔒 Agent Harness, Sandboxing & Evaluation
+
+Three advanced enterprise-engineering tracks complement Claude Code, the Agent SDK and MCP:
+
+- **[Agent Harness Engineering](docs/agent-harness-engineering.md):** Bounded execution loops, tool routing, sessions, checkpoints, long-running recovery, budget and stop conditions.
+- **[AI Sandbox & Secure Execution](docs/ai-sandbox-security.md):** Container and filesystem isolation, network egress, secrets, resource constraints and browser/computer-use safeguards.
+- **[Evaluation Harness & Red Teaming](docs/evaluation-harness.md):** Clean test environments, golden datasets, outcome graders and prompt-injection regression tests.
+
+> The **harness orchestrates** agent activity, the **sandbox limits** its execution privileges, and the **evaluation harness measures** real outcomes.
 
 ## 🚀 Getting Started
 
