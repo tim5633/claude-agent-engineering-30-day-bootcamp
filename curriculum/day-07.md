@@ -50,9 +50,9 @@ Learn Day 07 — Full-stack app. Study the corresponding authorized [Anthropic P
 1. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
 2. [Claude Code hooks](https://code.claude.com/docs/en/hooks)
 
-**閱讀重點：** Review skills, hooks, MCP access and the build-test-review loop,Complete full-stack issue tracker and run permissions and regression checks。
+**閱讀重點：** 複習 Skills、Hooks、MCP 和 Git Review。
 
-**指定實作：** undefined。
+**指定實作：** 完成全端 Issue Tracker 與安全測試。
 
 ## 今日學習目標
 
