@@ -1,63 +1,59 @@
-# Day 04 — Hooks & permissions
+# Day 04 — Hooks, Permissions & Sandbox Foundations
 
-**2026-10-29 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+**2026-10-29 · 5 hours** · [Home](../README.md) · [繁體中文 ↓](#traditional-chinese)
 
-## Objective and resources
+## Learning outcomes
 
-Learn Day 04 — Hooks & permissions. Study the corresponding authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) modules and [Claude documentation](https://docs.anthropic.com/). Explain design alternatives, reliability, permissions, and costs.
+Study Claude Code permission modes, PreToolUse/PostToolUse hooks, and how policy checks differ from OS-level isolation.
 
-## Daily schedule
+**Course material:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) (authorized curriculum only), [Claude docs](https://docs.anthropic.com/). **Deep-dive reference:** [Hooks, Permissions & Sandbox Foundations](../docs/ai-sandbox-security.md).
 
-| Time | Task | Evidence |
+## Daily 5-hour learning and implementation plan
+
+| Time | Required action | Deliverable |
 |---|---|---|
-| 0:00–1:30 | Official course + docs; summarize five core concepts | Notes |
-| 1:30–3:00 | Guided lab: Configure sandbox policy, tool permissions and safety hooks | Working code and tests |
-| 3:00–4:30 | Independent extension, fault injection, debugging | Commits and test results |
-| 4:30–5:00 | Verification, architecture decision and spoken English summary | Daily log / ADR |
+| 00:00–01:30 | Study Claude Code permission modes, PreToolUse/PostToolUse hooks, and how policy checks differ from OS-level isolation. | Concept notes + trust-boundary sketch |
+| 01:30–03:00 | Configure project-specific tool allow/deny rules and a hook that blocks risky file operations. | Working implementation / design artifact |
+| 03:00–04:30 | In a disposable sample workspace, test allowed edits and denied out-of-scope file reads; record whether the hook or sandbox blocked execution. | Unit / integration / security tests |
+| 04:30–05:00 | Write a least-privilege policy and a boundary comparison table. | ADR + trace/eval evidence + English explanation |
 
-## Acceptance checklist
+## Definition of done
 
-- [ ] Completed learning and independent implementation
-- [ ] Tested failure modes, permission boundaries and cost controls
-- [ ] Recorded technical trade-offs and a Git commit
-- [ ] Explained the result in English without reading a tutorial
+**Denied operations are blocked and logged by an actual policy or isolation boundary; authorized writes continue normally.**
+
+- [ ] Relevant concepts and official reading completed
+- [ ] Capstone implementation and positive/negative tests completed
+- [ ] Evidence and architecture decision committed
+- [ ] Explain trade-offs without step-by-step assistance
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 04 — Hooks & permissions
+# Day 04 — Hooks、權限與 Sandbox 基礎
 
-**2026-10-29 · 5 小時** · [Home](../README.md)
+**2026-10-29 · 5 小時** · [首頁](../README.md)
 
-## 今日學習目標
+## 今日能力目標
 
-深入掌握 **Hooks & permissions** 的原理、應用、替代設計、風險與成本。
+理解 Claude Code Permissions、PreToolUse／PostToolUse Hooks，以及它們與 OS Sandbox 的不同。
 
-**課程來源：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（以授權帳號內最新課綱為準）、[Claude Academy](https://academy.claude.com/)、[官方技術文件](https://docs.anthropic.com/)。
+**指定教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（依帳號內授權課程）、[Claude 官方文件](https://docs.anthropic.com/)；深入參考 [Hooks、權限與 Sandbox 基礎](../docs/ai-sandbox-security.md)。
 
-## 每日時間線
+## 每日五小時實作時間線
 
-| 時間 | 學習任務 | 交付 |
+| 時段 | 指定學習／實作任務 | 產出 |
 |---|---|---|
-| 00:00–01:30 | 官方課程與技術文件，整理 5 個核心概念 | Notes |
-| 01:30–03:00 | Guided lab：將 Hooks & permissions 應用於 Capstone | Working code |
-| 03:00–04:30 | Closed-book：自行擴充、注入錯誤、測試與 Debug | Tests + Git commit |
-| 04:30–05:00 | 驗收、技術決策、英文解說 | Daily log + ADR |
+| 00:00–01:30 | 理解 Claude Code Permissions、PreToolUse／PostToolUse Hooks，以及它們與 OS Sandbox 的不同。 | 概念筆記與信任邊界圖 |
+| 01:30–03:00 | 配置專案工具 Allow/Deny 規則與阻擋敏感檔案操作的 Hook。 | 可執行實作／架構交付 |
+| 03:00–04:30 | 在一次性測試目錄驗證允許的編輯與跨範圍讀取遭拒；分辨由 Hook 還是 Sandbox 阻擋。 | 單元、整合與安全測試 |
+| 04:30–05:00 | 整理最小權限規範與信任邊界比較表。 | ADR、Trace／Eval 證據及英文解說 |
 
-## 實戰驗收
+## 驗收標準
 
-在 [Enterprise Financial Research Agent](../docs/capstone.md) 實作今日能力，保留測試和 trace。自行說明為何選擇此架構、如何處理權限/成本/失敗、如何客觀評估。
+**越權操作真正被策略或隔離層拒絕並留下記錄，正常授權寫入不受影響。**
 
-- [ ] 完成官方課程與筆記
-- [ ] 獨立完成可執行功能
-- [ ] 相關測試通過
-- [ ] 記錄失敗案例與修復
-- [ ] Git commit、英文 3 分鐘講解
-
-
-## Advanced Track — Sandbox threat model and permission layers
-
-Read [AI Sandbox & Secure Execution](../docs/ai-sandbox-security.md). Compare Claude Code permission rules, hook denials, sandbox filesystem restrictions and network boundaries. Lab: attempt out-of-workspace file access in a disposable test environment; document whether OS-level containment or only a prompt/policy prevented it.
-
-**Additional exit check:** Demonstrate the boundary with a repeatable test and record one architecture trade-off in the daily engineering log.
+- [ ] 完成課程、概念整理與閱讀
+- [ ] 完成 Capstone 實作與正反測試
+- [ ] 上傳可驗證成果、測試與技術取捨
+- [ ] 不依賴逐步教學解釋整體設計
