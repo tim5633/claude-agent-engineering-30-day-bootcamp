@@ -2,6 +2,14 @@
 
 **2026-11-03 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Company course / exact topic assignment / lab / exam
+
+1. **Open:** [Associate: Troubleshooting & Optimization; Developer: Production Prompting](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses) through corporate Partner Academy login.
+2. **Study:** Structured outputs, debugging, regression suites (target subsection; verify gated lesson title in account).
+3. **Build:** Build 20-case structured-output regression suite with error taxonomy.; prove one failure or authorization boundary.
+4. **Certification:** **CCAO-F, CCDV-F, CCAR-F**, using [official exam guides](https://anthropic-partners.skilljar.com/page/partner-certifications).
+5. **Submit:** Code, evaluation/trace, Git commit, 5-minute recall quiz.
+
 ## Assigned Accenture / Anthropic Partner Academy courses
 
 **Official Partner training:** [Associate: Troubleshooting & Optimization (30 min); Developer: Production-Grade Prompting (part 3)](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). The course title is official; subsections in parentheses indicate which portion to focus on today, not separate certified course titles.
@@ -35,6 +43,14 @@
 # Day 09 — Structured Outputs 與 Prompt 回歸
 
 **2026-11-03 · 5 小時** · [首頁](../README.md)
+
+## 公司課程／指定主題／Lab／認證
+
+1. **打開：** [Associate: Troubleshooting & Optimization; Developer: Production Prompting](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)（公司 Partner Academy 登入）。
+2. **指定 Section：** Structured outputs, debugging, regression suites（登入後核對課內標題）。
+3. **Lab：** Build 20-case structured-output regression suite with error taxonomy.，至少驗證一個失敗或越權案例。
+4. **證書：** **CCAO-F, CCDV-F, CCAR-F**，依[正式考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)。
+5. **成果：** Code、Evaluation／Trace、Commit、5 分鐘自測。
 
 ## 公司 Anthropic Partner Academy 指定課程
 
