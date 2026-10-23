@@ -1,63 +1,59 @@
-# Day 10 — Tool calling
+# Day 10 — Tool Calling & Bounded Agent Harness
 
-**2026-11-04 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+**2026-11-04 · 5 hours** · [Home](../README.md) · [繁體中文 ↓](#traditional-chinese)
 
-## Objective and resources
+## Learning outcomes
 
-Learn Day 10 — Tool calling. Study the corresponding authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) modules and [Claude documentation](https://docs.anthropic.com/). Explain design alternatives, reliability, permissions, and costs.
+Map the model→tool request→validation→execution→tool result→model loop.
 
-## Daily schedule
+**Course material:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) (authorized curriculum only), [Claude docs](https://docs.anthropic.com/). **Deep-dive reference:** [Tool Calling & Bounded Agent Harness](../docs/agent-harness-engineering.md).
 
-| Time | Task | Evidence |
+## Daily 5-hour learning and implementation plan
+
+| Time | Required action | Deliverable |
 |---|---|---|
-| 0:00–1:30 | Official course + docs; summarize five core concepts | Notes |
-| 1:30–3:00 | Guided lab: Implement a bounded tool-calling Agent Harness | Working code and tests |
-| 3:00–4:30 | Independent extension, fault injection, debugging | Commits and test results |
-| 4:30–5:00 | Verification, architecture decision and spoken English summary | Daily log / ADR |
+| 00:00–01:30 | Map the model→tool request→validation→execution→tool result→model loop. | Concept notes + trust-boundary sketch |
+| 01:30–03:00 | Implement a hand-written Messages API agent harness with tool allowlists and input validation. | Working implementation / design artifact |
+| 03:00–04:30 | Add max_steps, deadline, cancellation, bounded retries, token/cost tracking and trace IDs. | Unit / integration / security tests |
+| 04:30–05:00 | Create tests for infinite-loop attempts, malformed tool calls and hard stops. | ADR + trace/eval evidence + English explanation |
 
-## Acceptance checklist
+## Definition of done
 
-- [ ] Completed learning and independent implementation
-- [ ] Tested failure modes, permission boundaries and cost controls
-- [ ] Recorded technical trade-offs and a Git commit
-- [ ] Explained the result in English without reading a tutorial
+**Harness stops deterministically at configured limits, with trace and no unauthorized tool execution.**
+
+- [ ] Relevant concepts and official reading completed
+- [ ] Capstone implementation and positive/negative tests completed
+- [ ] Evidence and architecture decision committed
+- [ ] Explain trade-offs without step-by-step assistance
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 10 — Tool calling
+# Day 10 — Tool Calling 與有界 Agent Harness
 
-**2026-11-04 · 5 小時** · [Home](../README.md)
+**2026-11-04 · 5 小時** · [首頁](../README.md)
 
-## 今日學習目標
+## 今日能力目標
 
-深入掌握 **Tool calling** 的原理、應用、替代設計、風險與成本。
+理解模型請求工具、驗證、執行、回傳與下一輪推理的完整循環。
 
-**課程來源：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（以授權帳號內最新課綱為準）、[Claude Academy](https://academy.claude.com/)、[官方技術文件](https://docs.anthropic.com/)。
+**指定教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（依帳號內授權課程）、[Claude 官方文件](https://docs.anthropic.com/)；深入參考 [Tool Calling 與有界 Agent Harness](../docs/agent-harness-engineering.md)。
 
-## 每日時間線
+## 每日五小時實作時間線
 
-| 時間 | 學習任務 | 交付 |
+| 時段 | 指定學習／實作任務 | 產出 |
 |---|---|---|
-| 00:00–01:30 | 官方課程與技術文件，整理 5 個核心概念 | Notes |
-| 01:30–03:00 | Guided lab：將 Tool calling 應用於 Capstone | Working code |
-| 03:00–04:30 | Closed-book：自行擴充、注入錯誤、測試與 Debug | Tests + Git commit |
-| 04:30–05:00 | 驗收、技術決策、英文解說 | Daily log + ADR |
+| 00:00–01:30 | 理解模型請求工具、驗證、執行、回傳與下一輪推理的完整循環。 | 概念筆記與信任邊界圖 |
+| 01:30–03:00 | 使用 Messages API 手寫帶有工具白名單與 Schema 驗證的 Agent Harness。 | 可執行實作／架構交付 |
+| 03:00–04:30 | 加入最大步數、期限、取消、有限重試、Token／成本記錄與 Trace ID。 | 單元、整合與安全測試 |
+| 04:30–05:00 | 建立無限循環、無效工具參數及強制停止測試。 | ADR、Trace／Eval 證據及英文解說 |
 
-## 實戰驗收
+## 驗收標準
 
-在 [Enterprise Financial Research Agent](../docs/capstone.md) 實作今日能力，保留測試和 trace。自行說明為何選擇此架構、如何處理權限/成本/失敗、如何客觀評估。
+**Harness 在設定上限時確實停止，有 Trace，且未授權工具無法執行。**
 
-- [ ] 完成官方課程與筆記
-- [ ] 獨立完成可執行功能
-- [ ] 相關測試通過
-- [ ] 記錄失敗案例與修復
-- [ ] Git commit、英文 3 分鐘講解
-
-
-## Advanced Track — Implement a bounded Agent Harness
-
-Read [Agent Harness Engineering](../docs/agent-harness-engineering.md). Build a tool loop with max_steps, timeout, cost budget, allowlisted tools, JSON-schema validation, a trace log and deterministic termination tests.
-
-**Additional exit check:** Demonstrate the boundary with a repeatable test and record one architecture trade-off in the daily engineering log.
+- [ ] 完成課程、概念整理與閱讀
+- [ ] 完成 Capstone 實作與正反測試
+- [ ] 上傳可驗證成果、測試與技術取捨
+- [ ] 不依賴逐步教學解釋整體設計
