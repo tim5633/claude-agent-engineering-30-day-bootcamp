@@ -50,9 +50,9 @@ Learn Day 02 — Context & CLAUDE.md. Study the corresponding authorized [Anthro
 1. [Claude Code memory / CLAUDE.md](https://code.claude.com/docs/en/memory)
 2. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
 
-**閱讀重點：** Compare user-, project- and directory-scoped instructions,Create CLAUDE.md and test how rules change code-review outcomes。
+**閱讀重點：** 比較 CLAUDE.md 不同範圍的指令。
 
-**指定實作：** undefined。
+**指定實作：** 建立 CLAUDE.md 並測試對程式審查的影響。
 
 ## 今日學習目標
 
