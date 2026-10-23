@@ -2,6 +2,17 @@
 
 **2026-11-09 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Assigned lessons & direct learning links
+
+**Partner Academy course:** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (company login; locate the named lesson inside the prep path).
+
+1. [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
+2. [Harness deep dive](../docs/agent-harness-engineering.md)
+
+**Study objectives:** Compare one agent, deterministic workflows, routers and supervisors.
+
+**Required lab:** Benchmark single-agent and multi-agent implementations on the same tasks.
+
 ## Integrated learning and practice
 
 **Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/agent-harness-engineering.md).
@@ -26,6 +37,17 @@
 # Day 15 — 單 Agent 與 Multi-Agent Harness 架構
 
 **2026-11-09 · 5 小時** · [首頁](../README.md)
+
+## 今日指定課程與直達資源
+
+**Partner Academy：** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（使用公司帳號登入並選擇課程內的指定主題）。
+
+1. [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
+2. [Harness deep dive](../docs/agent-harness-engineering.md)
+
+**學習重點：** Compare one agent, deterministic workflows, routers and supervisors。
+
+**實作成果：** Benchmark single-agent and multi-agent implementations on the same tasks。
 
 ## 融合式學習與實作
 
