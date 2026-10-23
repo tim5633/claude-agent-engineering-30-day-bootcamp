@@ -1,69 +1,53 @@
-# Day 20 — Sandboxed Agent Runtime & CI/CD
+# Day 20 — Secure Deployment & Reusable Accelerators
 
 **2026-11-14 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Assigned Partner Academy lesson and direct reading links
+## Accenture Partner Academy mapping
 
-**Partner Academy:** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (verified public landing page; sign in for lessons).
+**Official module or exam domain:** [Developer – Production Engineering, Evals & Security; Accelerators & IP Contribution (part 1)](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
 
-1. [Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions)
-2. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
-3. [Sandbox deployment considerations](../docs/ai-sandbox-security.md)
+**Certification mapping:** CCDV-F: deployment, reuse and review.
 
-**Read and understand:** Study CI, deployment stages, secrets, restricted workers, rollback and health checks.
+**Direct study references:**
+1. [en/github-actions](https://code.claude.com/docs/en/github-actions)
+2. [docs/ai-sandbox-security.md](../docs/ai-sandbox-security.md)
 
-**Hands-on assignment:** Deploy staging Agent API and enforce sandbox/permission checks in CI.
+## Daily five-hour schedule
 
-## Integrated learning and practice
-
-**Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/ai-sandbox-security.md).
-
-| Time | Assignment | Evidence |
+| Time | What to study or build | Evidence |
 |---|---|---|
-| 00:00–01:30 | Design separate application and untrusted execution boundaries | Notes and design sketch |
-| 01:30–03:00 | Containerize the API; run untrusted tasks in ephemeral restricted workers | Working implementation |
-| 03:00–04:30 | Add CI tests for permission denial, harness limits and eval regression | Tested failure scenarios |
-| 04:30–05:00 | Deploy staging with logs, resource caps, secrets isolation and rollback | ADR, commit and English summary |
+| 0:00–1:30 | Study staging/production, CI security gates, secrets isolation and reusable templates; study the mapped official module and links. | Notes, 5 recall questions |
+| 1:30–3:00 | Implement: Deploy bounded agent with CI, eval smoke suite and rollback document. | Lab/code/architecture artifact |
+| 3:00–4:30 | Reproduce closed-book, test negative outcomes and explain controls. | Tests and traces |
+| 4:30–5:00 | Map to CCDV-F: deployment, reuse and review and record an English architecture explanation. | ADR and Git commit |
 
-**Acceptance:** Staging passes controls while worker cannot access application secrets.
-
-- [ ] Course and concepts
-- [ ] Functioning implementation and negative tests
-- [ ] Committed evidence and documented trade-offs
+**Completion:** Read mapped official content; finish lab; pass positive/negative tests; state failure, cost and security trade-offs.
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 20 — Sandbox 化 Agent Runtime 與 CI/CD
+# Day 20 — 安全部署與可重用 Accelerators
 
 **2026-11-14 · 5 小時** · [首頁](../README.md)
 
-## 今日 Partner Academy 課程與直達教材
+## Accenture Partner Academy 指定內容
 
-**Partner Academy：** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（已確認公開課程入口；登入後查看內部單元）。
+**官方課程模組或考綱：** [Developer – Production Engineering, Evals & Security; Accelerators & IP Contribution (part 1)](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)。如果標註的是考綱領域而非課程，請以該官方認證頁面的 Exam Guide 為準。
 
-1. [Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions)
-2. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
-3. [Sandbox deployment considerations](../docs/ai-sandbox-security.md)
+**對應認證：** CCDV-F: deployment, reuse and review。
 
-**閱讀目標：** Study CI, deployment stages, secrets, restricted workers, rollback and health checks。
+**當日直達文件：**
+1. [en/github-actions](https://code.claude.com/docs/en/github-actions)
+2. [docs/ai-sandbox-security.md](../docs/ai-sandbox-security.md)
 
-**對應實作：** Deploy staging Agent API and enforce sandbox/permission checks in CI。
+## 五小時每日實作安排
 
-## 融合式學習與實作
-
-**教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) 帳號內授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/ai-sandbox-security.md)。
-
-| 時段 | 當天學習與實作 | 產出 |
+| 時段 | 今天具體學習與實作 | 證據 |
 |---|---|---|
-| 00:00–01:30 | 設計應用服務與非可信任執行的隔離邊界 | 觀念與架構筆記 |
-| 01:30–03:00 | 容器化 API，以受限臨時 Worker 執行不可信任任務 | 可執行成果 |
-| 03:00–04:30 | 在 CI 加入拒絕授權、Harness 限制及 Eval 回歸測試 | 錯誤情境與測試 |
-| 04:30–05:00 | 部署 Staging、資源限制、Secrets 隔離與 Rollback | ADR、Commit 和英文說明 |
+| 00:00–01:30 | 學習 Staging／Production、CI 安全閘門、Secrets 隔離與樣板，完成對應官方模組和文件。 | 概念筆記、5 題自測 |
+| 01:30–03:00 | 實作：部署 Agent，加入 CI、Eval Smoke Test 與 Rollback 文件。 | 程式／架構成果 |
+| 03:00–04:30 | 閉卷重做與反向測試，解釋安全控制。 | 測試與 Trace |
+| 04:30–05:00 | 對照 CCDV-F: deployment, reuse and review 並完成英文架構解說。 | ADR、Git Commit |
 
-**驗收：** Staging 通過測試，Worker 無法讀取應用密鑰。
-
-- [ ] 完成概念與課程
-- [ ] 實作功能及反向測試
-- [ ] 提交成果與設計取捨
+**驗收：** 完成指定官方模組、實作並通過正反測試，能說明故障、成本與安全取捨。
