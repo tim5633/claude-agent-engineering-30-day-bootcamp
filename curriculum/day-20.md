@@ -1,56 +1,45 @@
-# Day 20 — CI/CD & deployment
+# Day 20 — Sandboxed Agent Runtime & CI/CD
 
-**2026-11-14 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+**2026-11-14 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Objective and resources
+## Integrated learning and practice
 
-Learn Day 20 — CI/CD & deployment through authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) lessons and [Claude documentation](https://docs.anthropic.com/). Include security boundaries, alternatives, failure modes and costs.
+**Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/ai-sandbox-security.md).
 
-## Daily schedule
-
-| Time | Task | Evidence |
+| Time | Assignment | Evidence |
 |---|---|---|
-| 0:00–1:30 | Complete official course and read documentation | Five key concepts |
-| 1:30–3:00 | Guided lab: Containerize and deploy the service with CI, secrets and rollback | Working code and tests |
-| 3:00–4:30 | Independent implementation, deliberate fault and regression | Commits, traces, test report |
-| 4:30–5:00 | Validate outcomes, document trade-offs and explain in English | Daily log / ADR |
+| 00:00–01:30 | Design separate application and untrusted execution boundaries | Notes and design sketch |
+| 01:30–03:00 | Containerize the API; run untrusted tasks in ephemeral restricted workers | Working implementation |
+| 03:00–04:30 | Add CI tests for permission denial, harness limits and eval regression | Tested failure scenarios |
+| 04:30–05:00 | Deploy staging with logs, resource caps, secrets isolation and rollback | ADR, commit and English summary |
 
-## Acceptance checklist
+**Acceptance:** Staging passes controls while worker cannot access application secrets.
 
-- [ ] Reproduced capability without step-by-step tutorial
-- [ ] Tested negative/security/error cases
-- [ ] Measured relevant costs and reliability
-- [ ] Committed working code and provided a 3-minute explanation
+- [ ] Course and concepts
+- [ ] Functioning implementation and negative tests
+- [ ] Committed evidence and documented trade-offs
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 20 — CI/CD & deployment
+# Day 20 — Sandbox 化 Agent Runtime 與 CI/CD
 
-**2026-11-14 · 5 小時** · [Home](../README.md)
+**2026-11-14 · 5 小時** · [首頁](../README.md)
 
-## 今日學習目標
+## 融合式學習與實作
 
-深入掌握 **CI/CD & deployment** 的原理、應用、替代設計、風險與成本。
+**教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) 帳號內授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/ai-sandbox-security.md)。
 
-**課程來源：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（以授權帳號內最新課綱為準）、[Claude Academy](https://academy.claude.com/)、[官方技術文件](https://docs.anthropic.com/)。
-
-## 每日時間線
-
-| 時間 | 學習任務 | 交付 |
+| 時段 | 當天學習與實作 | 產出 |
 |---|---|---|
-| 00:00–01:30 | 官方課程與技術文件，整理 5 個核心概念 | Notes |
-| 01:30–03:00 | Guided lab：將 CI/CD & deployment 應用於 Capstone | Working code |
-| 03:00–04:30 | Closed-book：自行擴充、注入錯誤、測試與 Debug | Tests + Git commit |
-| 04:30–05:00 | 驗收、技術決策、英文解說 | Daily log + ADR |
+| 00:00–01:30 | 設計應用服務與非可信任執行的隔離邊界 | 觀念與架構筆記 |
+| 01:30–03:00 | 容器化 API，以受限臨時 Worker 執行不可信任任務 | 可執行成果 |
+| 03:00–04:30 | 在 CI 加入拒絕授權、Harness 限制及 Eval 回歸測試 | 錯誤情境與測試 |
+| 04:30–05:00 | 部署 Staging、資源限制、Secrets 隔離與 Rollback | ADR、Commit 和英文說明 |
 
-## 實戰驗收
+**驗收：** Staging 通過測試，Worker 無法讀取應用密鑰。
 
-在 [Enterprise Financial Research Agent](../docs/capstone.md) 實作今日能力，保留測試和 trace。自行說明為何選擇此架構、如何處理權限/成本/失敗、如何客觀評估。
-
-- [ ] 完成官方課程與筆記
-- [ ] 獨立完成可執行功能
-- [ ] 相關測試通過
-- [ ] 記錄失敗案例與修復
-- [ ] Git commit、英文 3 分鐘講解
+- [ ] 完成概念與課程
+- [ ] 實作功能及反向測試
+- [ ] 提交成果與設計取捨
