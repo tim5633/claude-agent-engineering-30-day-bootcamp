@@ -1,69 +1,53 @@
-# Day 19 — Harness Tracing, Observability & Cost
+# Day 19 — Tracing, Cost, Reliability & FinOps
 
 **2026-11-13 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Assigned Partner Academy lesson and direct reading links
+## Accenture Partner Academy mapping
 
-**Partner Academy:** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (verified public landing page; sign in for lessons).
+**Official module or exam domain:** [Developer – Production Engineering, Evals & Security: tracing and budgets](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
 
-1. [Agent eval methodology](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
-2. [Tool context management](https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context)
-3. [Prompt caching for tools](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching)
+**Certification mapping:** CCDV-F: Production engineering; CCAR-F: Reliability.
 
-**Read and understand:** Study trace propagation, task costs, errors, token metrics and cache trade-offs.
+**Direct study references:**
+1. [build-with-claude/prompt-caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)
+2. [docs/evaluation-harness.md](../docs/evaluation-harness.md)
 
-**Hands-on assignment:** Correlate tool actions, sandbox denials and eval outcomes in a monitoring report.
+## Daily five-hour schedule
 
-## Integrated learning and practice
-
-**Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/evaluation-harness.md).
-
-| Time | Assignment | Evidence |
+| Time | What to study or build | Evidence |
 |---|---|---|
-| 00:00–01:30 | Study correlated events across model, harness, tools, sandbox and graders | Notes and design sketch |
-| 01:30–03:00 | Capture session and trace IDs, tool calls, token usage and latencies | Working implementation |
-| 03:00–04:30 | Join failure traces to sandbox decisions and evaluation outcomes | Tested failure scenarios |
-| 04:30–05:00 | Compare two settings on cost per task, accuracy and error rate | ADR, commit and English summary |
+| 0:00–1:30 | Study task cost, prompt caching, latency percentiles, error taxonomy, retries; study the mapped official module and links. | Notes, 5 recall questions |
+| 1:30–3:00 | Implement: Correlate model turns, tool calls and sandbox decisions to eval outcomes. | Lab/code/architecture artifact |
+| 3:00–4:30 | Reproduce closed-book, test negative outcomes and explain controls. | Tests and traces |
+| 4:30–5:00 | Map to CCDV-F: Production engineering; CCAR-F: Reliability and record an English architecture explanation. | ADR and Git commit |
 
-**Acceptance:** Every failing evaluation links to a trace and tool-level root cause.
-
-- [ ] Course and concepts
-- [ ] Functioning implementation and negative tests
-- [ ] Committed evidence and documented trade-offs
+**Completion:** Read mapped official content; finish lab; pass positive/negative tests; state failure, cost and security trade-offs.
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 19 — Harness 追蹤、可觀測性與成本
+# Day 19 — Tracing、成本、可靠性與 FinOps
 
 **2026-11-13 · 5 小時** · [首頁](../README.md)
 
-## 今日 Partner Academy 課程與直達教材
+## Accenture Partner Academy 指定內容
 
-**Partner Academy：** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（已確認公開課程入口；登入後查看內部單元）。
+**官方課程模組或考綱：** [Developer – Production Engineering, Evals & Security: tracing and budgets](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)。如果標註的是考綱領域而非課程，請以該官方認證頁面的 Exam Guide 為準。
 
-1. [Agent eval methodology](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
-2. [Tool context management](https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context)
-3. [Prompt caching for tools](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching)
+**對應認證：** CCDV-F: Production engineering; CCAR-F: Reliability。
 
-**閱讀目標：** Study trace propagation, task costs, errors, token metrics and cache trade-offs。
+**當日直達文件：**
+1. [build-with-claude/prompt-caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)
+2. [docs/evaluation-harness.md](../docs/evaluation-harness.md)
 
-**對應實作：** Correlate tool actions, sandbox denials and eval outcomes in a monitoring report。
+## 五小時每日實作安排
 
-## 融合式學習與實作
-
-**教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) 帳號內授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/evaluation-harness.md)。
-
-| 時段 | 當天學習與實作 | 產出 |
+| 時段 | 今天具體學習與實作 | 證據 |
 |---|---|---|
-| 00:00–01:30 | 理解模型、Harness、Tools、Sandbox、評分器的關聯事件 | 觀念與架構筆記 |
-| 01:30–03:00 | 收集 Session／Trace ID、工具呼叫、Token 與延遲 | 可執行成果 |
-| 03:00–04:30 | 連結失敗 Trace、Sandbox 決策與評估結果 | 錯誤情境與測試 |
-| 04:30–05:00 | 比較兩組設定的單任務成本、成功率與錯誤率 | ADR、Commit 和英文說明 |
+| 00:00–01:30 | 學習任務成本、Prompt Caching、延遲、錯誤分類與重試，完成對應官方模組和文件。 | 概念筆記、5 題自測 |
+| 01:30–03:00 | 實作：關聯模型輪次、工具呼叫、Sandbox 決策與評估。 | 程式／架構成果 |
+| 03:00–04:30 | 閉卷重做與反向測試，解釋安全控制。 | 測試與 Trace |
+| 04:30–05:00 | 對照 CCDV-F: Production engineering; CCAR-F: Reliability 並完成英文架構解說。 | ADR、Git Commit |
 
-**驗收：** 每筆失敗評估可追溯至具體工具及根因。
-
-- [ ] 完成概念與課程
-- [ ] 實作功能及反向測試
-- [ ] 提交成果與設計取捨
+**驗收：** 完成指定官方模組、實作並通過正反測試，能說明故障、成本與安全取捨。
