@@ -2,6 +2,20 @@
 
 **2026-10-29 · 5 hours** · [Home](../README.md) · [繁體中文 ↓](#traditional-chinese)
 
+## Assigned lessons & direct learning links
+
+**Partner Academy module:** [Claude Code, MCP & Integration — permissions and hooks](https://anthropic-partners.skilljar.com/claude-code-mcp-integration) (sign in using your company account; select the named topic).
+
+1. [Claude Code hooks](https://code.claude.com/docs/en/hooks)
+2. [Claude Code permissions](https://code.claude.com/docs/en/permissions)
+3. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
+
+**Read for:** Identify permission checks, hooks and OS sandbox boundaries,Implement deny tests for sensitive files and disallowed commands.
+
+**Lab tied to these resources:** undefined.
+
+**Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
+
 ## Learning outcomes
 
 Study Claude Code permission modes, PreToolUse/PostToolUse hooks, and how policy checks differ from OS-level isolation.
@@ -33,6 +47,18 @@ Study Claude Code permission modes, PreToolUse/PostToolUse hooks, and how policy
 # Day 04 — Hooks、權限與 Sandbox 基礎
 
 **2026-10-29 · 5 小時** · [首頁](../README.md)
+
+## 今日指定教材與直達連結
+
+**Partner Academy 課程：** [Claude Code, MCP & Integration — permissions and hooks](https://anthropic-partners.skilljar.com/claude-code-mcp-integration)（使用公司帳號登入，選擇上述主題）。
+
+1. [Claude Code hooks](https://code.claude.com/docs/en/hooks)
+2. [Claude Code permissions](https://code.claude.com/docs/en/permissions)
+3. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
+
+**閱讀重點：** Identify permission checks, hooks and OS sandbox boundaries,Implement deny tests for sensitive files and disallowed commands。
+
+**指定實作：** undefined。
 
 ## 今日能力目標
 
