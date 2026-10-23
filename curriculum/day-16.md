@@ -1,63 +1,45 @@
-# Day 16 — State & approvals
+# Day 16 — Harness State, Checkpoints & Human Approval
 
-**2026-11-10 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+**2026-11-10 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Objective and resources
+## Integrated learning and practice
 
-Learn Day 16 — State & approvals through authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) lessons and [Claude documentation](https://docs.anthropic.com/). Include security boundaries, alternatives, failure modes and costs.
+**Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/agent-harness-engineering.md).
 
-## Daily schedule
-
-| Time | Task | Evidence |
+| Time | Assignment | Evidence |
 |---|---|---|
-| 0:00–1:30 | Complete official course and read documentation | Five key concepts |
-| 1:30–3:00 | Guided lab: Implement persistent sessions, checkpoint resume and human approvals | Working code and tests |
-| 3:00–4:30 | Independent implementation, deliberate fault and regression | Commits, traces, test report |
-| 4:30–5:00 | Validate outcomes, document trade-offs and explain in English | Daily log / ADR |
+| 00:00–01:30 | Learn session persistence, checkpoints, approval gates and idempotency | Notes and design sketch |
+| 01:30–03:00 | Implement resumable agent state with a human approval checkpoint | Working implementation |
+| 03:00–04:30 | Inject process failure before and after a sensitive tool action | Tested failure scenarios |
+| 04:30–05:00 | Test that resume never duplicates consequential side effects | ADR, commit and English summary |
 
-## Acceptance checklist
+**Acceptance:** An interrupted task resumes safely with an auditable approval.
 
-- [ ] Reproduced capability without step-by-step tutorial
-- [ ] Tested negative/security/error cases
-- [ ] Measured relevant costs and reliability
-- [ ] Committed working code and provided a 3-minute explanation
+- [ ] Course and concepts
+- [ ] Functioning implementation and negative tests
+- [ ] Committed evidence and documented trade-offs
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 16 — State & approvals
+# Day 16 — Harness 狀態、Checkpoint 與人工核准
 
-**2026-11-10 · 5 小時** · [Home](../README.md)
+**2026-11-10 · 5 小時** · [首頁](../README.md)
 
-## 今日學習目標
+## 融合式學習與實作
 
-深入掌握 **State & approvals** 的原理、應用、替代設計、風險與成本。
+**教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) 帳號內授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/agent-harness-engineering.md)。
 
-**課程來源：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（以授權帳號內最新課綱為準）、[Claude Academy](https://academy.claude.com/)、[官方技術文件](https://docs.anthropic.com/)。
-
-## 每日時間線
-
-| 時間 | 學習任務 | 交付 |
+| 時段 | 當天學習與實作 | 產出 |
 |---|---|---|
-| 00:00–01:30 | 官方課程與技術文件，整理 5 個核心概念 | Notes |
-| 01:30–03:00 | Guided lab：將 State & approvals 應用於 Capstone | Working code |
-| 03:00–04:30 | Closed-book：自行擴充、注入錯誤、測試與 Debug | Tests + Git commit |
-| 04:30–05:00 | 驗收、技術決策、英文解說 | Daily log + ADR |
+| 00:00–01:30 | 學習 Session 保存、Checkpoint、人工核准與冪等性 | 觀念與架構筆記 |
+| 01:30–03:00 | 建立有人工核准關卡的可恢復 Agent 狀態 | 可執行成果 |
+| 03:00–04:30 | 在高風險工具執行前後模擬當機 | 錯誤情境與測試 |
+| 04:30–05:00 | 確認 Resume 不會重複執行有副作用的動作 | ADR、Commit 和英文說明 |
 
-## 實戰驗收
+**驗收：** 當機後安全恢復，並保留人工核准紀錄。
 
-在 [Enterprise Financial Research Agent](../docs/capstone.md) 實作今日能力，保留測試和 trace。自行說明為何選擇此架構、如何處理權限/成本/失敗、如何客觀評估。
-
-- [ ] 完成官方課程與筆記
-- [ ] 獨立完成可執行功能
-- [ ] 相關測試通過
-- [ ] 記錄失敗案例與修復
-- [ ] Git commit、英文 3 分鐘講解
-
-
-## Advanced Track — Long-running Harness and crash recovery
-
-Read [Agent Harness Engineering](../docs/agent-harness-engineering.md). Implement session state, checkpoints, process-restart recovery and idempotency for consequential tools; test an interrupted workflow.
-
-**Additional exit check:** Demonstrate the boundary with a repeatable test and record one architecture trade-off in the daily engineering log.
+- [ ] 完成概念與課程
+- [ ] 實作功能及反向測試
+- [ ] 提交成果與設計取捨
