@@ -1,63 +1,45 @@
-# Day 29 — Go-live simulation
+# Day 29 — Go-Live Drill: Harness, Sandbox & Evaluation
 
-**2026-11-23 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+**2026-11-23 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Objective and official resources
+**Reference:** [Partner Academy](https://anthropic-partners.skilljar.com/) authorized modules, [Claude documentation](https://docs.anthropic.com/), [deep-dive](../docs/evaluation-harness.md).
 
-Study Day 29 — Go-live simulation using authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) course content, current exam guides and [Claude documentation](https://docs.anthropic.com/). Focus on enterprise security, design, communication and independent execution.
+## Five-hour integrated daily plan
 
-## Daily schedule
-
-| Time | Task | Evidence |
+| Time | Action | Evidence |
 |---|---|---|
-| 0:00–1:30 | Course or exam guide analysis and notes | Five key concepts |
-| 1:30–3:00 | Guided challenge: Simulate API timeout, sandbox denial, crash recovery and injected prompts | Reviewable deliverable |
-| 3:00–4:30 | Independent client/engineering scenario, failure analysis and revision | Tests, decisions, artifacts |
-| 4:30–5:00 | English presentation, self-assessment and commit | Daily log / ADR |
+| 00:00–01:30 | Plan failure tests: infinite loop, tool crash, injected document, denied egress and write attempt | Notes and sketches |
+| 01:30–03:00 | Run complete golden evaluations from isolated disposable fixtures | Build / design |
+| 03:00–04:30 | Verify safe stop, session recovery, denied actions, approval gates and rollback | Evaluation, security and failure evidence |
+| 04:30–05:00 | Write go/no-go report with evidence and residual risks | ADR + commit + English explanation |
 
-## Completion criteria
+**Acceptance:** Critical controls survive fault injection and a clean eval run is recorded.
 
-- [ ] Independently demonstrate the daily deliverable
-- [ ] Identify security, cost and operational trade-offs
-- [ ] Retain evidence, technical notes and an implementation or documentation commit
-- [ ] Answer questions without reading the lesson
+- [ ] Concepts and coursework completed
+- [ ] Independently tested outcome
+- [ ] Architecture decision and evidence committed
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 29 — Go-live simulation
+# Day 29 — Harness、Sandbox 與 Evaluation 上線演練
 
-**2026-11-23 · 5 小時** · [Home](../README.md)
+**2026-11-23 · 5 小時** · [首頁](../README.md)
 
-## 今日學習目標
+**教材：** [Partner Academy](https://anthropic-partners.skilljar.com/) 授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/evaluation-harness.md)。
 
-深入掌握 **Go-live simulation** 的原理、應用、替代設計、風險與成本。
+## 每日融合式五小時課表
 
-**課程來源：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（以授權帳號內最新課綱為準）、[Claude Academy](https://academy.claude.com/)、[官方技術文件](https://docs.anthropic.com/)。
-
-## 每日時間線
-
-| 時間 | 學習任務 | 交付 |
+| 時段 | 學習與實作 | 證據 |
 |---|---|---|
-| 00:00–01:30 | 官方課程與技術文件，整理 5 個核心概念 | Notes |
-| 01:30–03:00 | Guided lab：將 Go-live simulation 應用於 Capstone | Working code |
-| 03:00–04:30 | Closed-book：自行擴充、注入錯誤、測試與 Debug | Tests + Git commit |
-| 04:30–05:00 | 驗收、技術決策、英文解說 | Daily log + ADR |
+| 00:00–01:30 | 設計無限循環、工具當機、惡意文件、拒絕外連與越權寫入測試 | 觀念筆記與架構圖 |
+| 01:30–03:00 | 在乾淨隔離 Fixture 執行 Golden Evaluation | 實作或設計 |
+| 03:00–04:30 | 驗證停止、恢復、拒絕操作、人工核准與 Rollback | 評估、安全與故障測試 |
+| 04:30–05:00 | 以證據完成 Go／No-Go 報告與殘餘風險表 | ADR、Commit、英文說明 |
 
-## 實戰驗收
+**驗收：** 故障情境下安全控制仍有效，且有可重現的評估證據。
 
-在 [Enterprise Financial Research Agent](../docs/capstone.md) 實作今日能力，保留測試和 trace。自行說明為何選擇此架構、如何處理權限/成本/失敗、如何客觀評估。
-
-- [ ] 完成官方課程與筆記
-- [ ] 獨立完成可執行功能
-- [ ] 相關測試通過
-- [ ] 記錄失敗案例與修復
-- [ ] Git commit、英文 3 分鐘講解
-
-
-## Advanced Track — Integrated Agent Harness + Sandbox + Eval security gate
-
-Review [Harness](../docs/agent-harness-engineering.md), [Sandbox](../docs/ai-sandbox-security.md) and [Evals](../docs/evaluation-harness.md). Inject simulated long-running task timeout, process crash, denied network egress, malicious retrieved instruction and unauthorized SQL write; verify isolation, checkpoint recovery, audit trail and outcome graders.
-
-**Additional exit check:** Demonstrate the boundary with a repeatable test and record one architecture trade-off in the daily engineering log.
+- [ ] 完成課程與理解
+- [ ] 獨立測試成果
+- [ ] 提交設計取捨及證據
