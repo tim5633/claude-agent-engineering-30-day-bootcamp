@@ -9,9 +9,9 @@
 1. [Claude API documentation](https://platform.claude.com/docs/en/home)
 2. [Claude API Messages endpoint](https://platform.claude.com/docs/en/api/messages)
 
-**Read for:** Study message structure, model selection, rate limits and token accounting,Create a Python API client with retries and per-task usage tracking.
+**Study topics:** Study Messages API structure, tokens, rate limits and model selection.
 
-**Lab tied to these resources:** undefined.
+**Required hands-on lab:** Build Python API client with retries and cost tracking.
 
 **Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
 
