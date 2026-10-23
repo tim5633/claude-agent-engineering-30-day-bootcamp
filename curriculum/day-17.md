@@ -2,6 +2,14 @@
 
 **2026-11-11 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Open course → assigned section → lab → credential
+
+- **Official company learning:** [Associate: Governance, Risk & Responsible Use; Developer: Production Security](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses).
+- **Section/topic:** Sandbox boundaries, least privilege and prompt injection. Focus selected for this day; gated lesson headings should be checked in your logged-in course.
+- **Hands-on lab:** Test blocked file/network access in disposable sandbox with synthetic fixtures. plus negative/security test.
+- **Exam:** **CCAO-F, CCDV-F, CCAR-P** ([official guide](https://anthropic-partners.skilljar.com/page/partner-certifications)).
+- **Pass:** demonstrate implementation, tests, trace and architecture trade-off.
+
 ## Accenture Partner Academy mapping
 
 **Official module or exam domain:** [Associate – Governance, Risk & Responsible Use (55 min); Developer – Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-associate-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
@@ -30,6 +38,14 @@
 # Day 17 — 治理、安全與 Sandbox 隔離
 
 **2026-11-11 · 5 小時** · [首頁](../README.md)
+
+## 每日課程 → Section → 實作 → 認證
+
+- **公司官方課程：** [Associate: Governance, Risk & Responsible Use; Developer: Production Security](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)。
+- **Section：** Sandbox boundaries, least privilege and prompt injection（指定主題，登入確認實際 Lesson 名稱）。
+- **Lab：** Test blocked file/network access in disposable sandbox with synthetic fixtures.，加入越權／失敗測試。
+- **認證：** **CCAO-F, CCDV-F, CCAR-P**（[官方考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)）。
+- **驗收：** 實作、測試、Trace 與架構取捨。
 
 ## Accenture Partner Academy 指定內容
 
