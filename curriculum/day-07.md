@@ -9,9 +9,9 @@
 1. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
 2. [Claude Code hooks](https://code.claude.com/docs/en/hooks)
 
-**Read for:** Review skills, hooks, MCP access and the build-test-review loop,Complete full-stack issue tracker and run permissions and regression checks.
+**Study topics:** Review Skills, Hooks, MCP access and end-to-end review loop.
 
-**Lab tied to these resources:** undefined.
+**Required hands-on lab:** Build a full-stack issue tracker and security regression tests.
 
 **Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
 
