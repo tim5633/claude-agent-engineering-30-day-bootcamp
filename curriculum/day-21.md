@@ -1,67 +1,53 @@
-# Day 21 — Partner Capstone: Harness & Security Review
+# Day 21 — Reusable Accelerators & Claude Code Partner Badge
 
 **2026-11-15 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-**Reference:** [Partner Academy](https://anthropic-partners.skilljar.com/) authorized modules, [Claude documentation](https://docs.anthropic.com/), [deep-dive](../docs/evaluation-harness.md).
+## Company Partner Academy module and official exam blueprint
 
-## Assigned Partner Academy lesson and direct reading links
+**Assigned:** [Developer – Accelerators & IP Contribution (complete 155 min across Days 20–21); Claude Partner Badge: Claude Code](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). A 'part' is a suggested split of one official module, not a new module name.
 
-**Partner Academy:** [Accelerators & IP Contribution / Claude Code Partner Badge (if visible)](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (verified public landing page; sign in for lessons).
+**Exam coverage:** CCDV-F: delivery/reuse; CCAR-F: Claude Code Configuration (20%).
 
-1. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
-2. [Evaluation and regression](../docs/evaluation-harness.md)
+**Direct reading and authoritative course links:**
+1. [en/skills](https://code.claude.com/docs/en/skills)
+2. [en/best-practices](https://code.claude.com/docs/en/best-practices)
 
-**Read and understand:** Review reusable accelerators, Claude Code policy, MCP authorization and test evidence.
+## Detailed 5-hour schedule
 
-**Hands-on assignment:** Complete Partner Badge capstone where enabled and run integrated security evals.
-
-## Five-hour integrated daily plan
-
-| Time | Action | Evidence |
+| Time | Assigned work | Evidence |
 |---|---|---|
-| 00:00–01:30 | Review Partner Academy Claude Code badge requirements and deployed controls | Notes and sketches |
-| 01:30–03:00 | Audit Claude Code permissions, tool gates, MCP authorization and sandbox boundaries | Build / design |
-| 03:00–04:30 | Run bounded-loop and sandbox security regressions, report evaluation metrics | Evaluation, security and failure evidence |
-| 04:30–05:00 | Document gaps and Developer exam readiness | ADR + commit + English explanation |
+| 0:00–1:30 | Study repo standards, Skills packaging, plugin governance, documentation, delivery handover. Study the named official course section and exam guide. | Concept notes + domain mapping |
+| 1:30–3:00 | Package MCP/agent templates; complete original Partner Badge capstone where enrolled. | Lab/design artifact |
+| 3:00–4:30 | Independently simulate a client challenge; test risks and alternatives. | Test/report + trade-off rationale |
+| 4:30–5:00 | Explain in English and update exam readiness tracker. | Git commit, ADR, exam checklist |
 
-**Acceptance:** Integrated policy and reliability controls supported by real test evidence.
-
-- [ ] Concepts and coursework completed
-- [ ] Independently tested outcome
-- [ ] Architecture decision and evidence committed
+**Gate:** Deliver the practical artifact, defend it without notes, and identify unresolved weaknesses. Official exams should only be booked once registered and ready.
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 21 — Partner Capstone：Harness 與安全審查
+# Day 21 — 可重用 Accelerators 與 Claude Code Badge
 
 **2026-11-15 · 5 小時** · [首頁](../README.md)
 
-**教材：** [Partner Academy](https://anthropic-partners.skilljar.com/) 授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/evaluation-harness.md)。
+## 公司指定 Partner Academy 模組與認證考綱
 
-## 今日 Partner Academy 課程與直達教材
+**指定課程：** [Developer – Accelerators & IP Contribution (complete 155 min across Days 20–21); Claude Partner Badge: Claude Code](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)。其中 part 是建議分段，不是另創的官方模組名稱。
 
-**Partner Academy：** [Accelerators & IP Contribution / Claude Code Partner Badge (if visible)](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（已確認公開課程入口；登入後查看內部單元）。
+**考綱對照：** CCDV-F: delivery/reuse; CCAR-F: Claude Code Configuration (20%)。
 
-1. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
-2. [Evaluation and regression](../docs/evaluation-harness.md)
+**官方學習入口／直達文件：**
+1. [en/skills](https://code.claude.com/docs/en/skills)
+2. [en/best-practices](https://code.claude.com/docs/en/best-practices)
 
-**閱讀目標：** Review reusable accelerators, Claude Code policy, MCP authorization and test evidence。
+## 五小時詳細課表
 
-**對應實作：** Complete Partner Badge capstone where enabled and run integrated security evals。
-
-## 每日融合式五小時課表
-
-| 時段 | 學習與實作 | 證據 |
+| 時段 | 必修內容 | 交付 |
 |---|---|---|
-| 00:00–01:30 | 檢查 Partner Academy Badge 要求及目前控制措施 | 觀念筆記與架構圖 |
-| 01:30–03:00 | 審查 Claude Code 權限、MCP 授權與 Sandbox 信任邊界 | 實作或設計 |
-| 03:00–04:30 | 執行 Harness 有界循環、安全回歸測試與 Evaluation 報告 | 評估、安全與故障測試 |
-| 04:30–05:00 | 記錄問題及 Developer 認證準備程度 | ADR、Commit、英文說明 |
+| 00:00–01:30 | 學習 Repo 標準、Skills 包裝、Plugin 治理、文件與交接，閱讀指定官方課程與 Exam Guide。 | 知識筆記、考綱對照 |
+| 01:30–03:00 | 實作：包裝 MCP/Agent 樣板，完成已報名的 Partner Badge Capstone。 | Lab／架構文件 |
+| 03:00–04:30 | 自己模擬客戶情境、測試風險並比較替代方案。 | 測試／報告與技術取捨 |
+| 04:30–05:00 | 用英文解說並更新認證進度。 | Commit、ADR、考試清單 |
 
-**驗收：** 所有控制都有實際測試證據。
-
-- [ ] 完成課程與理解
-- [ ] 獨立測試成果
-- [ ] 提交設計取捨及證據
+**驗收：** 能不看筆記交付成果、解釋技術決策與剩餘弱點；正式考試僅在已登記且準備充分時安排。
