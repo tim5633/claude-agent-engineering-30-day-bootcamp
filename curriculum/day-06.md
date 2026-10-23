@@ -2,6 +2,19 @@
 
 **2026-10-31 · 5 hours** · [Home](../README.md) · [繁體中文 ↓](#traditional-chinese)
 
+## Assigned lessons & direct learning links
+
+**Partner Academy module:** [Claude Code, MCP & Integration — Model Context Protocol](https://anthropic-partners.skilljar.com/claude-code-mcp-integration) (sign in using your company account; select the named topic).
+
+1. [Claude Code MCP](https://code.claude.com/docs/en/mcp)
+2. [MCP official introduction](https://modelcontextprotocol.io/introduction)
+
+**Read for:** Understand MCP host/client/server, resources and tool contracts,Implement a read-only MCP server using synthetic documents and test unauthorized requests.
+
+**Lab tied to these resources:** undefined.
+
+**Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
+
 ## Learning outcomes
 
 Understand MCP tool schemas, trust boundaries, credentials and server-side authorization.
@@ -33,6 +46,17 @@ Understand MCP tool schemas, trust boundaries, credentials and server-side autho
 # Day 06 — MCP 工具與信任邊界
 
 **2026-10-31 · 5 小時** · [首頁](../README.md)
+
+## 今日指定教材與直達連結
+
+**Partner Academy 課程：** [Claude Code, MCP & Integration — Model Context Protocol](https://anthropic-partners.skilljar.com/claude-code-mcp-integration)（使用公司帳號登入，選擇上述主題）。
+
+1. [Claude Code MCP](https://code.claude.com/docs/en/mcp)
+2. [MCP official introduction](https://modelcontextprotocol.io/introduction)
+
+**閱讀重點：** Understand MCP host/client/server, resources and tool contracts,Implement a read-only MCP server using synthetic documents and test unauthorized requests。
+
+**指定實作：** undefined。
 
 ## 今日能力目標
 
