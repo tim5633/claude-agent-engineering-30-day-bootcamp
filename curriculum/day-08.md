@@ -2,6 +2,19 @@
 
 **2026-11-02 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
 
+## Assigned lessons & direct learning links
+
+**Partner Academy module:** [Developer Foundations — MSO Foundations](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (sign in using your company account; select the named topic).
+
+1. [Claude API documentation](https://platform.claude.com/docs/en/home)
+2. [Claude API Messages endpoint](https://platform.claude.com/docs/en/api/messages)
+
+**Read for:** Study message structure, model selection, rate limits and token accounting,Create a Python API client with retries and per-task usage tracking.
+
+**Lab tied to these resources:** undefined.
+
+**Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
+
 ## Objective and resources
 
 Learn Day 08 — Messages API. Study the corresponding authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) modules and [Claude documentation](https://docs.anthropic.com/). Explain design alternatives, reliability, permissions, and costs.
@@ -29,6 +42,17 @@ Learn Day 08 — Messages API. Study the corresponding authorized [Anthropic Par
 # Day 08 — Messages API
 
 **2026-11-02 · 5 小時** · [Home](../README.md)
+
+## 今日指定教材與直達連結
+
+**Partner Academy 課程：** [Developer Foundations — MSO Foundations](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（使用公司帳號登入，選擇上述主題）。
+
+1. [Claude API documentation](https://platform.claude.com/docs/en/home)
+2. [Claude API Messages endpoint](https://platform.claude.com/docs/en/api/messages)
+
+**閱讀重點：** Study message structure, model selection, rate limits and token accounting,Create a Python API client with retries and per-task usage tracking。
+
+**指定實作：** undefined。
 
 ## 今日學習目標
 
