@@ -2,6 +2,14 @@
 
 **2026-11-12 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Open course → assigned section → lab → credential
+
+- **Official company learning:** [Developer: Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses).
+- **Section/topic:** Golden cases, outcome graders and evaluation harness. Focus selected for this day; gated lesson headings should be checked in your logged-in course.
+- **Hands-on lab:** Create a 50-case clean-fixture eval harness and baseline report. plus negative/security test.
+- **Exam:** **CCDV-F, CCAO-F** ([official guide](https://anthropic-partners.skilljar.com/page/partner-certifications)).
+- **Pass:** demonstrate implementation, tests, trace and architecture trade-off.
+
 ## Accenture Partner Academy mapping
 
 **Official module or exam domain:** [Developer – Production Engineering, Evals & Security: evals and tests; Associate – Output Evaluation review](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
@@ -30,6 +38,14 @@
 # Day 18 — Evaluation Harness 與品質閘門
 
 **2026-11-12 · 5 小時** · [首頁](../README.md)
+
+## 每日課程 → Section → 實作 → 認證
+
+- **公司官方課程：** [Developer: Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)。
+- **Section：** Golden cases, outcome graders and evaluation harness（指定主題，登入確認實際 Lesson 名稱）。
+- **Lab：** Create a 50-case clean-fixture eval harness and baseline report.，加入越權／失敗測試。
+- **認證：** **CCDV-F, CCAO-F**（[官方考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)）。
+- **驗收：** 實作、測試、Trace 與架構取捨。
 
 ## Accenture Partner Academy 指定內容
 
