@@ -10,9 +10,9 @@
 2. [Claude Code permissions](https://code.claude.com/docs/en/permissions)
 3. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
 
-**Read for:** Identify permission checks, hooks and OS sandbox boundaries,Implement deny tests for sensitive files and disallowed commands.
+**Study topics:** Distinguish permission checks, hooks and OS sandbox boundaries.
 
-**Lab tied to these resources:** undefined.
+**Required hands-on lab:** Create deny tests for sensitive files and prohibited commands.
 
 **Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
 
