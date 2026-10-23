@@ -1,4 +1,4 @@
-# AI Sandbox & Secure Execution｜隔離執行環境與安全邊界
+# AI Sandbox & Secure Execution
 
 [README](../README.md) · [Harness](agent-harness-engineering.md) · [Evals](evaluation-harness.md)
 
@@ -46,3 +46,15 @@
 - [Browser and computer use security](https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-sdk)
 
 > Safety-first labs only. Never test against networks, data or services without authorization.
+
+---
+
+<a id="traditional-chinese"></a>
+
+# AI Sandbox 與安全執行環境
+
+Harness 管理工作流；Sandbox 限制程式能讀取的檔案、存取的網路、使用的密鑰和消耗的資源。Prompt 規則不能替代 OS 隔離。
+
+學習：Threat Modeling、Filesystem Isolation、非 Root Container、Network Egress、Secrets、Resource Limits、Tool ACL、Human Approval、Browser/Computer Use Security。
+
+實作：在自己擁有的臨時容器測試唯讀掛載、禁止跨資料夾讀取、預設拒絕網路、密鑰隔離及惡意文件輸入；驗證限制發生在環境與工具層，不只靠 Prompt。
