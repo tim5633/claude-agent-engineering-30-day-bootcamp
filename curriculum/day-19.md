@@ -2,6 +2,14 @@
 
 **2026-11-13 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Corporate academy course, section, lab and exam
+
+- **Open:** [Developer: Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses) (company email).
+- **Study focus:** Tracing, cost, latency and regression evidence (recommended reading within official course; not a verified internal lesson title).
+- **Lab:** Correlate model turns, tool calls and sandbox decisions to eval outcomes.; include reproducible evidence and risk assessment.
+- **Certifications:** **CCDV-F, CCAR-F**; match current [official exam guide](https://anthropic-partners.skilljar.com/page/partner-certifications).
+- **Completion:** pass simulated test or client defense; record learning gaps.
+
 ## Accenture Partner Academy mapping
 
 **Official module or exam domain:** [Developer – Production Engineering, Evals & Security: tracing and budgets](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
@@ -30,6 +38,14 @@
 # Day 19 — Tracing、成本、可靠性與 FinOps
 
 **2026-11-13 · 5 小時** · [首頁](../README.md)
+
+## 公司官方課程、Section、Lab 與證書
+
+- **打開：** [Developer: Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)（公司信箱）。
+- **指定 Section：** Tracing, cost, latency and regression evidence（官方課程內建議主題，非核實的內部 Lesson 標題）。
+- **Lab：** Correlate model turns, tool calls and sandbox decisions to eval outcomes.，保留可重現的測試及風險證據。
+- **對應證書：** **CCDV-F, CCAR-F**，以[官方 Exam Guide](https://anthropic-partners.skilljar.com/page/partner-certifications)為準。
+- **驗收：** 完成測試或客戶情境答辯，記錄缺口。
 
 ## Accenture Partner Academy 指定內容
 
