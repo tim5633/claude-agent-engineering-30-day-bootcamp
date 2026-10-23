@@ -2,6 +2,19 @@
 
 **2026-10-26 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
 
+## Assigned lessons & direct learning links
+
+**Partner Academy module:** [Claude Code 101 / platform setup](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (sign in using your company account; select the named topic).
+
+1. [Claude Code overview](https://code.claude.com/docs/en/overview)
+2. [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
+
+**Read for:** Install CLI and API SDK; identify Claude Code vs Messages API vs Agent SDK roles,Run a first CLI task and a first API request; document the execution boundaries.
+
+**Lab tied to these resources:** undefined.
+
+**Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
+
 ## Objective and resources
 
 Learn Day 01 — Claude setup. Study the corresponding authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) modules and [Claude documentation](https://docs.anthropic.com/). Explain design alternatives, reliability, permissions, and costs.
@@ -29,6 +42,17 @@ Learn Day 01 — Claude setup. Study the corresponding authorized [Anthropic Par
 # Day 01 — Claude setup
 
 **2026-10-26 · 5 小時** · [Home](../README.md)
+
+## 今日指定教材與直達連結
+
+**Partner Academy 課程：** [Claude Code 101 / platform setup](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（使用公司帳號登入，選擇上述主題）。
+
+1. [Claude Code overview](https://code.claude.com/docs/en/overview)
+2. [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
+
+**閱讀重點：** Install CLI and API SDK; identify Claude Code vs Messages API vs Agent SDK roles,Run a first CLI task and a first API request; document the execution boundaries。
+
+**指定實作：** undefined。
 
 ## 今日學習目標
 
