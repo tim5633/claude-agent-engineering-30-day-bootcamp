@@ -2,6 +2,17 @@
 
 **2026-11-16 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Developer Foundations exam preparation](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (verified public landing page; sign in for lessons).
+
+1. [Partner certifications and official exam guide](https://anthropic-partners.skilljar.com/page/partner-certifications)
+2. [Developer Foundations course index](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)
+
+**Read and understand:** Map all five prep modules to official exam domains; do not rely on invented practice questions.
+
+**Hands-on assignment:** Run a 60-question self-written closed-book test and identify weak domains.
+
 ## Objective and official resources
 
 Study Day 22 — Developer exam prep using authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) course content, current exam guides and [Claude documentation](https://docs.anthropic.com/). Focus on enterprise security, design, communication and independent execution.
@@ -29,6 +40,17 @@ Study Day 22 — Developer exam prep using authorized [Anthropic Partner Academy
 # Day 22 — Developer exam prep
 
 **2026-11-16 · 5 小時** · [Home](../README.md)
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy：** [Developer Foundations exam preparation](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（已確認公開課程入口；登入後查看內部單元）。
+
+1. [Partner certifications and official exam guide](https://anthropic-partners.skilljar.com/page/partner-certifications)
+2. [Developer Foundations course index](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)
+
+**閱讀目標：** Map all five prep modules to official exam domains; do not rely on invented practice questions。
+
+**對應實作：** Run a 60-question self-written closed-book test and identify weak domains。
 
 ## 今日學習目標
 
