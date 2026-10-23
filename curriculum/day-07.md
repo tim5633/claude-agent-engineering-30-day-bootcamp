@@ -1,80 +1,63 @@
-# Day 07 — Full-stack app
+# Day 07 — Output Evaluation & Validation
 
-**2026-11-01 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+**2026-11-01 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Assigned lessons & direct learning links
+## Assigned Accenture / Anthropic Partner Academy courses
 
-**Partner Academy module:** [Claude Code, MCP & Integration — integration challenge](https://anthropic-partners.skilljar.com/claude-code-mcp-integration) (sign in using your company account; select the named topic).
+**Official Partner training:** [Associate: Evaluating & Validating Claude's Output (74 min)](https://anthropic-partners.skilljar.com/path/claude-certified-associate-foundations). The course title is official; subsections in parentheses indicate which portion to focus on today, not separate certified course titles.
 
-1. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
-2. [Claude Code hooks](https://code.claude.com/docs/en/hooks)
+**Certification blueprint mapping:** CCAO-F: Output Evaluation and Validation (21%); CCAR-F: Reliability.
 
-**Study topics:** Review Skills, Hooks, MCP access and end-to-end review loop.
+**Read these exact references:**
+1. [research/demystifying-evals-for-ai-agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
+2. [en/best-practices](https://code.claude.com/docs/en/best-practices)
 
-**Required hands-on lab:** Build a full-stack issue tracker and security regression tests.
+## Daily schedule (5 hours)
 
-**Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
-
-## Objective and resources
-
-Learn Day 07 — Full-stack app. Study the corresponding authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) modules and [Claude documentation](https://docs.anthropic.com/). Explain design alternatives, reliability, permissions, and costs.
-
-## Daily schedule
-
-| Time | Task | Evidence |
+| Time | Specific learning task | Evidence |
 |---|---|---|
-| 0:00–1:30 | Official course + docs; summarize five core concepts | Notes |
-| 1:30–3:00 | Guided lab: Create a full-stack app and complete independent review | Working code and tests |
-| 3:00–4:30 | Independent extension, fault injection, debugging | Commits and test results |
-| 4:30–5:00 | Verification, architecture decision and spoken English summary | Daily log / ADR |
+| 0:00–1:30 | Differentiate answer quality, factual verification, hallucination and human review. Complete the corresponding named Partner course lesson and read linked docs. | Concept notes and 5 recall questions |
+| 1:30–3:00 | Guided lab: Create 20-case answer validation rubric and grade the Week-1 web app assistant. | Working feature / config |
+| 3:00–4:30 | Closed-book: reproduce and extend the lab; add negative tests and failure handling. | Tests, traces, Git commit |
+| 4:30–5:00 | Map takeaways to CCAO-F: Output Evaluation and Validation (21%); CCAR-F: Reliability; explain trade-offs in English. | Exam domain notes + ADR |
 
-## Acceptance checklist
+## Passing criteria
 
-- [ ] Completed learning and independent implementation
-- [ ] Tested failure modes, permission boundaries and cost controls
-- [ ] Recorded technical trade-offs and a Git commit
-- [ ] Explained the result in English without reading a tutorial
+- [ ] Completed today's named academy lesson(s) and official readings
+- [ ] Built and tested the exact daily lab with at least one negative test
+- [ ] Can explain the exam domain without notes or copied exam questions
+- [ ] Committed results and recorded weaknesses
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 07 — Full-stack app
+# Day 07 — 輸出評估與驗證
 
-**2026-11-01 · 5 小時** · [Home](../README.md)
+**2026-11-01 · 5 小時** · [首頁](../README.md)
 
-## 今日指定教材與直達連結
+## 公司 Anthropic Partner Academy 指定課程
 
-**Partner Academy 課程：** [Claude Code, MCP & Integration — integration challenge](https://anthropic-partners.skilljar.com/claude-code-mcp-integration)（使用公司帳號登入，選擇上述主題）。
+**官方課程：** [Associate: Evaluating & Validating Claude's Output (74 min)](https://anthropic-partners.skilljar.com/path/claude-certified-associate-foundations)。括號中的「part」是今天的建議閱讀範圍，不是額外捏造的官方課程名稱。
 
-1. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
-2. [Claude Code hooks](https://code.claude.com/docs/en/hooks)
+**對應認證考綱：** CCAO-F: Output Evaluation and Validation (21%); CCAR-F: Reliability。
 
-**閱讀重點：** 複習 Skills、Hooks、MCP 和 Git Review。
+**指定文件直達連結：**
+1. [research/demystifying-evals-for-ai-agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
+2. [en/best-practices](https://code.claude.com/docs/en/best-practices)
 
-**指定實作：** 完成全端 Issue Tracker 與安全測試。
+## 每天五小時詳細安排
 
-## 今日學習目標
-
-深入掌握 **Full-stack app** 的原理、應用、替代設計、風險與成本。
-
-**課程來源：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（以授權帳號內最新課綱為準）、[Claude Academy](https://academy.claude.com/)、[官方技術文件](https://docs.anthropic.com/)。
-
-## 每日時間線
-
-| 時間 | 學習任務 | 交付 |
+| 時段 | 必學／必做內容 | 當日交付 |
 |---|---|---|
-| 00:00–01:30 | 官方課程與技術文件，整理 5 個核心概念 | Notes |
-| 01:30–03:00 | Guided lab：將 Full-stack app 應用於 Capstone | Working code |
-| 03:00–04:30 | Closed-book：自行擴充、注入錯誤、測試與 Debug | Tests + Git commit |
-| 04:30–05:00 | 驗收、技術決策、英文解說 | Daily log + ADR |
+| 00:00–01:30 | 區分輸出品質、事實驗證、幻覺與人工複核標準。完成當日公司課程與官方文件。 | 概念筆記＋5 題自我測驗 |
+| 01:30–03:00 | 實作：建立 20 題輸出品質與驗證 Rubric，審查第一週作品。 | 可執行功能／設定 |
+| 03:00–04:30 | 不看教程自行重做與擴充，並加入至少一個負面／故障測試。 | 測試、Trace、Commit |
+| 04:30–05:00 | 把知識對回 CCAO-F: Output Evaluation and Validation (21%); CCAR-F: Reliability，英文解釋技術取捨。 | 考綱筆記與 ADR |
 
-## 實戰驗收
+## 驗收
 
-在 [Enterprise Financial Research Agent](../docs/capstone.md) 實作今日能力，保留測試和 trace。自行說明為何選擇此架構、如何處理權限/成本/失敗、如何客觀評估。
-
-- [ ] 完成官方課程與筆記
-- [ ] 獨立完成可執行功能
-- [ ] 相關測試通過
-- [ ] 記錄失敗案例與修復
-- [ ] Git commit、英文 3 分鐘講解
+- [ ] 完成公司指定課程與連結文件
+- [ ] 完成每日實作並測試失敗情境
+- [ ] 不看筆記也能解釋對應考試領域
+- [ ] 提交 Git Commit 與學習缺口記錄
