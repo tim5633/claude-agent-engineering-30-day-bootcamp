@@ -1,67 +1,53 @@
-# Day 16 — Harness State, Checkpoints & Human Approval
+# Day 16 — Persistent Session, Checkpoint & Approval
 
 **2026-11-10 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Assigned lessons & direct learning links
+## Accenture Partner Academy mapping
 
-**Partner Academy course:** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (company login; locate the named lesson inside the prep path).
+**Official module or exam domain:** [Developer – Production-Grade Prompting, Agents & Tool Use: orchestration and memory](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
 
-1. [Agent SDK and sessions](https://platform.claude.com/docs/en/agent-sdk/overview)
-2. [Harness reliability](../docs/agent-harness-engineering.md)
+**Certification mapping:** CCDV-F: agents; CCAR-F: Context Management & Reliability (15%).
 
-**Study objectives:** Study checkpoints, idempotency, resumable sessions and approval gating.
+**Direct study references:**
+1. [agent-sdk/overview](https://platform.claude.com/docs/en/agent-sdk/overview)
+2. [docs/agent-harness-engineering.md](../docs/agent-harness-engineering.md)
 
-**Required lab:** Implement process-crash recovery without duplicating consequential tool actions.
+## Daily five-hour schedule
 
-## Integrated learning and practice
-
-**Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/agent-harness-engineering.md).
-
-| Time | Assignment | Evidence |
+| Time | What to study or build | Evidence |
 |---|---|---|
-| 00:00–01:30 | Learn session persistence, checkpoints, approval gates and idempotency | Notes and design sketch |
-| 01:30–03:00 | Implement resumable agent state with a human approval checkpoint | Working implementation |
-| 03:00–04:30 | Inject process failure before and after a sensitive tool action | Tested failure scenarios |
-| 04:30–05:00 | Test that resume never duplicates consequential side effects | ADR, commit and English summary |
+| 0:00–1:30 | Study checkpoint persistence, replay protection, idempotency and risk-aware approvals; study the mapped official module and links. | Notes, 5 recall questions |
+| 1:30–3:00 | Implement: Crash/restart an agent and prove no duplicate consequential operation. | Lab/code/architecture artifact |
+| 3:00–4:30 | Reproduce closed-book, test negative outcomes and explain controls. | Tests and traces |
+| 4:30–5:00 | Map to CCDV-F: agents; CCAR-F: Context Management & Reliability (15%) and record an English architecture explanation. | ADR and Git commit |
 
-**Acceptance:** An interrupted task resumes safely with an auditable approval.
-
-- [ ] Course and concepts
-- [ ] Functioning implementation and negative tests
-- [ ] Committed evidence and documented trade-offs
+**Completion:** Read mapped official content; finish lab; pass positive/negative tests; state failure, cost and security trade-offs.
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 16 — Harness 狀態、Checkpoint 與人工核准
+# Day 16 — 長任務 Session、Checkpoint 與核准
 
 **2026-11-10 · 5 小時** · [首頁](../README.md)
 
-## 今日指定課程與直達資源
+## Accenture Partner Academy 指定內容
 
-**Partner Academy：** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（使用公司帳號登入並選擇課程內的指定主題）。
+**官方課程模組或考綱：** [Developer – Production-Grade Prompting, Agents & Tool Use: orchestration and memory](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)。如果標註的是考綱領域而非課程，請以該官方認證頁面的 Exam Guide 為準。
 
-1. [Agent SDK and sessions](https://platform.claude.com/docs/en/agent-sdk/overview)
-2. [Harness reliability](../docs/agent-harness-engineering.md)
+**對應認證：** CCDV-F: agents; CCAR-F: Context Management & Reliability (15%)。
 
-**學習重點：** Study checkpoints, idempotency, resumable sessions and approval gating。
+**當日直達文件：**
+1. [agent-sdk/overview](https://platform.claude.com/docs/en/agent-sdk/overview)
+2. [docs/agent-harness-engineering.md](../docs/agent-harness-engineering.md)
 
-**實作成果：** Implement process-crash recovery without duplicating consequential tool actions。
+## 五小時每日實作安排
 
-## 融合式學習與實作
-
-**教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) 帳號內授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/agent-harness-engineering.md)。
-
-| 時段 | 當天學習與實作 | 產出 |
+| 時段 | 今天具體學習與實作 | 證據 |
 |---|---|---|
-| 00:00–01:30 | 學習 Session 保存、Checkpoint、人工核准與冪等性 | 觀念與架構筆記 |
-| 01:30–03:00 | 建立有人工核准關卡的可恢復 Agent 狀態 | 可執行成果 |
-| 03:00–04:30 | 在高風險工具執行前後模擬當機 | 錯誤情境與測試 |
-| 04:30–05:00 | 確認 Resume 不會重複執行有副作用的動作 | ADR、Commit 和英文說明 |
+| 00:00–01:30 | 理解 Checkpoint 持久化、防止重放、冪等與風險式核准，完成對應官方模組和文件。 | 概念筆記、5 題自測 |
+| 01:30–03:00 | 實作：讓 Agent 中斷／恢復並證明高風險操作不會重複。 | 程式／架構成果 |
+| 03:00–04:30 | 閉卷重做與反向測試，解釋安全控制。 | 測試與 Trace |
+| 04:30–05:00 | 對照 CCDV-F: agents; CCAR-F: Context Management & Reliability (15%) 並完成英文架構解說。 | ADR、Git Commit |
 
-**驗收：** 當機後安全恢復，並保留人工核准紀錄。
-
-- [ ] 完成概念與課程
-- [ ] 實作功能及反向測試
-- [ ] 提交成果與設計取捨
+**驗收：** 完成指定官方模組、實作並通過正反測試，能說明故障、成本與安全取捨。
