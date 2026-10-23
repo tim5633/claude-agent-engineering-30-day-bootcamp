@@ -4,6 +4,17 @@
 
 **Reference:** [Partner Academy](https://anthropic-partners.skilljar.com/) authorized modules, [Claude documentation](https://docs.anthropic.com/), [deep-dive](../docs/ai-sandbox-security.md).
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Responsible AI, Safety & Risk for Architects](https://anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects) (company login required for course modules).
+
+1. [Official safety and risk module](https://anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects)
+2. [AI Sandbox security](../docs/ai-sandbox-security.md)
+
+**Study topics:** Study input/output screening, tool authorization, data classification and fail-closed controls.
+
+**Required deliverable:** Create a control matrix, threat model, red-team scenarios and risk register.
+
 ## Five-hour integrated daily plan
 
 | Time | Action | Evidence |
@@ -28,6 +39,17 @@
 **2026-11-19 · 5 小時** · [首頁](../README.md)
 
 **教材：** [Partner Academy](https://anthropic-partners.skilljar.com/) 授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/ai-sandbox-security.md)。
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy:** [Responsible AI, Safety & Risk for Architects](https://anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects) (company login required for course modules).
+
+1. [Official safety and risk module](https://anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects)
+2. [AI Sandbox security](../docs/ai-sandbox-security.md)
+
+**學習重點:** Study input/output screening, tool authorization, data classification and fail-closed controls.
+
+**當天交付:** Create a control matrix, threat model, red-team scenarios and risk register.
 
 ## 每日融合式五小時課表
 
