@@ -1,5 +1,33 @@
 # Day 01 — Claude setup
 
+**2026-10-26 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+
+## Objective and resources
+
+Learn Day 01 — Claude setup. Study the corresponding authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) modules and [Claude documentation](https://docs.anthropic.com/). Explain design alternatives, reliability, permissions, and costs.
+
+## Daily schedule
+
+| Time | Task | Evidence |
+|---|---|---|
+| 0:00–1:30 | Official course + docs; summarize five core concepts | Notes |
+| 1:30–3:00 | Guided lab: Set up Claude Code and a tested project workspace | Working code and tests |
+| 3:00–4:30 | Independent extension, fault injection, debugging | Commits and test results |
+| 4:30–5:00 | Verification, architecture decision and spoken English summary | Daily log / ADR |
+
+## Acceptance checklist
+
+- [ ] Completed learning and independent implementation
+- [ ] Tested failure modes, permission boundaries and cost controls
+- [ ] Recorded technical trade-offs and a Git commit
+- [ ] Explained the result in English without reading a tutorial
+
+---
+
+<a id="traditional-chinese"></a>
+
+# Day 01 — Claude setup
+
 **2026-10-26 · 5 小時** · [Home](../README.md)
 
 ## 今日學習目標
