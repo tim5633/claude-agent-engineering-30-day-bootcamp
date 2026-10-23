@@ -2,6 +2,14 @@
 
 **2026-11-09 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Open course → assigned section → lab → credential
+
+- **Official company learning:** [Architect Foundations exam: Agentic Architecture & Orchestration](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses).
+- **Section/topic:** Single-agent, router, supervisor, orchestration. Focus selected for this day; gated lesson headings should be checked in your logged-in course.
+- **Hands-on lab:** Benchmark single vs multi-agent task success, latency and cost. plus negative/security test.
+- **Exam:** **CCAR-F, CCDV-F** ([official guide](https://anthropic-partners.skilljar.com/page/partner-certifications)).
+- **Pass:** demonstrate implementation, tests, trace and architecture trade-off.
+
 ## Accenture Partner Academy mapping
 
 **Official module or exam domain:** [Architect Foundations – Agentic Architecture & Orchestration domain; Developer – Agent workflows](https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
@@ -30,6 +38,14 @@
 # Day 15 — 單 Agent、Router 與 Multi-Agent 架構
 
 **2026-11-09 · 5 小時** · [首頁](../README.md)
+
+## 每日課程 → Section → 實作 → 認證
+
+- **公司官方課程：** [Architect Foundations exam: Agentic Architecture & Orchestration](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)。
+- **Section：** Single-agent, router, supervisor, orchestration（指定主題，登入確認實際 Lesson 名稱）。
+- **Lab：** Benchmark single vs multi-agent task success, latency and cost.，加入越權／失敗測試。
+- **認證：** **CCAR-F, CCDV-F**（[官方考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)）。
+- **驗收：** 實作、測試、Trace 與架構取捨。
 
 ## Accenture Partner Academy 指定內容
 
