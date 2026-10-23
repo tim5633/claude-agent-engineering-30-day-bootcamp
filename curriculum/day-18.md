@@ -26,3 +26,10 @@
 - [ ] 相關測試通過
 - [ ] 記錄失敗案例與修復
 - [ ] Git commit、英文 3 分鐘講解
+
+
+## Advanced Track — Evaluation Harness and clean-fixture grader
+
+Read [Evaluation Harness](../docs/evaluation-harness.md). Build an isolated 50-case runner, reset fixtures, log tool actions, grade actual outcomes and compare regressions after changing the model/prompt/tool policy.
+
+**Additional exit check:** Demonstrate the boundary with a repeatable test and record one architecture trade-off in the daily engineering log.
