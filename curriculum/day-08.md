@@ -50,9 +50,9 @@ Learn Day 08 — Messages API. Study the corresponding authorized [Anthropic Par
 1. [Claude API documentation](https://platform.claude.com/docs/en/home)
 2. [Claude API Messages endpoint](https://platform.claude.com/docs/en/api/messages)
 
-**閱讀重點：** Study message structure, model selection, rate limits and token accounting,Create a Python API client with retries and per-task usage tracking。
+**閱讀重點：** 學習 Messages API、Token、模型選擇與 Rate Limits。
 
-**指定實作：** undefined。
+**指定實作：** 完成 Python API Client、Retry 與 Cost Logger。
 
 ## 今日學習目標
 
