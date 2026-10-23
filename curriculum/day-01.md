@@ -50,9 +50,9 @@ Learn Day 01 — Claude setup. Study the corresponding authorized [Anthropic Par
 1. [Claude Code overview](https://code.claude.com/docs/en/overview)
 2. [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 
-**閱讀重點：** Install CLI and API SDK; identify Claude Code vs Messages API vs Agent SDK roles,Run a first CLI task and a first API request; document the execution boundaries。
+**閱讀重點：** 了解 Claude Code、Messages API、Agent SDK 的用途。
 
-**指定實作：** undefined。
+**指定實作：** 完成第一次 CLI 任務與 API 呼叫。
 
 ## 今日學習目標
 
