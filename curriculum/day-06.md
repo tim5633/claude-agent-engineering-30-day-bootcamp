@@ -1,83 +1,63 @@
-# Day 06 — MCP Tools & Trust Boundaries
+# Day 06 — MCP Server & Enterprise Tool Design
 
-**2026-10-31 · 5 hours** · [Home](../README.md) · [繁體中文 ↓](#traditional-chinese)
+**2026-10-31 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Assigned lessons & direct learning links
+## Assigned Accenture / Anthropic Partner Academy courses
 
-**Partner Academy module:** [Claude Code, MCP & Integration — Model Context Protocol](https://anthropic-partners.skilljar.com/claude-code-mcp-integration) (sign in using your company account; select the named topic).
+**Official Partner training:** [Developer: Claude Code, MCP & Integration (MCP); Partner Claude Code Badge](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). The course title is official; subsections in parentheses indicate which portion to focus on today, not separate certified course titles.
 
-1. [Claude Code MCP](https://code.claude.com/docs/en/mcp)
-2. [MCP official introduction](https://modelcontextprotocol.io/introduction)
+**Certification blueprint mapping:** CCDV-F: MCP integration; CCAR-F: Tool Design & MCP Integration (18%).
 
-**Study topics:** Understand MCP host/client/server, resources and tool contracts.
+**Read these exact references:**
+1. [en/mcp](https://code.claude.com/docs/en/mcp)
+2. [modelcontextprotocol.io/introduction](https://modelcontextprotocol.io/introduction)
 
-**Required hands-on lab:** Build read-only document MCP server and reject unauthorized input.
+## Daily schedule (5 hours)
 
-**Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
-
-## Learning outcomes
-
-Understand MCP tool schemas, trust boundaries, credentials and server-side authorization.
-
-**Course material:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) (authorized curriculum only), [Claude docs](https://docs.anthropic.com/). **Deep-dive reference:** [MCP Tools & Trust Boundaries](../docs/ai-sandbox-security.md).
-
-## Daily 5-hour learning and implementation plan
-
-| Time | Required action | Deliverable |
+| Time | Specific learning task | Evidence |
 |---|---|---|
-| 00:00–01:30 | Understand MCP tool schemas, trust boundaries, credentials and server-side authorization. | Concept notes + trust-boundary sketch |
-| 01:30–03:00 | Create a read-only document-search MCP tool for synthetic data. | Working implementation / design artifact |
-| 03:00–04:30 | Add schema validation, path allowlisting, tool error handling and no-secrets logging. | Unit / integration / security tests |
-| 04:30–05:00 | Test malformed tool requests and denied file paths in an isolated fixture. | ADR + trace/eval evidence + English explanation |
+| 0:00–1:30 | Study transports, tool schema, resources, prompts, server-side auth and least privilege. Complete the corresponding named Partner course lesson and read linked docs. | Concept notes and 5 recall questions |
+| 1:30–3:00 | Guided lab: Implement read-only document MCP and schema-validation negative tests. | Working feature / config |
+| 3:00–4:30 | Closed-book: reproduce and extend the lab; add negative tests and failure handling. | Tests, traces, Git commit |
+| 4:30–5:00 | Map takeaways to CCDV-F: MCP integration; CCAR-F: Tool Design & MCP Integration (18%); explain trade-offs in English. | Exam domain notes + ADR |
 
-## Definition of done
+## Passing criteria
 
-**MCP rejects malformed or unauthorized requests at the tool boundary, not via prompt instructions.**
-
-- [ ] Relevant concepts and official reading completed
-- [ ] Capstone implementation and positive/negative tests completed
-- [ ] Evidence and architecture decision committed
-- [ ] Explain trade-offs without step-by-step assistance
+- [ ] Completed today's named academy lesson(s) and official readings
+- [ ] Built and tested the exact daily lab with at least one negative test
+- [ ] Can explain the exam domain without notes or copied exam questions
+- [ ] Committed results and recorded weaknesses
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 06 — MCP 工具與信任邊界
+# Day 06 — MCP Server 與企業工具設計
 
 **2026-10-31 · 5 小時** · [首頁](../README.md)
 
-## 今日指定教材與直達連結
+## 公司 Anthropic Partner Academy 指定課程
 
-**Partner Academy 課程：** [Claude Code, MCP & Integration — Model Context Protocol](https://anthropic-partners.skilljar.com/claude-code-mcp-integration)（使用公司帳號登入，選擇上述主題）。
+**官方課程：** [Developer: Claude Code, MCP & Integration (MCP); Partner Claude Code Badge](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)。括號中的「part」是今天的建議閱讀範圍，不是額外捏造的官方課程名稱。
 
-1. [Claude Code MCP](https://code.claude.com/docs/en/mcp)
-2. [MCP official introduction](https://modelcontextprotocol.io/introduction)
+**對應認證考綱：** CCDV-F: MCP integration; CCAR-F: Tool Design & MCP Integration (18%)。
 
-**閱讀重點：** 理解 MCP Host／Client／Server 與 Tool Schema。
+**指定文件直達連結：**
+1. [en/mcp](https://code.claude.com/docs/en/mcp)
+2. [modelcontextprotocol.io/introduction](https://modelcontextprotocol.io/introduction)
 
-**指定實作：** 建立唯讀文件 MCP Server 並測試越權輸入。
+## 每天五小時詳細安排
 
-## 今日能力目標
-
-理解 MCP 工具 Schema、信任邊界、憑證與伺服器端授權。
-
-**指定教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（依帳號內授權課程）、[Claude 官方文件](https://docs.anthropic.com/)；深入參考 [MCP 工具與信任邊界](../docs/ai-sandbox-security.md)。
-
-## 每日五小時實作時間線
-
-| 時段 | 指定學習／實作任務 | 產出 |
+| 時段 | 必學／必做內容 | 當日交付 |
 |---|---|---|
-| 00:00–01:30 | 理解 MCP 工具 Schema、信任邊界、憑證與伺服器端授權。 | 概念筆記與信任邊界圖 |
-| 01:30–03:00 | 以合成資料建立唯讀文件搜尋 MCP 工具。 | 可執行實作／架構交付 |
-| 03:00–04:30 | 加入輸入驗證、路徑白名單、錯誤處理及避免記錄 Secrets。 | 單元、整合與安全測試 |
-| 04:30–05:00 | 在隔離測試資料中測試無效工具輸入及未授權路徑。 | ADR、Trace／Eval 證據及英文解說 |
+| 00:00–01:30 | 學習 MCP Transport、Tool Schema、Resources、Prompts 及伺服器端授權。完成當日公司課程與官方文件。 | 概念筆記＋5 題自我測驗 |
+| 01:30–03:00 | 實作：建立唯讀文件 MCP 與參數錯誤／越權測試。 | 可執行功能／設定 |
+| 03:00–04:30 | 不看教程自行重做與擴充，並加入至少一個負面／故障測試。 | 測試、Trace、Commit |
+| 04:30–05:00 | 把知識對回 CCDV-F: MCP integration; CCAR-F: Tool Design & MCP Integration (18%)，英文解釋技術取捨。 | 考綱筆記與 ADR |
 
-## 驗收標準
+## 驗收
 
-**MCP 在工具層拒絕無效或未授權請求，而非只靠 Prompt。**
-
-- [ ] 完成課程、概念整理與閱讀
-- [ ] 完成 Capstone 實作與正反測試
-- [ ] 上傳可驗證成果、測試與技術取捨
-- [ ] 不依賴逐步教學解釋整體設計
+- [ ] 完成公司指定課程與連結文件
+- [ ] 完成每日實作並測試失敗情境
+- [ ] 不看筆記也能解釋對應考試領域
+- [ ] 提交 Git Commit 與學習缺口記錄
