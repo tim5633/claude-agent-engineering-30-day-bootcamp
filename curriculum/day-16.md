@@ -1,5 +1,33 @@
 # Day 16 — State & approvals
 
+**2026-11-10 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+
+## Objective and resources
+
+Learn Day 16 — State & approvals through authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) lessons and [Claude documentation](https://docs.anthropic.com/). Include security boundaries, alternatives, failure modes and costs.
+
+## Daily schedule
+
+| Time | Task | Evidence |
+|---|---|---|
+| 0:00–1:30 | Complete official course and read documentation | Five key concepts |
+| 1:30–3:00 | Guided lab: Implement persistent sessions, checkpoint resume and human approvals | Working code and tests |
+| 3:00–4:30 | Independent implementation, deliberate fault and regression | Commits, traces, test report |
+| 4:30–5:00 | Validate outcomes, document trade-offs and explain in English | Daily log / ADR |
+
+## Acceptance checklist
+
+- [ ] Reproduced capability without step-by-step tutorial
+- [ ] Tested negative/security/error cases
+- [ ] Measured relevant costs and reliability
+- [ ] Committed working code and provided a 3-minute explanation
+
+---
+
+<a id="traditional-chinese"></a>
+
+# Day 16 — State & approvals
+
 **2026-11-10 · 5 小時** · [Home](../README.md)
 
 ## 今日學習目標
