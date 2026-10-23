@@ -2,6 +2,18 @@
 
 **2026-11-11 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (verified public landing page; sign in for lessons).
+
+1. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
+2. [AI Sandbox security lab](../docs/ai-sandbox-security.md)
+3. [Risk and secure deployment](https://platform.claude.com/docs/en/managed-agents/secure-deployment-risks)
+
+**Read and understand:** Learn non-root containers, no-secret mounts, restricted network egress and untrusted document threats.
+
+**Hands-on assignment:** Test boundary enforcement for files, outbound connections and injected SQL instructions.
+
 ## Integrated learning and practice
 
 **Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/ai-sandbox-security.md).
@@ -26,6 +38,18 @@
 # Day 17 — Sandbox 隔離與 Prompt Injection
 
 **2026-11-11 · 5 小時** · [首頁](../README.md)
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy：** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（已確認公開課程入口；登入後查看內部單元）。
+
+1. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
+2. [AI Sandbox security lab](../docs/ai-sandbox-security.md)
+3. [Risk and secure deployment](https://platform.claude.com/docs/en/managed-agents/secure-deployment-risks)
+
+**閱讀目標：** Learn non-root containers, no-secret mounts, restricted network egress and untrusted document threats。
+
+**對應實作：** Test boundary enforcement for files, outbound connections and injected SQL instructions。
 
 ## 融合式學習與實作
 
