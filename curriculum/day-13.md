@@ -1,78 +1,53 @@
-# Day 13 — RAG & citations
+# Day 13 — Workflow Integration and Human Review
 
-**2026-11-07 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+**2026-11-07 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Assigned lessons & direct learning links
+## Accenture Partner Academy mapping
 
-**Partner Academy course:** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (company login; locate the named lesson inside the prep path).
+**Official module or exam domain:** [Associate – Workflow Integration & Solution Design (63 min); Developer – Production agents](https://anthropic-partners.skilljar.com/path/claude-certified-associate-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
 
-1. [Claude context and retrieval](https://platform.claude.com/docs/en/build-with-claude/context-windows)
-2. [Manage tool context](https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context)
+**Certification mapping:** CCAO-F: Workflow Integration & Solution Design (16%); CCDV-F: Human-in-the-loop.
 
-**Study objectives:** Study retrieval, chunk boundaries, grounding and context limits.
+**Direct study references:**
+1. [agent-sdk/overview](https://platform.claude.com/docs/en/agent-sdk/overview)
+2. [docs/agent-harness-engineering.md](../docs/agent-harness-engineering.md)
 
-**Required lab:** Build a cited document-research Agent and grade 20 document questions.
+## Daily five-hour schedule
 
-## Objective and resources
-
-Learn Day 13 — RAG & citations through authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) lessons and [Claude documentation](https://docs.anthropic.com/). Include security boundaries, alternatives, failure modes and costs.
-
-## Daily schedule
-
-| Time | Task | Evidence |
+| Time | What to study or build | Evidence |
 |---|---|---|
-| 0:00–1:30 | Complete official course and read documentation | Five key concepts |
-| 1:30–3:00 | Guided lab: Build a source-grounded retrieval agent and 20-case assessment | Working code and tests |
-| 3:00–4:30 | Independent implementation, deliberate fault and regression | Commits, traces, test report |
-| 4:30–5:00 | Validate outcomes, document trade-offs and explain in English | Daily log / ADR |
+| 0:00–1:30 | Identify delegation boundaries, stakeholder review points, reversibility and escalation; study the mapped official module and links. | Notes, 5 recall questions |
+| 1:30–3:00 | Implement: Add a human approval gate to high-risk simulated report publication. | Lab/code/architecture artifact |
+| 3:00–4:30 | Reproduce closed-book, test negative outcomes and explain controls. | Tests and traces |
+| 4:30–5:00 | Map to CCAO-F: Workflow Integration & Solution Design (16%); CCDV-F: Human-in-the-loop and record an English architecture explanation. | ADR and Git commit |
 
-## Acceptance checklist
-
-- [ ] Reproduced capability without step-by-step tutorial
-- [ ] Tested negative/security/error cases
-- [ ] Measured relevant costs and reliability
-- [ ] Committed working code and provided a 3-minute explanation
+**Completion:** Read mapped official content; finish lab; pass positive/negative tests; state failure, cost and security trade-offs.
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 13 — RAG & citations
+# Day 13 — 工作流整合與人工審查
 
-**2026-11-07 · 5 小時** · [Home](../README.md)
+**2026-11-07 · 5 小時** · [首頁](../README.md)
 
-## 今日指定課程與直達資源
+## Accenture Partner Academy 指定內容
 
-**Partner Academy：** [Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（使用公司帳號登入並選擇課程內的指定主題）。
+**官方課程模組或考綱：** [Associate – Workflow Integration & Solution Design (63 min); Developer – Production agents](https://anthropic-partners.skilljar.com/path/claude-certified-associate-foundations)。如果標註的是考綱領域而非課程，請以該官方認證頁面的 Exam Guide 為準。
 
-1. [Claude context and retrieval](https://platform.claude.com/docs/en/build-with-claude/context-windows)
-2. [Manage tool context](https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context)
+**對應認證：** CCAO-F: Workflow Integration & Solution Design (16%); CCDV-F: Human-in-the-loop。
 
-**學習重點：** Study retrieval, chunk boundaries, grounding and context limits。
+**當日直達文件：**
+1. [agent-sdk/overview](https://platform.claude.com/docs/en/agent-sdk/overview)
+2. [docs/agent-harness-engineering.md](../docs/agent-harness-engineering.md)
 
-**實作成果：** Build a cited document-research Agent and grade 20 document questions。
+## 五小時每日實作安排
 
-## 今日學習目標
-
-深入掌握 **RAG & citations** 的原理、應用、替代設計、風險與成本。
-
-**課程來源：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（以授權帳號內最新課綱為準）、[Claude Academy](https://academy.claude.com/)、[官方技術文件](https://docs.anthropic.com/)。
-
-## 每日時間線
-
-| 時間 | 學習任務 | 交付 |
+| 時段 | 今天具體學習與實作 | 證據 |
 |---|---|---|
-| 00:00–01:30 | 官方課程與技術文件，整理 5 個核心概念 | Notes |
-| 01:30–03:00 | Guided lab：將 RAG & citations 應用於 Capstone | Working code |
-| 03:00–04:30 | Closed-book：自行擴充、注入錯誤、測試與 Debug | Tests + Git commit |
-| 04:30–05:00 | 驗收、技術決策、英文解說 | Daily log + ADR |
+| 00:00–01:30 | 區分 AI 授權任務與人工審查，以及不可逆操作的升級流程，完成對應官方模組和文件。 | 概念筆記、5 題自測 |
+| 01:30–03:00 | 實作：為模擬報告發佈加入人工核准關卡。 | 程式／架構成果 |
+| 03:00–04:30 | 閉卷重做與反向測試，解釋安全控制。 | 測試與 Trace |
+| 04:30–05:00 | 對照 CCAO-F: Workflow Integration & Solution Design (16%); CCDV-F: Human-in-the-loop 並完成英文架構解說。 | ADR、Git Commit |
 
-## 實戰驗收
-
-在 [Enterprise Financial Research Agent](../docs/capstone.md) 實作今日能力，保留測試和 trace。自行說明為何選擇此架構、如何處理權限/成本/失敗、如何客觀評估。
-
-- [ ] 完成官方課程與筆記
-- [ ] 獨立完成可執行功能
-- [ ] 相關測試通過
-- [ ] 記錄失敗案例與修復
-- [ ] Git commit、英文 3 分鐘講解
+**驗收：** 完成指定官方模組、實作並通過正反測試，能說明故障、成本與安全取捨。
