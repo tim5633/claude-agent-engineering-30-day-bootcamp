@@ -2,6 +2,14 @@
 
 **2026-11-21 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Company course → section → lab → certification
+
+- **Open:** [Architect Foundations: five exam domains; Professional: Solution Design](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) and [certification exam guide](https://anthropic-partners.skilljar.com/page/partner-certifications).
+- **Section focus:** Agent architecture 27%, MCP 18%, Code 20%, Prompt 20%, Context 15% (official module/domain, with recommended focus; sign in to locate specific restricted lesson).
+- **Required lab:** Finish today’s enterprise architecture or deployment deliverable. Validate risks, stakeholder acceptance and alternative architecture.
+- **Certification:** **CCAR-F, CCAR-P**; exam scheduled only when fully prepared.
+- **Evidence:** HLD/ADR, tested controls, client-ready report, no proprietary company contents.
+
 ## Company Partner Academy module and official exam blueprint
 
 **Assigned:** [Architect Foundations – official exam guide: five domains; Professional – Claude Platform & Solution Design (part 2)](https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification). A 'part' is a suggested split of one official module, not a new module name.
@@ -30,6 +38,14 @@
 # Day 27 — Architect Foundations 五大考綱驗收
 
 **2026-11-21 · 5 小時** · [首頁](../README.md)
+
+## 公司課程 → Section → 實作 → 證照
+
+- **打開：** [Architect Foundations: five exam domains; Professional: Solution Design](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) 與[官方考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)。
+- **指定 Section：** Agent architecture 27%, MCP 18%, Code 20%, Prompt 20%, Context 15%（官方模組／考試領域內的建議主題，登入核對受限 Lesson）。
+- **實作：** Finish today’s enterprise architecture or deployment deliverable；驗證安全、客戶要求與架構替代方案。
+- **對應證照：** **CCAR-F, CCAR-P**；準備充足後再預約考試。
+- **成果：** HLD／ADR、測試、安全報告與客戶交付文件，不上傳公司內部材料。
 
 ## 公司指定 Partner Academy 模組與認證考綱
 
