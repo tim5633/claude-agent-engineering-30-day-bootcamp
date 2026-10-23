@@ -1,69 +1,53 @@
-# Day 17 — Sandbox Isolation & Prompt Injection
+# Day 17 — Governance, Safety & Sandbox Isolation
 
 **2026-11-11 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-## Assigned Partner Academy lesson and direct reading links
+## Accenture Partner Academy mapping
 
-**Partner Academy:** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (verified public landing page; sign in for lessons).
+**Official module or exam domain:** [Associate – Governance, Risk & Responsible Use (55 min); Developer – Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-associate-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
 
-1. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
-2. [AI Sandbox security lab](../docs/ai-sandbox-security.md)
-3. [Risk and secure deployment](https://platform.claude.com/docs/en/managed-agents/secure-deployment-risks)
+**Certification mapping:** CCAO-F: Governance, Risk & Responsible Use (15%); CCDV-F: Security.
 
-**Read and understand:** Learn non-root containers, no-secret mounts, restricted network egress and untrusted document threats.
+**Direct study references:**
+1. [en/sandboxing](https://code.claude.com/docs/en/sandboxing)
+2. [docs/ai-sandbox-security.md](../docs/ai-sandbox-security.md)
 
-**Hands-on assignment:** Test boundary enforcement for files, outbound connections and injected SQL instructions.
+## Daily five-hour schedule
 
-## Integrated learning and practice
-
-**Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/ai-sandbox-security.md).
-
-| Time | Assignment | Evidence |
+| Time | What to study or build | Evidence |
 |---|---|---|
-| 00:00–01:30 | Threat-model untrusted files, injected tool results and secret leakage | Notes and design sketch |
-| 01:30–03:00 | Build a disposable non-root container with read-only mounts and restricted egress | Working implementation |
-| 03:00–04:30 | Test file isolation, denied network requests and malicious document instructions | Tested failure scenarios |
-| 04:30–05:00 | Document OS-level vs model-level enforcement and residual risks | ADR, commit and English summary |
+| 0:00–1:30 | Study data classification, prompt injection, untrusted tools, network egress and container isolation; study the mapped official module and links. | Notes, 5 recall questions |
+| 1:30–3:00 | Implement: Test blocked file/network access in disposable sandbox with synthetic fixtures. | Lab/code/architecture artifact |
+| 3:00–4:30 | Reproduce closed-book, test negative outcomes and explain controls. | Tests and traces |
+| 4:30–5:00 | Map to CCAO-F: Governance, Risk & Responsible Use (15%); CCDV-F: Security and record an English architecture explanation. | ADR and Git commit |
 
-**Acceptance:** Denied access is enforced outside the model, with repeatable test evidence.
-
-- [ ] Course and concepts
-- [ ] Functioning implementation and negative tests
-- [ ] Committed evidence and documented trade-offs
+**Completion:** Read mapped official content; finish lab; pass positive/negative tests; state failure, cost and security trade-offs.
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 17 — Sandbox 隔離與 Prompt Injection
+# Day 17 — 治理、安全與 Sandbox 隔離
 
 **2026-11-11 · 5 小時** · [首頁](../README.md)
 
-## 今日 Partner Academy 課程與直達教材
+## Accenture Partner Academy 指定內容
 
-**Partner Academy：** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（已確認公開課程入口；登入後查看內部單元）。
+**官方課程模組或考綱：** [Associate – Governance, Risk & Responsible Use (55 min); Developer – Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-associate-foundations)。如果標註的是考綱領域而非課程，請以該官方認證頁面的 Exam Guide 為準。
 
-1. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
-2. [AI Sandbox security lab](../docs/ai-sandbox-security.md)
-3. [Risk and secure deployment](https://platform.claude.com/docs/en/managed-agents/secure-deployment-risks)
+**對應認證：** CCAO-F: Governance, Risk & Responsible Use (15%); CCDV-F: Security。
 
-**閱讀目標：** Learn non-root containers, no-secret mounts, restricted network egress and untrusted document threats。
+**當日直達文件：**
+1. [en/sandboxing](https://code.claude.com/docs/en/sandboxing)
+2. [docs/ai-sandbox-security.md](../docs/ai-sandbox-security.md)
 
-**對應實作：** Test boundary enforcement for files, outbound connections and injected SQL instructions。
+## 五小時每日實作安排
 
-## 融合式學習與實作
-
-**教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) 帳號內授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/ai-sandbox-security.md)。
-
-| 時段 | 當天學習與實作 | 產出 |
+| 時段 | 今天具體學習與實作 | 證據 |
 |---|---|---|
-| 00:00–01:30 | 為非可信任文件、工具回傳和密鑰外洩建模 | 觀念與架構筆記 |
-| 01:30–03:00 | 建立非 Root 臨時容器、唯讀掛載及受限網路出口 | 可執行成果 |
-| 03:00–04:30 | 驗證檔案隔離、阻擋外連與惡意文件指令 | 錯誤情境與測試 |
-| 04:30–05:00 | 區分 OS 隔離與模型拒絕，記錄殘餘風險 | ADR、Commit 和英文說明 |
+| 00:00–01:30 | 學習資料分類、Prompt Injection、不可信工具、網路出口與容器隔離，完成對應官方模組和文件。 | 概念筆記、5 題自測 |
+| 01:30–03:00 | 實作：在一次性 Sandbox 測試阻擋檔案與網路越權。 | 程式／架構成果 |
+| 03:00–04:30 | 閉卷重做與反向測試，解釋安全控制。 | 測試與 Trace |
+| 04:30–05:00 | 對照 CCAO-F: Governance, Risk & Responsible Use (15%); CCDV-F: Security 並完成英文架構解說。 | ADR、Git Commit |
 
-**驗收：** 拒絕存取由模型外的權限層強制執行。
-
-- [ ] 完成概念與課程
-- [ ] 實作功能及反向測試
-- [ ] 提交成果與設計取捨
+**驗收：** 完成指定官方模組、實作並通過正反測試，能說明故障、成本與安全取捨。
