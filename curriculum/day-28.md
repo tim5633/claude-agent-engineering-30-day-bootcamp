@@ -2,6 +2,14 @@
 
 **2026-11-22 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Company course → section → lab → certification
+
+- **Open:** [Architect Professional: Team Enablement & Operational Productivity](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) and [certification exam guide](https://anthropic-partners.skilljar.com/page/partner-certifications).
+- **Section focus:** RACI, operational handover, training, runbooks (official module/domain, with recommended focus; sign in to locate specific restricted lesson).
+- **Required lab:** Finish today’s enterprise architecture or deployment deliverable. Validate risks, stakeholder acceptance and alternative architecture.
+- **Certification:** **CCAR-P**; exam scheduled only when fully prepared.
+- **Evidence:** HLD/ADR, tested controls, client-ready report, no proprietary company contents.
+
 ## Company Partner Academy module and official exam blueprint
 
 **Assigned:** [Architect Professional – Team Enablement & Operational Productivity (45 min); Stakeholder Engagement (second half)](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional). A 'part' is a suggested split of one official module, not a new module name.
@@ -30,6 +38,14 @@
 # Day 28 — Team Enablement、採用與交接
 
 **2026-11-22 · 5 小時** · [首頁](../README.md)
+
+## 公司課程 → Section → 實作 → 證照
+
+- **打開：** [Architect Professional: Team Enablement & Operational Productivity](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) 與[官方考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)。
+- **指定 Section：** RACI, operational handover, training, runbooks（官方模組／考試領域內的建議主題，登入核對受限 Lesson）。
+- **實作：** Finish today’s enterprise architecture or deployment deliverable；驗證安全、客戶要求與架構替代方案。
+- **對應證照：** **CCAR-P**；準備充足後再預約考試。
+- **成果：** HLD／ADR、測試、安全報告與客戶交付文件，不上傳公司內部材料。
 
 ## 公司指定 Partner Academy 模組與認證考綱
 
