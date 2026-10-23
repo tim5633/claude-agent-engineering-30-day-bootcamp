@@ -2,6 +2,14 @@
 
 **2026-11-17 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Corporate academy course, section, lab and exam
+
+- **Open:** [Architect Professional: Stakeholder Engagement, Lifecycle & GTM](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses) (company email).
+- **Study focus:** Discovery, non-functional requirements, business value (recommended reading within official course; not a verified internal lesson title).
+- **Lab:** Complete documented lab and client-engineering scenario; include reproducible evidence and risk assessment.
+- **Certifications:** **CCAR-P, CCAO-F**; match current [official exam guide](https://anthropic-partners.skilljar.com/page/partner-certifications).
+- **Completion:** pass simulated test or client defense; record learning gaps.
+
 ## Company Partner Academy module and official exam blueprint
 
 **Assigned:** [Architect Professional – Stakeholder Engagement, Lifecycle & GTM (178 min total; first half)](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional). A 'part' is a suggested split of one official module, not a new module name.
@@ -30,6 +38,14 @@
 # Day 23 — 需求訪談與利害關係人整合
 
 **2026-11-17 · 5 小時** · [首頁](../README.md)
+
+## 公司官方課程、Section、Lab 與證書
+
+- **打開：** [Architect Professional: Stakeholder Engagement, Lifecycle & GTM](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)（公司信箱）。
+- **指定 Section：** Discovery, non-functional requirements, business value（官方課程內建議主題，非核實的內部 Lesson 標題）。
+- **Lab：** Complete documented lab and client-engineering scenario，保留可重現的測試及風險證據。
+- **對應證書：** **CCAR-P, CCAO-F**，以[官方 Exam Guide](https://anthropic-partners.skilljar.com/page/partner-certifications)為準。
+- **驗收：** 完成測試或客戶情境答辯，記錄缺口。
 
 ## 公司指定 Partner Academy 模組與認證考綱
 
