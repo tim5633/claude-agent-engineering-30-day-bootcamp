@@ -2,6 +2,18 @@
 
 **2026-11-14 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (verified public landing page; sign in for lessons).
+
+1. [Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions)
+2. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
+3. [Sandbox deployment considerations](../docs/ai-sandbox-security.md)
+
+**Read and understand:** Study CI, deployment stages, secrets, restricted workers, rollback and health checks.
+
+**Hands-on assignment:** Deploy staging Agent API and enforce sandbox/permission checks in CI.
+
 ## Integrated learning and practice
 
 **Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/ai-sandbox-security.md).
@@ -26,6 +38,18 @@
 # Day 20 — Sandbox 化 Agent Runtime 與 CI/CD
 
 **2026-11-14 · 5 小時** · [首頁](../README.md)
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy：** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（已確認公開課程入口；登入後查看內部單元）。
+
+1. [Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions)
+2. [Claude Code sandboxing](https://code.claude.com/docs/en/sandboxing)
+3. [Sandbox deployment considerations](../docs/ai-sandbox-security.md)
+
+**閱讀目標：** Study CI, deployment stages, secrets, restricted workers, rollback and health checks。
+
+**對應實作：** Deploy staging Agent API and enforce sandbox/permission checks in CI。
 
 ## 融合式學習與實作
 
