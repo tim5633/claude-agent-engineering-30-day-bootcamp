@@ -2,6 +2,14 @@
 
 **2026-11-02 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Company course / exact topic assignment / lab / exam
+
+1. **Open:** [Developer: MSO Foundations](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses) through corporate Partner Academy login.
+2. **Study:** Messages API, SDK, tokens, rate limits, streaming (target subsection; verify gated lesson title in account).
+3. **Build:** Write API client with timeouts, retries, token and cost tracking.; prove one failure or authorization boundary.
+4. **Certification:** **CCDV-F**, using [official exam guides](https://anthropic-partners.skilljar.com/page/partner-certifications).
+5. **Submit:** Code, evaluation/trace, Git commit, 5-minute recall quiz.
+
 ## Assigned Accenture / Anthropic Partner Academy courses
 
 **Official Partner training:** [Developer: MSO Foundations (complete 57 min total); Production-Grade Prompting module (part 2)](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). The course title is official; subsections in parentheses indicate which portion to focus on today, not separate certified course titles.
@@ -35,6 +43,14 @@
 # Day 08 — Messages API 與模型工程
 
 **2026-11-02 · 5 小時** · [首頁](../README.md)
+
+## 公司課程／指定主題／Lab／認證
+
+1. **打開：** [Developer: MSO Foundations](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)（公司 Partner Academy 登入）。
+2. **指定 Section：** Messages API, SDK, tokens, rate limits, streaming（登入後核對課內標題）。
+3. **Lab：** Write API client with timeouts, retries, token and cost tracking.，至少驗證一個失敗或越權案例。
+4. **證書：** **CCDV-F**，依[正式考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)。
+5. **成果：** Code、Evaluation／Trace、Commit、5 分鐘自測。
 
 ## 公司 Anthropic Partner Academy 指定課程
 
