@@ -26,3 +26,10 @@
 - [ ] 相關測試通過
 - [ ] 記錄失敗案例與修復
 - [ ] Git commit、英文 3 分鐘講解
+
+
+## Advanced Track — Implement a bounded Agent Harness
+
+Read [Agent Harness Engineering](../docs/agent-harness-engineering.md). Build a tool loop with max_steps, timeout, cost budget, allowlisted tools, JSON-schema validation, a trace log and deterministic termination tests.
+
+**Additional exit check:** Demonstrate the boundary with a repeatable test and record one architecture trade-off in the daily engineering log.
