@@ -1,10 +1,10 @@
-# Agent Harness Engineering｜Agent 執行框架實戰
+# Agent Harness Engineering
 
 [README](../README.md) · [Sandbox](ai-sandbox-security.md) · [Eval Harness](evaluation-harness.md)
 
 ## What is an Agent Harness?
 
-Model 負責提出下一步，**Harness** 負責組織 Session、Context、工具路由、權限、狀態、重試、停止條件與持久化。不要混淆 Harness、Agent SDK、MCP 和 Sandbox：
+The model reasons about next steps; the harness manages sessions, context, routing, permissions, retries, termination and persistence. Distinguish these components:
 
 - **Claude model:** reasoning + tool requests
 - **Agent harness:** run loop, tool dispatch, budgets, policies, traces
@@ -52,3 +52,15 @@ flowchart TD
 - [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
 
 > Always follow the current documentation and do not embed Partner Academy copyrighted course contents.
+
+---
+
+<a id="traditional-chinese"></a>
+
+# Agent Harness Engineering｜代理執行框架
+
+Harness 負責 Agent Loop、Context、工具路由、Session、Checkpoint、預算限制、重試、停止與追蹤；模型負責推理，Sandbox 限制實際執行權限，Evaluation Harness 驗證成果。
+
+實作：從零建立有次數、時間及成本上限的工具循環；實作狀態保存、當機恢復、冪等性、工具授權和 Trace；比較手寫 Claude API Harness 與 Agent SDK。
+
+驗收：無限循環被限制、拒絕工具無法繞過、中斷後不重複高風險動作、錯誤能恢復且有完整追蹤。
