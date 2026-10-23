@@ -50,9 +50,9 @@ Learn Day 03 — Plan mode & Git. Study the corresponding authorized [Anthropic 
 1. [Claude Code common workflows](https://code.claude.com/docs/en/common-workflows)
 2. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
 
-**閱讀重點：** Study planning, Git diffs and tests as verification evidence,Build a CRUD endpoint using plan→implementation→test→review。
+**閱讀重點：** 學習 Plan Mode、Git Diff 與測試驗證。
 
-**指定實作：** undefined。
+**指定實作：** 使用規劃、實作、測試、審查流程建立 CRUD API。
 
 ## 今日學習目標
 
