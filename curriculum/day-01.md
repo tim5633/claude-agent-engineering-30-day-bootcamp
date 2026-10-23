@@ -9,9 +9,9 @@
 1. [Claude Code overview](https://code.claude.com/docs/en/overview)
 2. [Claude Code quickstart](https://code.claude.com/docs/en/quickstart)
 
-**Read for:** Install CLI and API SDK; identify Claude Code vs Messages API vs Agent SDK roles,Run a first CLI task and a first API request; document the execution boundaries.
+**Study topics:** Install Claude Code and API SDK; identify Claude Code vs Messages API vs Agent SDK roles.
 
-**Lab tied to these resources:** undefined.
+**Required hands-on lab:** Run a first CLI task and a first API request; document execution boundaries.
 
 **Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
 
