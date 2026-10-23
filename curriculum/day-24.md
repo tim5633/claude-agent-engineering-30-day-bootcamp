@@ -4,6 +4,18 @@
 
 **Reference:** [Partner Academy](https://anthropic-partners.skilljar.com/) authorized modules, [Claude documentation](https://docs.anthropic.com/), [deep-dive](../docs/ai-sandbox-security.md).
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Claude Platform & Solution Design](https://anthropic-partners.skilljar.com/claude-platform-solution-design) (verified public landing page; sign in for lessons).
+
+1. [Architect platform and solution design module](https://anthropic-partners.skilljar.com/claude-platform-solution-design)
+2. [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
+3. [Sandbox architecture](../docs/ai-sandbox-security.md)
+
+**Read and understand:** Compare augmentation, workflow and agent choices; document tool, authorization and sandbox boundaries.
+
+**Hands-on assignment:** Write a client HLD and a Messages API vs SDK vs managed architecture decision.
+
 ## Five-hour integrated daily plan
 
 | Time | Action | Evidence |
@@ -28,6 +40,18 @@
 **2026-11-18 · 5 小時** · [首頁](../README.md)
 
 **教材：** [Partner Academy](https://anthropic-partners.skilljar.com/) 授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/ai-sandbox-security.md)。
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy：** [Claude Platform & Solution Design](https://anthropic-partners.skilljar.com/claude-platform-solution-design)（已確認公開課程入口；登入後查看內部單元）。
+
+1. [Architect platform and solution design module](https://anthropic-partners.skilljar.com/claude-platform-solution-design)
+2. [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
+3. [Sandbox architecture](../docs/ai-sandbox-security.md)
+
+**閱讀目標：** Compare augmentation, workflow and agent choices; document tool, authorization and sandbox boundaries。
+
+**對應實作：** Write a client HLD and a Messages API vs SDK vs managed architecture decision。
 
 ## 每日融合式五小時課表
 
