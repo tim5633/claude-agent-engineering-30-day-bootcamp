@@ -78,7 +78,9 @@ Harness, sandbox and evaluation are **taught inside the daily tasks**, not as ex
 | 29 | [Harness + Sandbox + Eval Go-live Drill](curriculum/day-29.md) |
 | 30 | [Final client architecture defense](curriculum/day-30.md) |
 
-Each daily guide contains learning objectives, official learning resources, a five-hour schedule, hands-on engineering tasks, reflection questions, and a completion checklist.
+Each daily guide contains learning objectives, **direct course and topic links**, a five-hour schedule, hands-on engineering tasks, reflection questions, and a completion checklist.
+
+Each daily page now links to a **specific Anthropic Partner Academy course/module** plus topic-level documentation. Partner-only individual lesson URLs require corporate sign-in, so the links point to verified public course landing pages; follow the named lesson after signing in.
 
 ## 🛠️ Capstone Project
 
@@ -206,7 +208,9 @@ flowchart TD
 | 29 | [Harness + Sandbox + Eval 上線演練](curriculum/day-29.md) |
 | 30 | [最終客戶架構答辯](curriculum/day-30.md) |
 
-每份每日文件都包含：學習目標、指定資源、五小時時間分配、動手實作、深度理解問題及驗收 Checklist。
+每份每日文件都包含：學習目標、**具體課程與主題連結**、五小時時間分配、動手實作、深度理解問題及驗收 Checklist。
+
+現在每一天都提供**指定 Anthropic Partner Academy 課程／模組入口**及對應主題文件。Partner 專屬課內單元需要公司登入，因此採用可確認的課程入口，登入後依標示的單元名稱學習。
 
 ## 🛠️ Capstone 專案
 
