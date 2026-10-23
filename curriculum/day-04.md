@@ -26,3 +26,10 @@
 - [ ] 相關測試通過
 - [ ] 記錄失敗案例與修復
 - [ ] Git commit、英文 3 分鐘講解
+
+
+## Advanced Track — Sandbox threat model and permission layers
+
+Read [AI Sandbox & Secure Execution](../docs/ai-sandbox-security.md). Compare Claude Code permission rules, hook denials, sandbox filesystem restrictions and network boundaries. Lab: attempt out-of-workspace file access in a disposable test environment; document whether OS-level containment or only a prompt/policy prevented it.
+
+**Additional exit check:** Demonstrate the boundary with a repeatable test and record one architecture trade-off in the daily engineering log.
