@@ -2,6 +2,17 @@
 
 **2026-11-22 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Team Enablement & Operational Productivity](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) (company login required for course modules).
+
+1. [Architect Professional 5-module learning path](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)
+2. [Enterprise integration module](https://anthropic-partners.skilljar.com/enterprise-integration-production)
+
+**Study topics:** Study live system adoption, configuration standards, runbooks, incident response and ownership.
+
+**Required deliverable:** Write an operational handover and conduct a 45-minute simulated CTO/CISO review.
+
 ## Objective and official resources
 
 Study Day 28 — Operational handover using authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) course content, current exam guides and [Claude documentation](https://docs.anthropic.com/). Focus on enterprise security, design, communication and independent execution.
@@ -29,6 +40,17 @@ Study Day 28 — Operational handover using authorized [Anthropic Partner Academ
 # Day 28 — Operational handover
 
 **2026-11-22 · 5 小時** · [Home](../README.md)
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy:** [Team Enablement & Operational Productivity](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional) (company login required for course modules).
+
+1. [Architect Professional 5-module learning path](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)
+2. [Enterprise integration module](https://anthropic-partners.skilljar.com/enterprise-integration-production)
+
+**學習重點:** Study live system adoption, configuration standards, runbooks, incident response and ownership.
+
+**當天交付:** Write an operational handover and conduct a 45-minute simulated CTO/CISO review.
 
 ## 今日學習目標
 
