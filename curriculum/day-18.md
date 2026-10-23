@@ -2,6 +2,18 @@
 
 **2026-11-12 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations) (verified public landing page; sign in for lessons).
+
+1. [Eval harness study guide](../docs/evaluation-harness.md)
+2. [Anthropic agent evals research](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
+3. [Claude evaluation overview](https://platform.claude.com/docs/en/home)
+
+**Read and understand:** Compare deterministic outcome graders, LLM judges, clean fixtures and regression suites.
+
+**Hands-on assignment:** Build and execute 50 golden tasks with source and tool-effect checks.
+
 ## Integrated learning and practice
 
 **Official learning:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) relevant authorized modules; [technical documentation](https://docs.anthropic.com/); [deep-dive reference](../docs/evaluation-harness.md).
@@ -26,6 +38,18 @@
 # Day 18 — Evaluation Harness 與結果評分
 
 **2026-11-12 · 5 小時** · [首頁](../README.md)
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy：** [Production Engineering, Evals & Security](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations)（已確認公開課程入口；登入後查看內部單元）。
+
+1. [Eval harness study guide](../docs/evaluation-harness.md)
+2. [Anthropic agent evals research](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
+3. [Claude evaluation overview](https://platform.claude.com/docs/en/home)
+
+**閱讀目標：** Compare deterministic outcome graders, LLM judges, clean fixtures and regression suites。
+
+**對應實作：** Build and execute 50 golden tasks with source and tool-effect checks。
 
 ## 融合式學習與實作
 
