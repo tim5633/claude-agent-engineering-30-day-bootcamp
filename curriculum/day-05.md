@@ -50,9 +50,9 @@ Learn Day 05 — Skills & subagents. Study the corresponding authorized [Anthrop
 1. [Claude Code skills](https://code.claude.com/docs/en/skills)
 2. [Claude Code subagents](https://code.claude.com/docs/en/sub-agents)
 
-**閱讀重點：** Separate skills, subagents, workflows and context ownership,Create reviewer, tester and API-build skills with a scoped delegated agent。
+**閱讀重點：** 理解 Skills、Subagents 與 Context 隔離。
 
-**指定實作：** undefined。
+**指定實作：** 建立審查、測試、API 開發三種可重用 Skills。
 
 ## 今日學習目標
 
