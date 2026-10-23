@@ -2,6 +2,10 @@
 
 **2026-10-26 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Day 01 — Required Accenture certification administration (first 30 minutes)
+
+**Workday FIRST:** Register the Claude certifications you intend to take with the official links in the internal Accenture announcement. Then use your Accenture email for [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/), and download the current **CCAO-F / CCDV-F / CCAR-F / CCAR-P exam guides** from the [official certification catalog](https://anthropic-partners.skilljar.com/page/partner-certifications). Study lesson modules later as mapped in the [official partner course crosswalk](../docs/partner-academy-curriculum-map.md). The employer screenshot says free exams and retakes through 31 December 2026; verify discounts, rules and available Pearson VUE slots in your account. Keep internal enrollment details private.
+
 ## Daily certification learning card
 
 - **Open company course:** [Anthropic Partner Academy — Associate: Claude Platform & Model Foundations; Developer: MSO Foundations](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses) (company sign-in).
@@ -43,6 +47,10 @@
 # Day 01 — 模型與平台基礎
 
 **2026-10-26 · 5 小時** · [首頁](../README.md)
+
+## Day 01 — Accenture 公司認證行政待辦（先做 30 分鐘）
+
+**Workday FIRST：** 先透過原始 Accenture 公告的 Workday 連結登記預計報考的 Claude 認證；再使用 Accenture 信箱登入 [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)，從[官方認證目錄](https://anthropic-partners.skilljar.com/page/partner-certifications)下載 **CCAO-F／CCDV-F／CCAR-F／CCAR-P 四份 Exam Guide**。接下來依[官方課程模組對照表](../docs/partner-academy-curriculum-map.md)分配每天的進度。公司截圖說 2026/12/31 前考試及重考免費，但需要實際確認折扣、規則和 Pearson 考位，且不可在公開 Repo 存公司註冊資訊。
 
 ## 每日認證學習卡
 
