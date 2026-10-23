@@ -1,69 +1,53 @@
-# Day 24 — Enterprise Harness & Sandbox Architecture
+# Day 24 — Solution Design & Architecture Trade-offs
 
 **2026-11-18 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-**Reference:** [Partner Academy](https://anthropic-partners.skilljar.com/) authorized modules, [Claude documentation](https://docs.anthropic.com/), [deep-dive](../docs/ai-sandbox-security.md).
+## Company Partner Academy module and official exam blueprint
 
-## Assigned Partner Academy lesson and direct reading links
+**Assigned:** [Architect Professional – Claude Platform & Solution Design (238 min total; part 1 of 3)](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional). A 'part' is a suggested split of one official module, not a new module name.
 
-**Partner Academy:** [Claude Platform & Solution Design](https://anthropic-partners.skilljar.com/claude-platform-solution-design) (verified public landing page; sign in for lessons).
+**Exam coverage:** CCAR-P: Solution Design; CCAR-F: Agentic (27%), MCP (18%).
 
-1. [Architect platform and solution design module](https://anthropic-partners.skilljar.com/claude-platform-solution-design)
-2. [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
-3. [Sandbox architecture](../docs/ai-sandbox-security.md)
+**Direct reading and authoritative course links:**
+1. [anthropic-partners.skilljar.com/claude-platform-solution-design](https://anthropic-partners.skilljar.com/claude-platform-solution-design)
+2. [docs/ai-sandbox-security.md](../docs/ai-sandbox-security.md)
 
-**Read and understand:** Compare augmentation, workflow and agent choices; document tool, authorization and sandbox boundaries.
+## Detailed 5-hour schedule
 
-**Hands-on assignment:** Write a client HLD and a Messages API vs SDK vs managed architecture decision.
-
-## Five-hour integrated daily plan
-
-| Time | Action | Evidence |
+| Time | Assigned work | Evidence |
 |---|---|---|
-| 00:00–01:30 | Draw trust boundaries across client, API, harness, MCP and sandbox workers | Notes and sketches |
-| 01:30–03:00 | Compare Messages API, Agent SDK, managed agents and self-hosted isolation | Build / design |
-| 03:00–04:30 | Build HLD, runtime topology, permissions matrix and threat model | Evaluation, security and failure evidence |
-| 04:30–05:00 | Defend trade-offs in cost, reliability, auditability and operations | ADR + commit + English explanation |
+| 0:00–1:30 | Study entry point, model tiers, deployment, agent vs deterministic workflow and trust boundaries. Study the named official course section and exam guide. | Concept notes + domain mapping |
+| 1:30–3:00 | Design HLD comparing Messages API, Agent SDK, managed runtime, sandbox and MCP. | Lab/design artifact |
+| 3:00–4:30 | Independently simulate a client challenge; test risks and alternatives. | Test/report + trade-off rationale |
+| 4:30–5:00 | Explain in English and update exam readiness tracker. | Git commit, ADR, exam checklist |
 
-**Acceptance:** Security reviewer can identify enforcement points and data flows.
-
-- [ ] Concepts and coursework completed
-- [ ] Independently tested outcome
-- [ ] Architecture decision and evidence committed
+**Gate:** Deliver the practical artifact, defend it without notes, and identify unresolved weaknesses. Official exams should only be booked once registered and ready.
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 24 — 企業 Harness 與 Sandbox 架構
+# Day 24 — Solution Design 與架構選型
 
 **2026-11-18 · 5 小時** · [首頁](../README.md)
 
-**教材：** [Partner Academy](https://anthropic-partners.skilljar.com/) 授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/ai-sandbox-security.md)。
+## 公司指定 Partner Academy 模組與認證考綱
 
-## 今日 Partner Academy 課程與直達教材
+**指定課程：** [Architect Professional – Claude Platform & Solution Design (238 min total; part 1 of 3)](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)。其中 part 是建議分段，不是另創的官方模組名稱。
 
-**Partner Academy：** [Claude Platform & Solution Design](https://anthropic-partners.skilljar.com/claude-platform-solution-design)（已確認公開課程入口；登入後查看內部單元）。
+**考綱對照：** CCAR-P: Solution Design; CCAR-F: Agentic (27%), MCP (18%)。
 
-1. [Architect platform and solution design module](https://anthropic-partners.skilljar.com/claude-platform-solution-design)
-2. [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)
-3. [Sandbox architecture](../docs/ai-sandbox-security.md)
+**官方學習入口／直達文件：**
+1. [anthropic-partners.skilljar.com/claude-platform-solution-design](https://anthropic-partners.skilljar.com/claude-platform-solution-design)
+2. [docs/ai-sandbox-security.md](../docs/ai-sandbox-security.md)
 
-**閱讀目標：** Compare augmentation, workflow and agent choices; document tool, authorization and sandbox boundaries。
+## 五小時詳細課表
 
-**對應實作：** Write a client HLD and a Messages API vs SDK vs managed architecture decision。
-
-## 每日融合式五小時課表
-
-| 時段 | 學習與實作 | 證據 |
+| 時段 | 必修內容 | 交付 |
 |---|---|---|
-| 00:00–01:30 | 畫出 Client、API、Harness、MCP、Sandbox 的信任邊界 | 觀念筆記與架構圖 |
-| 01:30–03:00 | 比較 Messages API、Agent SDK、Managed Agents 與自架隔離 | 實作或設計 |
-| 03:00–04:30 | 交付 HLD、Runtime 拓樸、權限矩陣與威脅模型 | 評估、安全與故障測試 |
-| 04:30–05:00 | 向客戶說明成本、可靠性、稽核與維運取捨 | ADR、Commit、英文說明 |
+| 00:00–01:30 | 學習入口、模型、部署、Agent vs Workflow 及信任邊界，閱讀指定官方課程與 Exam Guide。 | 知識筆記、考綱對照 |
+| 01:30–03:00 | 實作：建立 HLD，比較 Messages API、Agent SDK、Managed Runtime、Sandbox 與 MCP。 | Lab／架構文件 |
+| 03:00–04:30 | 自己模擬客戶情境、測試風險並比較替代方案。 | 測試／報告與技術取捨 |
+| 04:30–05:00 | 用英文解說並更新認證進度。 | Commit、ADR、考試清單 |
 
-**驗收：** 資安審查能清楚識別強制控制的位置。
-
-- [ ] 完成課程與理解
-- [ ] 獨立測試成果
-- [ ] 提交設計取捨及證據
+**驗收：** 能不看筆記交付成果、解釋技術決策與剩餘弱點；正式考試僅在已登記且準備充分時安排。
