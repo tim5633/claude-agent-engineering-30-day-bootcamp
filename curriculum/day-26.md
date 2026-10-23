@@ -2,6 +2,17 @@
 
 **2026-11-20 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
 
+## Assigned Partner Academy lesson and direct reading links
+
+**Partner Academy:** [Stakeholder Engagement, Lifecycle & GTM](https://anthropic-partners.skilljar.com/stakeholder-engagement-lifecycle-gtm) (company login required for course modules).
+
+1. [Official stakeholder engagement module](https://anthropic-partners.skilljar.com/stakeholder-engagement-lifecycle-gtm)
+2. [Enterprise integration and production](https://anthropic-partners.skilljar.com/enterprise-integration-production)
+
+**Study topics:** Study procurement, ROI, success metrics, cost forecasting, roadmap and stakeholder decisions.
+
+**Required deliverable:** Produce a client proposal, TCO/ROI spreadsheet assumptions and delivery RACI.
+
 ## Objective and official resources
 
 Study Day 26 — ROI & delivery using authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) course content, current exam guides and [Claude documentation](https://docs.anthropic.com/). Focus on enterprise security, design, communication and independent execution.
@@ -29,6 +40,17 @@ Study Day 26 — ROI & delivery using authorized [Anthropic Partner Academy](htt
 # Day 26 — ROI & delivery
 
 **2026-11-20 · 5 小時** · [Home](../README.md)
+
+## 今日 Partner Academy 課程與直達教材
+
+**Partner Academy:** [Stakeholder Engagement, Lifecycle & GTM](https://anthropic-partners.skilljar.com/stakeholder-engagement-lifecycle-gtm) (company login required for course modules).
+
+1. [Official stakeholder engagement module](https://anthropic-partners.skilljar.com/stakeholder-engagement-lifecycle-gtm)
+2. [Enterprise integration and production](https://anthropic-partners.skilljar.com/enterprise-integration-production)
+
+**學習重點:** Study procurement, ROI, success metrics, cost forecasting, roadmap and stakeholder decisions.
+
+**當天交付:** Produce a client proposal, TCO/ROI spreadsheet assumptions and delivery RACI.
 
 ## 今日學習目標
 
