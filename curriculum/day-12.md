@@ -1,56 +1,59 @@
-# Day 12 — MCP security
+# Day 12 — Secure MCP & Tool Execution
 
-**2026-11-06 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
+**2026-11-06 · 5 hours** · [Home](../README.md) · [繁體中文 ↓](#traditional-chinese)
 
-## Objective and resources
+## Learning outcomes
 
-Learn Day 12 — MCP security through authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) lessons and [Claude documentation](https://docs.anthropic.com/). Include security boundaries, alternatives, failure modes and costs.
+Review MCP tool authorization, credentials, untrusted results and input boundaries.
 
-## Daily schedule
+**Course material:** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) (authorized curriculum only), [Claude docs](https://docs.anthropic.com/). **Deep-dive reference:** [Secure MCP & Tool Execution](../docs/ai-sandbox-security.md).
 
-| Time | Task | Evidence |
+## Daily 5-hour learning and implementation plan
+
+| Time | Required action | Deliverable |
 |---|---|---|
-| 0:00–1:30 | Complete official course and read documentation | Five key concepts |
-| 1:30–3:00 | Guided lab: Create finance SQL and document MCP tools with authorization | Working code and tests |
-| 3:00–4:30 | Independent implementation, deliberate fault and regression | Commits, traces, test report |
-| 4:30–5:00 | Validate outcomes, document trade-offs and explain in English | Daily log / ADR |
+| 00:00–01:30 | Review MCP tool authorization, credentials, untrusted results and input boundaries. | Concept notes + trust-boundary sketch |
+| 01:30–03:00 | Create finance SQL and document MCP tools backed only by synthetic data. | Working implementation / design artifact |
+| 03:00–04:30 | Apply read-only roles, parameterized queries, validation and per-tool auth checks. | Unit / integration / security tests |
+| 04:30–05:00 | Test denied writes, invalid input, malicious document content and redacted logs. | ADR + trace/eval evidence + English explanation |
 
-## Acceptance checklist
+## Definition of done
 
-- [ ] Reproduced capability without step-by-step tutorial
-- [ ] Tested negative/security/error cases
-- [ ] Measured relevant costs and reliability
-- [ ] Committed working code and provided a 3-minute explanation
+**Write attempts fail at database/tool authorization even if the model requests them.**
+
+- [ ] Relevant concepts and official reading completed
+- [ ] Capstone implementation and positive/negative tests completed
+- [ ] Evidence and architecture decision committed
+- [ ] Explain trade-offs without step-by-step assistance
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 12 — MCP security
+# Day 12 — 安全 MCP 與工具執行
 
-**2026-11-06 · 5 小時** · [Home](../README.md)
+**2026-11-06 · 5 小時** · [首頁](../README.md)
 
-## 今日學習目標
+## 今日能力目標
 
-深入掌握 **MCP security** 的原理、應用、替代設計、風險與成本。
+理解 MCP Tool 授權、憑證、非可信任結果與輸入邊界。
 
-**課程來源：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（以授權帳號內最新課綱為準）、[Claude Academy](https://academy.claude.com/)、[官方技術文件](https://docs.anthropic.com/)。
+**指定教材：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（依帳號內授權課程）、[Claude 官方文件](https://docs.anthropic.com/)；深入參考 [安全 MCP 與工具執行](../docs/ai-sandbox-security.md)。
 
-## 每日時間線
+## 每日五小時實作時間線
 
-| 時間 | 學習任務 | 交付 |
+| 時段 | 指定學習／實作任務 | 產出 |
 |---|---|---|
-| 00:00–01:30 | 官方課程與技術文件，整理 5 個核心概念 | Notes |
-| 01:30–03:00 | Guided lab：將 MCP security 應用於 Capstone | Working code |
-| 03:00–04:30 | Closed-book：自行擴充、注入錯誤、測試與 Debug | Tests + Git commit |
-| 04:30–05:00 | 驗收、技術決策、英文解說 | Daily log + ADR |
+| 00:00–01:30 | 理解 MCP Tool 授權、憑證、非可信任結果與輸入邊界。 | 概念筆記與信任邊界圖 |
+| 01:30–03:00 | 使用合成資料建立財務 SQL 和文件 MCP 工具。 | 可執行實作／架構交付 |
+| 03:00–04:30 | 採用唯讀角色、參數化查詢、輸入驗證與工具級授權。 | 單元、整合與安全測試 |
+| 04:30–05:00 | 測試拒絕寫入、無效參數、惡意文件與不洩漏密鑰的日誌。 | ADR、Trace／Eval 證據及英文解說 |
 
-## 實戰驗收
+## 驗收標準
 
-在 [Enterprise Financial Research Agent](../docs/capstone.md) 實作今日能力，保留測試和 trace。自行說明為何選擇此架構、如何處理權限/成本/失敗、如何客觀評估。
+**即使模型請求資料庫寫入，也會在工具／資料庫授權層遭到拒絕。**
 
-- [ ] 完成官方課程與筆記
-- [ ] 獨立完成可執行功能
-- [ ] 相關測試通過
-- [ ] 記錄失敗案例與修復
-- [ ] Git commit、英文 3 分鐘講解
+- [ ] 完成課程、概念整理與閱讀
+- [ ] 完成 Capstone 實作與正反測試
+- [ ] 上傳可驗證成果、測試與技術取捨
+- [ ] 不依賴逐步教學解釋整體設計
