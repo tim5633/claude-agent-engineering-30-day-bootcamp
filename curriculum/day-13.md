@@ -2,6 +2,14 @@
 
 **2026-11-07 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Open course → assigned section → lab → credential
+
+- **Official company learning:** [Associate: Workflow Integration & Solution Design](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses).
+- **Section/topic:** Workflow decisions, stakeholder review and approvals. Focus selected for this day; gated lesson headings should be checked in your logged-in course.
+- **Hands-on lab:** Add a human approval gate to high-risk simulated report publication. plus negative/security test.
+- **Exam:** **CCAO-F, CCDV-F** ([official guide](https://anthropic-partners.skilljar.com/page/partner-certifications)).
+- **Pass:** demonstrate implementation, tests, trace and architecture trade-off.
+
 ## Accenture Partner Academy mapping
 
 **Official module or exam domain:** [Associate – Workflow Integration & Solution Design (63 min); Developer – Production agents](https://anthropic-partners.skilljar.com/path/claude-certified-associate-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
@@ -30,6 +38,14 @@
 # Day 13 — 工作流整合與人工審查
 
 **2026-11-07 · 5 小時** · [首頁](../README.md)
+
+## 每日課程 → Section → 實作 → 認證
+
+- **公司官方課程：** [Associate: Workflow Integration & Solution Design](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)。
+- **Section：** Workflow decisions, stakeholder review and approvals（指定主題，登入確認實際 Lesson 名稱）。
+- **Lab：** Add a human approval gate to high-risk simulated report publication.，加入越權／失敗測試。
+- **認證：** **CCAO-F, CCDV-F**（[官方考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)）。
+- **驗收：** 實作、測試、Trace 與架構取捨。
 
 ## Accenture Partner Academy 指定內容
 
