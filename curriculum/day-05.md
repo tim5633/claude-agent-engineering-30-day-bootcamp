@@ -2,6 +2,14 @@
 
 **2026-10-30 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Daily certification learning card
+
+- **Open company course:** [Anthropic Partner Academy — Developer: Claude Code, MCP & Integration](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses) (company sign-in).
+- **Study section:** **Skills, subagents and task delegation** (daily topic focus, not a claim about exact private lesson title).
+- **Do this lab:** Create reviewer, test-engineer and security-check Skills with scoped agents..
+- **Maps to:** **CCDV-F, CCAR-F**; cross-check the current [official exam guide](https://anthropic-partners.skilljar.com/page/partner-certifications).
+- **Proof:** lesson notes, working code, negative test, and exam-domain checklist.
+
 ## Assigned Accenture / Anthropic Partner Academy courses
 
 **Official Partner training:** [Developer: Claude Code, MCP & Integration (skills, subagents); Partner Claude Code Badge](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). The course title is official; subsections in parentheses indicate which portion to focus on today, not separate certified course titles.
@@ -35,6 +43,14 @@
 # Day 05 — Skills、Subagents 與可重複交付
 
 **2026-10-30 · 5 小時** · [首頁](../README.md)
+
+## 每日認證學習卡
+
+- **公司課程：** [Anthropic Partner Academy — Developer: Claude Code, MCP & Integration](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)（公司帳號登入）。
+- **指定 Section：** **Skills, subagents and task delegation**（指定主題，不冒充已核實的內部 Lesson 名稱）。
+- **Lab：** Create reviewer, test-engineer and security-check Skills with scoped agents.。
+- **對應認證：** **CCDV-F, CCAR-F**，請對照[官方考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)。
+- **驗收：** 課程筆記、程式、反向測試與考綱 Checklist。
 
 ## 公司 Anthropic Partner Academy 指定課程
 
