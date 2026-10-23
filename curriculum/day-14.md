@@ -2,6 +2,14 @@
 
 **2026-11-08 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
+## Open course → assigned section → lab → credential
+
+- **Official company learning:** [Developer: Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses).
+- **Section/topic:** RAG, citations and contextual grounding. Focus selected for this day; gated lesson headings should be checked in your logged-in course.
+- **Hands-on lab:** Build document RAG with 20 cited QA cases and non-answer handling. plus negative/security test.
+- **Exam:** **CCDV-F, CCAR-F** ([official guide](https://anthropic-partners.skilljar.com/page/partner-certifications)).
+- **Pass:** demonstrate implementation, tests, trace and architecture trade-off.
+
 ## Accenture Partner Academy mapping
 
 **Official module or exam domain:** [Developer – Production-Grade Prompting, Agents & Tool Use: context; Architect Foundations: Context Management](https://anthropic-partners.skilljar.com/path/claude-certified-developer-foundations). When a domain is shown rather than a course, follow the linked certification's authoritative exam guide.
@@ -30,6 +38,14 @@
 # Day 14 — RAG 與有來源的 Agent 整合
 
 **2026-11-08 · 5 小時** · [首頁](../README.md)
+
+## 每日課程 → Section → 實作 → 認證
+
+- **公司官方課程：** [Developer: Production-Grade Prompting, Agents & Tool Use](https://anthropic-partners.skilljar.com/page/claude-certification-exam-prep-courses)。
+- **Section：** RAG, citations and contextual grounding（指定主題，登入確認實際 Lesson 名稱）。
+- **Lab：** Build document RAG with 20 cited QA cases and non-answer handling.，加入越權／失敗測試。
+- **認證：** **CCDV-F, CCAR-F**（[官方考綱](https://anthropic-partners.skilljar.com/page/partner-certifications)）。
+- **驗收：** 實作、測試、Trace 與架構取捨。
 
 ## Accenture Partner Academy 指定內容
 
