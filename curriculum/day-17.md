@@ -26,3 +26,10 @@
 - [ ] 相關測試通過
 - [ ] 記錄失敗案例與修復
 - [ ] Git commit、英文 3 分鐘講解
+
+
+## Advanced Track — Sandbox and isolation threat-model lab
+
+Read [AI Sandbox & Secure Execution](../docs/ai-sandbox-security.md). Test non-root throwaway container boundaries, read-only mounts, disabled/allowlisted egress, secrets redaction, untrusted tool responses, least-privilege permissions and approval gates; use only synthetic/owned resources.
+
+**Additional exit check:** Demonstrate the boundary with a repeatable test and record one architecture trade-off in the daily engineering log.
