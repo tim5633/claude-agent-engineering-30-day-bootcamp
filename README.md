@@ -1,7 +1,137 @@
-# Claude AI Agent 工程與架構師：30 天高強度實戰訓練
-### Claude Agent Engineering — 30-Day Intensive Bootcamp
+<a id="english-version"></a>
+# Claude Agent Engineering — 30-Day Intensive Bootcamp
 
-**繁體中文在上 / English below** · [Jump to English](#english-version)
+> An open-source, hands-on **30-day, 150-hour** learning roadmap for engineers and solution architects who want to progress from Claude-assisted development to designing, building, evaluating, deploying, and presenting enterprise-grade Claude AI agents.
+
+[切換至繁體中文 / Read in Traditional Chinese](#traditional-chinese)
+
+## 📖 Overview
+
+This bootcamp focuses on gaining practical mastery of the Claude ecosystem, including **Claude Code, the Claude API, Claude Agent SDK, Model Context Protocol (MCP), production engineering, and enterprise solution architecture**.
+
+- **Suggested dates:** October 26 – November 24, 2026 (start any time)
+- **Workload:** 5 hours per day for 30 days — 150 hours total
+- **Learning split:** 30% guided learning, 60% hands-on engineering, 10% assessment
+- **Core tools:** Claude Code, Claude API, Claude Agent SDK, MCP, Git, testing and deployment tooling
+- **Final deliverable:** A deployable Enterprise Financial Research & Workflow Agent with technical documentation and a client-ready architecture pack
+- **Certification focus:** Anthropic Partner Academy Developer and Architect training, subject to current eligibility and official exam guides
+
+## 🧠 Learning Architecture
+
+```mermaid
+flowchart TD
+    A["Claude Fundamentals"] --> B["Claude Code & Context Engineering"]
+    B --> C["Messages API & Tool Calling"]
+    C --> D["Agent SDK & MCP"]
+    D --> E["Evaluation, Security & Observability"]
+    E --> F["Deployment & Operations"]
+    F --> G["Enterprise Architecture & Client Delivery"]
+    G --> H["Capstone & Certification Readiness"]
+```
+
+### Four-week roadmap
+
+| Phase | Days | Focus | Deliverable |
+|---|---|---|---|
+| Week 1 | 01–07 | Claude Code, CLAUDE.md, Skills, Hooks, Subagents, MCP | Tested full-stack application |
+| Week 2 | 08–14 | Messages API, structured outputs, tool use, Agent SDK, RAG | Tool-enabled AI agent |
+| Week 3 | 15–21 | Architecture patterns, security, evaluations, observability, CI/CD | Deployable and monitored agent |
+| Week 4 | 22–28 | Enterprise architecture, governance, ROI, client delivery, certification | Client-ready solution design pack |
+| Final | 29–30 | Failure simulation, live demonstration, architecture review | Completed capstone |
+
+## 📅 Complete 30-Day Curriculum
+
+| Day | Topic |
+|---|---|
+| 01 | [Claude ecosystem and environment](curriculum/day-01.md) |
+| 02 | [CLAUDE.md and context engineering](curriculum/day-02.md) |
+| 03 | [Plan Mode, Git, and testing](curriculum/day-03.md) |
+| 04 | [Hooks and permissions](curriculum/day-04.md) |
+| 05 | [Skills and subagents](curriculum/day-05.md) |
+| 06 | [MCP server fundamentals](curriculum/day-06.md) |
+| 07 | [Full-stack week-one challenge](curriculum/day-07.md) |
+| 08 | [Messages API](curriculum/day-08.md) |
+| 09 | [Prompting and structured outputs](curriculum/day-09.md) |
+| 10 | [Tool calling](curriculum/day-10.md) |
+| 11 | [Claude Agent SDK](curriculum/day-11.md) |
+| 12 | [Advanced MCP security](curriculum/day-12.md) |
+| 13 | [RAG and citations](curriculum/day-13.md) |
+| 14 | [Agent integration](curriculum/day-14.md) |
+| 15 | [Agent architecture patterns](curriculum/day-15.md) |
+| 16 | [State and human approvals](curriculum/day-16.md) |
+| 17 | [Prompt injection](curriculum/day-17.md) |
+| 18 | [Evaluation](curriculum/day-18.md) |
+| 19 | [Observability and cost](curriculum/day-19.md) |
+| 20 | [CI/CD and deployment](curriculum/day-20.md) |
+| 21 | [Claude Code Partner Badge](curriculum/day-21.md) |
+| 22 | [Developer certification preparation](curriculum/day-22.md) |
+| 23 | [Client discovery](curriculum/day-23.md) |
+| 24 | [Solution architecture](curriculum/day-24.md) |
+| 25 | [AI governance and risk](curriculum/day-25.md) |
+| 26 | [ROI and delivery planning](curriculum/day-26.md) |
+| 27 | [Architect certification preparation](curriculum/day-27.md) |
+| 28 | [Operational handover](curriculum/day-28.md) |
+| 29 | [Go-live failure simulation](curriculum/day-29.md) |
+| 30 | [Final client architecture defense](curriculum/day-30.md) |
+
+Each daily guide contains learning objectives, official learning resources, a five-hour schedule, hands-on engineering tasks, reflection questions, and a completion checklist.
+
+## 🛠️ Capstone Project
+
+Build an **Enterprise Financial Research & Workflow Agent** using public or synthetic financial data. The agent should retrieve documents, execute validated tools, analyze datasets, generate source-grounded reports, and require human approval for sensitive operations.
+
+The solution should include API integration, Agent SDK, MCP tools, access control, evaluation, tracing, cost monitoring, deployment, rollback, and documentation.
+
+See the [Capstone specification](docs/capstone.md).
+
+## 🎓 Official Courses and Certification Resources
+
+| Focus | Official resource |
+|---|---|
+| Claude Code, Agent Skills and Claude API learning | [Claude Academy](https://academy.claude.com/) |
+| Partner training and certification preparation | [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) |
+| Claude Code | [Claude Code documentation](https://code.claude.com/docs/) |
+| Claude API and Agent SDK | [Anthropic documentation](https://docs.anthropic.com/) |
+| Model Context Protocol | [MCP documentation](https://modelcontextprotocol.io/) |
+
+Formal certifications differ from course completion badges. Eligibility, course availability, exam fees and specifications may change. See [Courses and certifications](docs/certifications.md).
+
+
+## 🔒 Agent Harness, Sandboxing & Evaluation
+
+Three advanced enterprise-engineering tracks complement Claude Code, the Agent SDK and MCP:
+
+- **[Agent Harness Engineering](docs/agent-harness-engineering.md):** Bounded execution loops, tool routing, sessions, checkpoints, long-running recovery, budget and stop conditions.
+- **[AI Sandbox & Secure Execution](docs/ai-sandbox-security.md):** Container and filesystem isolation, network egress, secrets, resource constraints and browser/computer-use safeguards.
+- **[Evaluation Harness & Red Teaming](docs/evaluation-harness.md):** Clean test environments, golden datasets, outcome graders and prompt-injection regression tests.
+
+> The **harness orchestrates** agent activity, the **sandbox limits** its execution privileges, and the **evaluation harness measures** real outcomes.
+
+## 🚀 Getting Started
+
+1. Fork or clone the repository.
+2. Start with [Day 01](curriculum/day-01.md) and configure your Claude development environment.
+3. Complete five hours of daily training, including implementation, tests, Git commits, architecture decisions and learning notes.
+4. Record progress using the [30-day checklist](docs/progress.md).
+5. Use the [mastery rubric](docs/assessment.md) for weekly independent exercises and the final evaluation.
+
+**Additional documentation:** [Client delivery pack](docs/client-delivery.md) · [Contributing](CONTRIBUTING.md) · [MIT License](LICENSE)
+
+## ⚠️ Disclaimer and Security
+
+This is an independent community learning project and **is not affiliated with, endorsed by, or certified by Anthropic**. Do not commit restricted Partner Academy materials, proprietary exam questions, API keys, confidential client data, or other secrets. Completing the bootcamp does not guarantee professional certification or mastery of every enterprise deployment scenario.
+
+## 🤝 Contributing and License
+
+Contributions, corrections, and improvements are welcome via pull requests. This repository is distributed under the [MIT License](LICENSE).
+
+---
+
+<a id="traditional-chinese"></a>
+
+# Claude AI Agent 工程與架構師：30 天高強度實戰訓練
+
+**繁體中文在下 / English above** · [Back to English](#english-version)
 
 > 一套開源、以實作為核心的 **30 天 × 每天 5 小時（150 小時）** 學習路線，從 Claude Code、Claude API、Agent SDK、MCP，一路進階到 AI Agent 的測試、部署、治理及企業級客戶交付。
 
@@ -127,131 +257,3 @@ flowchart TD
 - **[Evaluation Harness & Red Teaming](docs/evaluation-harness.md)：** 獨立測試環境、Golden Dataset、Outcome Graders、Prompt Injection 回歸測試。
 
 > Harness 決定 Agent **如何執行任務**；Sandbox 限制執行環境**可以存取什麼**；Evaluation Harness 驗證系統**實際做對了什麼**。
-
-<a id="english-version"></a>
-
-# Claude Agent Engineering — 30-Day Intensive Bootcamp
-
-> An open-source, hands-on **30-day, 150-hour** learning roadmap for engineers and solution architects who want to progress from Claude-assisted development to designing, building, evaluating, deploying, and presenting enterprise-grade Claude AI agents.
-
-[Back to 繁體中文](#claude-ai-agent-工程與架構師30-天高強度實戰訓練)
-
-## 📖 Overview
-
-This bootcamp focuses on gaining practical mastery of the Claude ecosystem, including **Claude Code, the Claude API, Claude Agent SDK, Model Context Protocol (MCP), production engineering, and enterprise solution architecture**.
-
-- **Suggested dates:** October 26 – November 24, 2026 (start any time)
-- **Workload:** 5 hours per day for 30 days — 150 hours total
-- **Learning split:** 30% guided learning, 60% hands-on engineering, 10% assessment
-- **Core tools:** Claude Code, Claude API, Claude Agent SDK, MCP, Git, testing and deployment tooling
-- **Final deliverable:** A deployable Enterprise Financial Research & Workflow Agent with technical documentation and a client-ready architecture pack
-- **Certification focus:** Anthropic Partner Academy Developer and Architect training, subject to current eligibility and official exam guides
-
-## 🧠 Learning Architecture
-
-```mermaid
-flowchart TD
-    A["Claude Fundamentals"] --> B["Claude Code & Context Engineering"]
-    B --> C["Messages API & Tool Calling"]
-    C --> D["Agent SDK & MCP"]
-    D --> E["Evaluation, Security & Observability"]
-    E --> F["Deployment & Operations"]
-    F --> G["Enterprise Architecture & Client Delivery"]
-    G --> H["Capstone & Certification Readiness"]
-```
-
-### Four-week roadmap
-
-| Phase | Days | Focus | Deliverable |
-|---|---|---|---|
-| Week 1 | 01–07 | Claude Code, CLAUDE.md, Skills, Hooks, Subagents, MCP | Tested full-stack application |
-| Week 2 | 08–14 | Messages API, structured outputs, tool use, Agent SDK, RAG | Tool-enabled AI agent |
-| Week 3 | 15–21 | Architecture patterns, security, evaluations, observability, CI/CD | Deployable and monitored agent |
-| Week 4 | 22–28 | Enterprise architecture, governance, ROI, client delivery, certification | Client-ready solution design pack |
-| Final | 29–30 | Failure simulation, live demonstration, architecture review | Completed capstone |
-
-## 📅 Complete 30-Day Curriculum
-
-| Day | Topic |
-|---|---|
-| 01 | [Claude ecosystem and environment](curriculum/day-01.md) |
-| 02 | [CLAUDE.md and context engineering](curriculum/day-02.md) |
-| 03 | [Plan Mode, Git, and testing](curriculum/day-03.md) |
-| 04 | [Hooks and permissions](curriculum/day-04.md) |
-| 05 | [Skills and subagents](curriculum/day-05.md) |
-| 06 | [MCP server fundamentals](curriculum/day-06.md) |
-| 07 | [Full-stack week-one challenge](curriculum/day-07.md) |
-| 08 | [Messages API](curriculum/day-08.md) |
-| 09 | [Prompting and structured outputs](curriculum/day-09.md) |
-| 10 | [Tool calling](curriculum/day-10.md) |
-| 11 | [Claude Agent SDK](curriculum/day-11.md) |
-| 12 | [Advanced MCP security](curriculum/day-12.md) |
-| 13 | [RAG and citations](curriculum/day-13.md) |
-| 14 | [Agent integration](curriculum/day-14.md) |
-| 15 | [Agent architecture patterns](curriculum/day-15.md) |
-| 16 | [State and human approvals](curriculum/day-16.md) |
-| 17 | [Prompt injection](curriculum/day-17.md) |
-| 18 | [Evaluation](curriculum/day-18.md) |
-| 19 | [Observability and cost](curriculum/day-19.md) |
-| 20 | [CI/CD and deployment](curriculum/day-20.md) |
-| 21 | [Claude Code Partner Badge](curriculum/day-21.md) |
-| 22 | [Developer certification preparation](curriculum/day-22.md) |
-| 23 | [Client discovery](curriculum/day-23.md) |
-| 24 | [Solution architecture](curriculum/day-24.md) |
-| 25 | [AI governance and risk](curriculum/day-25.md) |
-| 26 | [ROI and delivery planning](curriculum/day-26.md) |
-| 27 | [Architect certification preparation](curriculum/day-27.md) |
-| 28 | [Operational handover](curriculum/day-28.md) |
-| 29 | [Go-live failure simulation](curriculum/day-29.md) |
-| 30 | [Final client architecture defense](curriculum/day-30.md) |
-
-Each daily guide contains learning objectives, official learning resources, a five-hour schedule, hands-on engineering tasks, reflection questions, and a completion checklist.
-
-## 🛠️ Capstone Project
-
-Build an **Enterprise Financial Research & Workflow Agent** using public or synthetic financial data. The agent should retrieve documents, execute validated tools, analyze datasets, generate source-grounded reports, and require human approval for sensitive operations.
-
-The solution should include API integration, Agent SDK, MCP tools, access control, evaluation, tracing, cost monitoring, deployment, rollback, and documentation.
-
-See the [Capstone specification](docs/capstone.md).
-
-## 🎓 Official Courses and Certification Resources
-
-| Focus | Official resource |
-|---|---|
-| Claude Code, Agent Skills and Claude API learning | [Claude Academy](https://academy.claude.com/) |
-| Partner training and certification preparation | [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) |
-| Claude Code | [Claude Code documentation](https://code.claude.com/docs/) |
-| Claude API and Agent SDK | [Anthropic documentation](https://docs.anthropic.com/) |
-| Model Context Protocol | [MCP documentation](https://modelcontextprotocol.io/) |
-
-Formal certifications differ from course completion badges. Eligibility, course availability, exam fees and specifications may change. See [Courses and certifications](docs/certifications.md).
-
-
-## 🔒 Agent Harness, Sandboxing & Evaluation
-
-Three advanced enterprise-engineering tracks complement Claude Code, the Agent SDK and MCP:
-
-- **[Agent Harness Engineering](docs/agent-harness-engineering.md):** Bounded execution loops, tool routing, sessions, checkpoints, long-running recovery, budget and stop conditions.
-- **[AI Sandbox & Secure Execution](docs/ai-sandbox-security.md):** Container and filesystem isolation, network egress, secrets, resource constraints and browser/computer-use safeguards.
-- **[Evaluation Harness & Red Teaming](docs/evaluation-harness.md):** Clean test environments, golden datasets, outcome graders and prompt-injection regression tests.
-
-> The **harness orchestrates** agent activity, the **sandbox limits** its execution privileges, and the **evaluation harness measures** real outcomes.
-
-## 🚀 Getting Started
-
-1. Fork or clone the repository.
-2. Start with [Day 01](curriculum/day-01.md) and configure your Claude development environment.
-3. Complete five hours of daily training, including implementation, tests, Git commits, architecture decisions and learning notes.
-4. Record progress using the [30-day checklist](docs/progress.md).
-5. Use the [mastery rubric](docs/assessment.md) for weekly independent exercises and the final evaluation.
-
-**Additional documentation:** [Client delivery pack](docs/client-delivery.md) · [Contributing](CONTRIBUTING.md) · [MIT License](LICENSE)
-
-## ⚠️ Disclaimer and Security
-
-This is an independent community learning project and **is not affiliated with, endorsed by, or certified by Anthropic**. Do not commit restricted Partner Academy materials, proprietary exam questions, API keys, confidential client data, or other secrets. Completing the bootcamp does not guarantee professional certification or mastery of every enterprise deployment scenario.
-
-## 🤝 Contributing and License
-
-Contributions, corrections, and improvements are welcome via pull requests. This repository is distributed under the [MIT License](LICENSE).
