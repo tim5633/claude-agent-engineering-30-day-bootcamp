@@ -26,3 +26,10 @@
 - [ ] 相關測試通過
 - [ ] 記錄失敗案例與修復
 - [ ] Git commit、英文 3 分鐘講解
+
+
+## Advanced Track — Long-running Harness and crash recovery
+
+Read [Agent Harness Engineering](../docs/agent-harness-engineering.md). Implement session state, checkpoints, process-restart recovery and idempotency for consequential tools; test an interrupted workflow.
+
+**Additional exit check:** Demonstrate the boundary with a repeatable test and record one architecture trade-off in the daily engineering log.
