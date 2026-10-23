@@ -2,6 +2,19 @@
 
 **2026-11-01 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
 
+## Assigned lessons & direct learning links
+
+**Partner Academy module:** [Claude Code, MCP & Integration — integration challenge](https://anthropic-partners.skilljar.com/claude-code-mcp-integration) (sign in using your company account; select the named topic).
+
+1. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
+2. [Claude Code hooks](https://code.claude.com/docs/en/hooks)
+
+**Read for:** Review skills, hooks, MCP access and the build-test-review loop,Complete full-stack issue tracker and run permissions and regression checks.
+
+**Lab tied to these resources:** undefined.
+
+**Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
+
 ## Objective and resources
 
 Learn Day 07 — Full-stack app. Study the corresponding authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) modules and [Claude documentation](https://docs.anthropic.com/). Explain design alternatives, reliability, permissions, and costs.
@@ -29,6 +42,17 @@ Learn Day 07 — Full-stack app. Study the corresponding authorized [Anthropic P
 # Day 07 — Full-stack app
 
 **2026-11-01 · 5 小時** · [Home](../README.md)
+
+## 今日指定教材與直達連結
+
+**Partner Academy 課程：** [Claude Code, MCP & Integration — integration challenge](https://anthropic-partners.skilljar.com/claude-code-mcp-integration)（使用公司帳號登入，選擇上述主題）。
+
+1. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
+2. [Claude Code hooks](https://code.claude.com/docs/en/hooks)
+
+**閱讀重點：** Review skills, hooks, MCP access and the build-test-review loop,Complete full-stack issue tracker and run permissions and regression checks。
+
+**指定實作：** undefined。
 
 ## 今日學習目標
 
