@@ -2,6 +2,19 @@
 
 **2026-10-28 | 5 hours** · [Home](../README.md) · [Read Traditional Chinese](#traditional-chinese)
 
+## Assigned lessons & direct learning links
+
+**Partner Academy module:** [Claude Code, MCP & Integration — explore, plan and code](https://anthropic-partners.skilljar.com/claude-code-mcp-integration) (sign in using your company account; select the named topic).
+
+1. [Claude Code common workflows](https://code.claude.com/docs/en/common-workflows)
+2. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
+
+**Read for:** Study planning, Git diffs and tests as verification evidence,Build a CRUD endpoint using plan→implementation→test→review.
+
+**Lab tied to these resources:** undefined.
+
+**Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
+
 ## Objective and resources
 
 Learn Day 03 — Plan mode & Git. Study the corresponding authorized [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) modules and [Claude documentation](https://docs.anthropic.com/). Explain design alternatives, reliability, permissions, and costs.
@@ -29,6 +42,17 @@ Learn Day 03 — Plan mode & Git. Study the corresponding authorized [Anthropic 
 # Day 03 — Plan mode & Git
 
 **2026-10-28 · 5 小時** · [Home](../README.md)
+
+## 今日指定教材與直達連結
+
+**Partner Academy 課程：** [Claude Code, MCP & Integration — explore, plan and code](https://anthropic-partners.skilljar.com/claude-code-mcp-integration)（使用公司帳號登入，選擇上述主題）。
+
+1. [Claude Code common workflows](https://code.claude.com/docs/en/common-workflows)
+2. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
+
+**閱讀重點：** Study planning, Git diffs and tests as verification evidence,Build a CRUD endpoint using plan→implementation→test→review。
+
+**指定實作：** undefined。
 
 ## 今日學習目標
 
