@@ -1,37 +1,28 @@
 # Day 08 — Messages API
 
-**日期：** 2026-11-02  
-**主題：** Claude API / Agent SDK / MCP  
-**工時：** 5 小時（90 分鐘課程／文件、180 分鐘實作、30 分鐘驗收）
-
-## 課程與閱讀
-
-Building with the Claude API；Developer Foundations
-
-> 登入 [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/) 查找相應模組；如官方改名，以當時考綱為準。其他參考：[Claude Code Docs](https://code.claude.com/docs/en/overview)、[Claude API Docs](https://docs.claude.com/)、[MCP Docs](https://modelcontextprotocol.io/)。
+**2026-11-02 · 5 小時** · [Home](../README.md)
 
 ## 今日學習目標
 
-理解並能口述：**Messages API** 的核心術語、API／安全邊界和適用情境。
+深入掌握 **Messages API** 的原理、應用、替代設計、風險與成本。
 
-## 實作（180 分鐘）
+**課程來源：** [Anthropic Partner Academy](https://anthropic-partners.skilljar.com/)（以授權帳號內最新課綱為準）、[Claude Academy](https://academy.claude.com/)、[官方技術文件](https://docs.anthropic.com/)。
 
-API SDK、認證、rate limit、token 與錯誤處理。實作請使用合成或公開資料，勿將企業機密推送至公開倉庫。
+## 每日時間線
 
-## 必須交付
+| 時間 | 學習任務 | 交付 |
+|---|---|---|
+| 00:00–01:30 | 官方課程與技術文件，整理 5 個核心概念 | Notes |
+| 01:30–03:00 | Guided lab：將 Messages API 應用於 Capstone | Working code |
+| 03:00–04:30 | Closed-book：自行擴充、注入錯誤、測試與 Debug | Tests + Git commit |
+| 04:30–05:00 | 驗收、技術決策、英文解說 | Daily log + ADR |
 
-- [ ] 最小 API client、成本追蹤
-- [ ] 至少一個 Git commit（或 Pull Request）
-- [ ] 在 `docs/learning-log.md` 紀錄錯誤、設計決策與待補強知識
+## 實戰驗收
 
-## 驗收（30 分鐘）
+在 [Enterprise Financial Research Agent](../docs/capstone.md) 實作今日能力，保留測試和 trace。自行說明為何選擇此架構、如何處理權限/成本/失敗、如何客觀評估。
 
-- [ ] 可解釋 401、429、timeout
-- [ ] 不看教學，用英文解釋此技術的價值與主要風險（90 秒）
-- [ ] 記錄如何驗證測試結果（指令、log 或截圖）
-
-## 反思
-
-- 今天最大的一個錯誤：
-- 我現在能解釋的架構取捨：
-- 明天要修復的問題：
+- [ ] 完成官方課程與筆記
+- [ ] 獨立完成可執行功能
+- [ ] 相關測試通過
+- [ ] 記錄失敗案例與修復
+- [ ] Git commit、英文 3 分鐘講解
