@@ -9,9 +9,9 @@
 1. [Claude Code common workflows](https://code.claude.com/docs/en/common-workflows)
 2. [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
 
-**Read for:** Study planning, Git diffs and tests as verification evidence,Build a CRUD endpoint using plan→implementation→test→review.
+**Study topics:** Study planning, Git diffs and tests as verification evidence.
 
-**Lab tied to these resources:** undefined.
+**Required hands-on lab:** Build CRUD API using plan → implementation → tests → review.
 
 **Validation:** Demonstrate the lab with automated checks and explain why these sources apply to today's implementation.
 
