@@ -14,7 +14,7 @@ This bootcamp focuses on gaining practical mastery of the Claude ecosystem, incl
 - **Learning split:** 30% guided learning, 60% hands-on engineering, 10% assessment
 - **Core tools:** Claude Code, Claude API, Claude Agent SDK, MCP, Git, testing and deployment tooling
 - **Final deliverable:** A deployable Enterprise Financial Research & Workflow Agent with technical documentation and a client-ready architecture pack
-- **Certification focus:** Anthropic Partner Academy Developer and Architect training, subject to current eligibility and official exam guides
+- **Certification focus:** Four Accenture-supported Anthropic Partner certifications (Associate / Developer / Architect Foundations / Architect Professional), subject to Workday enrollment and official exam guides
 
 ## 🧠 Learning Architecture
 
@@ -28,6 +28,21 @@ flowchart TD
     F --> G["Enterprise Architecture & Client Delivery"]
     G --> H["Capstone & Certification Readiness"]
 ```
+
+### Accenture-provided certifications: integrated into the 30-day roadmap
+
+The company's **9 October 2026** announcement identifies four Claude certification exams. The **official Partner Academy course modules** are mapped directly to the relevant daily labs, not placed in a separate afterthought section.
+
+| Certification | Official modules / exam domains | Where you learn it |
+|---|---|---|
+| **Associate – Foundations (CCAO-F)** | Platform/Model, Prompting, Output Evaluation, Workflow Integration, Configuration, Governance, Troubleshooting | [Days 01–17](curriculum/day-01.md) + [Day 22 review](curriculum/day-22.md) |
+| **Developer – Foundations (CCDV-F)** | MSO Foundations; Production Prompting/Agents/Tools; Claude Code/MCP; Production/Evals/Security; Accelerators/IP | [Days 01–22](curriculum/day-01.md) |
+| **Architect – Foundations (CCAR-F)** | Agentic Architecture, MCP, Claude Code Workflows, Structured Output, Context/Reliability | [Days 10–16](curriculum/day-10.md), [Day 27 assessment](curriculum/day-27.md) |
+| **Architect – Professional (CCAR-P)** | Solution Design; Enterprise Integration; Responsible AI; Stakeholder Engagement; Team Enablement | [Days 23–30](curriculum/day-23.md) |
+
+**Start here:** [Exact official Partner modules, lesson durations and daily mapping](docs/partner-academy-curriculum-map.md) · [Accenture Workday-first enrollment, exam guides, Pearson VUE and free-exam deadline](docs/accenture-certification-process.md).
+
+The internal announcement states exams and retakes are free through **31 December 2026** for the company program; check your company-email registration, actual discount and retake rules before booking. Training and certification should never require publishing restricted internal material.
 
 ### Four-week roadmap
 
@@ -100,7 +115,7 @@ See the [Capstone specification](docs/capstone.md).
 | Claude API and Agent SDK | [Anthropic documentation](https://docs.anthropic.com/) |
 | Model Context Protocol | [MCP documentation](https://modelcontextprotocol.io/) |
 
-Formal certifications differ from course completion badges. Eligibility, course availability, exam fees and specifications may change. See [Courses and certifications](docs/certifications.md).
+Formal certifications differ from course completion badges. Eligibility, course availability, exam fees and specifications may change. See [Courses and certifications](docs/certifications.md) and the [Partner module map](docs/partner-academy-curriculum-map.md).
 
 ## 🚀 Getting Started
 
@@ -158,6 +173,21 @@ flowchart TD
     F --> G["Enterprise Architecture & Client Delivery"]
     G --> H["Capstone & Certification Readiness"]
 ```
+
+### Accenture 四張官方認證：直接整合在每日學習流程
+
+你提供的 **2026/10/09** Accenture 公告有四張正式認證。我已將 **Partner Academy 真正的課程模組及考綱**對應到每天的學習與實作，而不是放到最後面新增一區。
+
+| 認證 | 官方課程／考綱內容 | 對應學習日 |
+|---|---|---|
+| **Associate – Foundations (CCAO-F)** | 平台與模型、Prompting、輸出驗證、Workflow、知識管理、治理、Troubleshooting | [Day 01–17](curriculum/day-01.md) ＋ [Day 22 複習](curriculum/day-22.md) |
+| **Developer – Foundations (CCDV-F)** | MSO、Production Prompting/Agents、Claude Code/MCP、Evals/Security、Accelerators | [Day 01–22](curriculum/day-01.md) |
+| **Architect – Foundations (CCAR-F)** | Agent 架構、MCP、Claude Code、Structured Outputs、Context 與可靠性 | [Day 10–16](curriculum/day-10.md)、[Day 27 考綱驗收](curriculum/day-27.md) |
+| **Architect – Professional (CCAR-P)** | Solution Design、Enterprise Integration、安全治理、客戶溝通、團隊採用 | [Day 23–30](curriculum/day-23.md) |
+
+**最重要的兩份指引：** [官方每一個 Partner Academy 模組、分鐘數與 Day Plan 對照表](docs/partner-academy-curriculum-map.md) · [Accenture Workday 優先登記、Exam Guide、Pearson VUE、年底免費考試流程](docs/accenture-certification-process.md)。
+
+公司公告指出 **2026/12/31 前考試及 Retake 免費**；實際報名仍需以公司信箱登入、結帳折扣與重考規定為準。不要在公開 Repo 上傳公司教材或個人訓練紀錄。
 
 ### 四週學習路線
 
