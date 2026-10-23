@@ -1,67 +1,53 @@
-# Day 25 — Sandbox Governance & Red-Team Risk
+# Day 25 — Safety Stack, Responsible AI & Fail Closed
 
 **2026-11-19 · 5 hours** · [Home](../README.md) · [繁體中文](#traditional-chinese)
 
-**Reference:** [Partner Academy](https://anthropic-partners.skilljar.com/) authorized modules, [Claude documentation](https://docs.anthropic.com/), [deep-dive](../docs/ai-sandbox-security.md).
+## Company Partner Academy module and official exam blueprint
 
-## Assigned Partner Academy lesson and direct reading links
+**Assigned:** [Architect Professional – Responsible AI, Safety & Risk for Architects (114 min)](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional). A 'part' is a suggested split of one official module, not a new module name.
 
-**Partner Academy:** [Responsible AI, Safety & Risk for Architects](https://anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects) (company login required for course modules).
+**Exam coverage:** CCAR-P: safety/risk; CCAO-F: Governance (15%).
 
-1. [Official safety and risk module](https://anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects)
-2. [AI Sandbox security](../docs/ai-sandbox-security.md)
+**Direct reading and authoritative course links:**
+1. [anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects](https://anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects)
+2. [docs/ai-sandbox-security.md](../docs/ai-sandbox-security.md)
 
-**Study topics:** Study input/output screening, tool authorization, data classification and fail-closed controls.
+## Detailed 5-hour schedule
 
-**Required deliverable:** Create a control matrix, threat model, red-team scenarios and risk register.
-
-## Five-hour integrated daily plan
-
-| Time | Action | Evidence |
+| Time | Assigned work | Evidence |
 |---|---|---|
-| 00:00–01:30 | Classify data, tenants, secrets and sandbox retention requirements | Notes and sketches |
-| 01:30–03:00 | Evaluate prompt injection, egress leakage and tool privilege escalation | Build / design |
-| 03:00–04:30 | Create control matrix, red-team cases and residual risk register | Evaluation, security and failure evidence |
-| 04:30–05:00 | Assign control owners and rehearse client security review | ADR + commit + English explanation |
+| 0:00–1:30 | Map prompt injection, tool authorization, screening, PII, owner and evidence. Study the named official course section and exam guide. | Concept notes + domain mapping |
+| 1:30–3:00 | Create threat model/control matrix and test authorization failure defaults to deny. | Lab/design artifact |
+| 3:00–4:30 | Independently simulate a client challenge; test risks and alternatives. | Test/report + trade-off rationale |
+| 4:30–5:00 | Explain in English and update exam readiness tracker. | Git commit, ADR, exam checklist |
 
-**Acceptance:** Every major risk has an owner, test and enforceable mitigation.
-
-- [ ] Concepts and coursework completed
-- [ ] Independently tested outcome
-- [ ] Architecture decision and evidence committed
+**Gate:** Deliver the practical artifact, defend it without notes, and identify unresolved weaknesses. Official exams should only be booked once registered and ready.
 
 ---
 
 <a id="traditional-chinese"></a>
 
-# Day 25 — Sandbox 治理與 Red Team 風險
+# Day 25 — 安全架構、Responsible AI 與 Fail Closed
 
 **2026-11-19 · 5 小時** · [首頁](../README.md)
 
-**教材：** [Partner Academy](https://anthropic-partners.skilljar.com/) 授權課程、[官方文件](https://docs.anthropic.com/)、[深入參考](../docs/ai-sandbox-security.md)。
+## 公司指定 Partner Academy 模組與認證考綱
 
-## 今日 Partner Academy 課程與直達教材
+**指定課程：** [Architect Professional – Responsible AI, Safety & Risk for Architects (114 min)](https://anthropic-partners.skilljar.com/path/claude-certified-architect-professional)。其中 part 是建議分段，不是另創的官方模組名稱。
 
-**Partner Academy:** [Responsible AI, Safety & Risk for Architects](https://anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects) (company login required for course modules).
+**考綱對照：** CCAR-P: safety/risk; CCAO-F: Governance (15%)。
 
-1. [Official safety and risk module](https://anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects)
-2. [AI Sandbox security](../docs/ai-sandbox-security.md)
+**官方學習入口／直達文件：**
+1. [anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects](https://anthropic-partners.skilljar.com/responsible-ai-safety-risk-for-architects)
+2. [docs/ai-sandbox-security.md](../docs/ai-sandbox-security.md)
 
-**學習重點:** Study input/output screening, tool authorization, data classification and fail-closed controls.
+## 五小時詳細課表
 
-**當天交付:** Create a control matrix, threat model, red-team scenarios and risk register.
-
-## 每日融合式五小時課表
-
-| 時段 | 學習與實作 | 證據 |
+| 時段 | 必修內容 | 交付 |
 |---|---|---|
-| 00:00–01:30 | 分類資料、租戶、密鑰及 Sandbox 保留政策 | 觀念筆記與架構圖 |
-| 01:30–03:00 | 評估注入、網路外洩及工具提權風險 | 實作或設計 |
-| 03:00–04:30 | 建立控制矩陣、Red Team 案例和殘餘風險表 | 評估、安全與故障測試 |
-| 04:30–05:00 | 指定責任人並模擬客戶資安審查 | ADR、Commit、英文說明 |
+| 00:00–01:30 | 分析注入、工具授權、輸入輸出檢查、PII、負責人與證據，閱讀指定官方課程與 Exam Guide。 | 知識筆記、考綱對照 |
+| 01:30–03:00 | 實作：建立 Threat Model／Control Matrix，測試錯誤時預設拒絕。 | Lab／架構文件 |
+| 03:00–04:30 | 自己模擬客戶情境、測試風險並比較替代方案。 | 測試／報告與技術取捨 |
+| 04:30–05:00 | 用英文解說並更新認證進度。 | Commit、ADR、考試清單 |
 
-**驗收：** 每項主要風險皆有負責人、測試與強制緩解措施。
-
-- [ ] 完成課程與理解
-- [ ] 獨立測試成果
-- [ ] 提交設計取捨及證據
+**驗收：** 能不看筆記交付成果、解釋技術決策與剩餘弱點；正式考試僅在已登記且準備充分時安排。
